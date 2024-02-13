@@ -1,0 +1,24 @@
+#!/bin/bash
+set -eu
+
+if [ $# -lt 2 ] ; then
+	echo 'needs <number of seconds> <output file>'
+	exit 1
+fi
+
+SECONDS=$1
+OUTFILE=$2
+EVENTS=sched:sched_switch
+
+function run_adb_command() {
+	if [[ -v SSH ]]; then
+		# ssh applies another layer of quote interpretation
+		printf -v quoted %q "$*"
+		ssh $SSH adb shell $quoted
+	else
+		adb shell "$*"
+	fi	
+}
+
+run_adb_command mkdir -p /data/perf '&&' cd /data/perf '&&' echo Recording Starting for $SECONDS seconds '&&' simpleperf record -a -e $EVENTS sleep $SECONDS
+run_adb_command cd /data/perf '&&' simpleperf dump '|' gzip -f > $OUTFILE

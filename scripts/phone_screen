@@ -1,0 +1,8 @@
+#!/bin/bash
+ssh -CN -L5038:localhost:5037 -L27183:localhost:27183 $SSH &
+sleep 5
+pid=$?
+shift 1
+export ADB_SERVER_SOCKET=tcp:localhost:5038
+scrcpy --force-adb-forward
+kill $pid
