@@ -1,2 +1,7 @@
 #!/bin/bash
-ssh -t $SSH adb shell
+# Connect to the phone's shell
+if [[ -v SSH ]] ; then
+	ssh -t $SSH adb shell
+else
+	adb shell
+fi

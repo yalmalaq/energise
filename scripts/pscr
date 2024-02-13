@@ -1,4 +1,7 @@
 #!/bin/bash
+# Connect to the phone's screen
+# Needs scrcpy installed on the local machine
+
 ssh -CN -L5038:localhost:5037 -L27183:localhost:27183 $SSH &
 sleep 5
 pid=$?
