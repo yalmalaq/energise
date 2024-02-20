@@ -31,7 +31,10 @@ close_all_apps() {
 
 
 for i in {1..10}; do
-    ./run.sh >> BatterySaver_backgroundmusic_all_t10.txt
+    ./run.sh >> social_media.txt
+    
+    ## measure the fps for TikTok app:
+    ./adb shell dumpsys gfxinfo com.zhiliaoapp.musically >> social_media.txt
     sleep 2
     
      unlock_screen
