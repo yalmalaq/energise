@@ -42,19 +42,19 @@ long read_counter()
 
 void set_charging(bool on)
 {
-			int fd = open("/sys/class/power_supply/main-charger/online", O_WRONLY);
-			if (fd < 0) {
-				perror("no!");
-				exit(-1);
-			}
-			char buf[] = "0\n";
-			buf[0] = on ? '1' : '0';
-			int size = write(fd, buf, sizeof(buf));
-			if (size < sizeof(buf)) {
-				perror("no!");
-				exit(-1);
-			}
-			close(fd);
+    int fd = open("/sys/class/power_supply/usb/device/usb_limit_sink_enable", O_WRONLY);
+    if (fd < 0) {
+        perror("no!");
+        exit(-1);
+    }
+    char buf[] = "0\n";
+    buf[0] = on ? '0' : '1';
+    int size = write(fd, buf, sizeof(buf));
+    if (size < sizeof(buf)) {
+        perror("no!");
+        exit(-1);
+    }
+    close(fd);
 }
 
 
