@@ -5,11 +5,28 @@ set -eu
 #    mkdir /mnt/ryan
 #    mount -t tmpfs none /mnt/ryan
 
+
+#########
+
+# usage: ./runapp-i.sh <clang bin> <adb path> <cpp path>
+
+
+
 CFLAGS=-static-libstdc++
-/Users/yazeedyousefalmalaq/android-ndk/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang++ $CFLAGS games.cpp
-./adb push a.out /mnt/ryan
+
+CLANGPATH=$1 # the path to the clang bin
+ADBPATH=$2 # the path to the adb executable
+CPPPATH=$3 # the path to the cpp file
+
+
+
+$CLANGPATH $CFLAGS $CPPPATH
+$ADBPATH push a.out /mnt/ryan
 ./adb shell chmod u+x /mnt/ryan/a.out
 ./adb shell /mnt/ryan/a.out
+
+
+## Yazeed notes:
 
 #./adb push sensor.py /data/data/com.termux/files/home
 #./adb shell chmod +x /data/data/com.termux/files/home/power_energy4.sh
