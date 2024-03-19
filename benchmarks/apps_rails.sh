@@ -171,7 +171,7 @@ done
 #    sleep 2
 #done
 
-###
+################### background music benchmark #############
 #for i in {1..10}; do
 
 ## Start reading measuremnet of energy and time from rails:
