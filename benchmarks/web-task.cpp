@@ -39,6 +39,16 @@ long read_counter()
 		return ret;
 }
 
+long read_energy_values() {
+    int fd = open("/sys/bus/iio/devices/iio:device0/energy_value", O_RDONLY);
+    char buf[500];
+    ssize_t bytes_read;
+    bytes_read = read(fd, buf, sizeof(buf));
+    printf("%.*s", (int)bytes_read, buf);
+    close(fd);
+    return 0;
+    }
+
 
 void set_charging(bool on)
 {
@@ -76,6 +86,8 @@ void *energy_thread(void *ignore)
 
 	printf("start\n");
 	fflush(stdout);
+    printf("Start rails data:\n");
+    read_energy_values();
 	sleep(120);
 	printf("wait for edge\n");
 	fflush(stdout);
@@ -95,8 +107,11 @@ void *energy_thread(void *ignore)
 	double secs = micros / 1000000.0;
 	double energy = 0.0138 * (end_value - start_value); 
 	double power = energy / secs;
-
+    
+   
 	printf("Power %lf\nEnergy %lf\nTime %lf\n", power, energy, secs);
+    printf("\nEnd rails data:\n");
+    read_energy_values();
 	fflush(stdout);
 	set_charging(true);
 	exit(-1);
@@ -121,13 +136,14 @@ void scroll(bool up)
 void test()
 {
 	while (1) {
-	std::vector<char*> urls = {"https://youtube.com", "https://reddit.com", "https://bbc.co.uk", "https://vice.com"};
+        std::vector<char*> urls = {"https://www.dailymail.co.uk/home/index.html", "https://reddit.com", "https://bbc.co.uk", "https://vice.com"};
 	for (char *s : urls) {
 		open_url(s);
 		for (int i = 0; i < 25; i++) {
 			scroll(false);
 			struct timespec ts = {1, 000 * 1000000UL};
 			nanosleep(&ts, NULL);
+            
 		}
 	}
 	}
