@@ -5,7 +5,7 @@
 
 # Also, it will measure energy from rails, and measure QoS.
 
-##### This func is to run diff benchmarks ##### 
+##### This func is to run diff benchmarks  ##### 
 run_benchmark() {
     benchmark=$1
     
