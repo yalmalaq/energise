@@ -1,0 +1,47 @@
+
+
+
+Each run is separated by a line:
+===
+
+In each run there will be a line:
+name <xxx>
+giving the name of the benchmark
+
+a separator line:
+**DONE**
+divides each run into a BEFORE section with measurements take before the benchmark run and an AFTER section with measurments after.
+
+There are 5 runs for each benchmark type
+
+lines like this contain an energy measurment for a given power rail
+CH0(T=26471055)[S2M_VDD_CPUCL2], 1338044734
+So this means that upto time T=26471055 rail S2M_VDD_CPUCL2 delivered 1338044734 uWs of energy
+we need the difference between these two values, divided by time (there is a "Time <seconds>" line in each run)
+converted to milliwats
+
+Lines like these contain total and janky UI frames rendered
+Total frames rendered: 22641
+Janky frames: 193 (0.85%)
+We need (after - before) / time to get frames/s and jank/s
+also (jank_after - jank_before) / (total_after - total_before) to get the % of frames that were janky
+
+
+Lines like these
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   0    |    1     | 0xb40000752c69ac30 | 65, 66, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 120 |
+contain the fps value as seen by the compositor we only need the fps field of the  _first_ entry in the AFTER section.
+
+
+One of the benchmarks contains a section like this
+<frame-times>
+16666667
+1143789184237362	1143789225820777	1143789193935971
+1143789202139177	1143789242493140	1143789210681495
+...
+</frame-times>
+The format is documented here https://cs.android.com/android/platform/superproject/+/master:external/chromium-trace/catapult/devil/devil/android/perf/surface_stats_collector.py;l=151;drc=8be73e4796dddc52e141edcee353a7e7f1d07021
+We need an estimate of the number of frames per second and the number of janky frames per second from these values
+This only needs to be computed for the values in the AFTER section.
+

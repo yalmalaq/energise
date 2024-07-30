@@ -1,0 +1,2739 @@
+Charge: 76.7
+===
+time 574640423755
+smallf 1328000
+medf 910000
+largef 2048000
+enabled 1714636915
+wait for edge
+start counter = 3370000
+wait for edge
+end counter = 3366000
+Power 1.574269
+Energy 55.200000
+Time 35.063896
+core_wr 0 125720.516668
+core_wr 1 131281.937849
+core_wr 4 162649.667551
+core_wr 5 162544.412197
+core_wr 6 353482.957833
+Charge: 76.5
+===
+time 574678657925
+smallf 574000
+medf 799000
+largef 1106000
+enabled 1649760492
+wait for edge
+start counter = 3364000
+wait for edge
+end counter = 3360000
+Power 1.148984
+Energy 55.200000
+Time 48.042438
+core_wr 2 56566.911863
+core_wr 3 56332.081814
+core_wr 5 142766.254931
+core_wr 6 204374.476334
+core_wr 7 204488.645966
+Charge: 76.4
+===
+time 574751611717
+smallf 930000
+medf 799000
+largef 1426000
+enabled 1350490027
+wait for edge
+start counter = 3358000
+wait for edge
+end counter = 3354000
+Power 1.108565
+Energy 55.200000
+Time 49.794100
+core_wr 0 90574.841846
+core_wr 1 89333.070403
+core_wr 3 90972.880696
+core_wr 5 143108.461637
+core_wr 7 233508.483954
+Charge: 76.3
+===
+time 574827695739
+smallf 1197000
+medf 1999000
+largef 2401000
+enabled 1967513926
+wait for edge
+start counter = 3352000
+wait for edge
+end counter = 3348000
+Power 1.851946
+Energy 55.200000
+Time 29.806492
+core_wr 1 118384.030774
+core_wr 2 118386.959161
+core_wr 6 444604.720656
+Charge: 76.1
+===
+time 574873649266
+smallf 1704000
+medf 1491000
+largef 1582000
+enabled 1303455736
+wait for edge
+start counter = 3346000
+wait for edge
+end counter = 3342000
+Power 2.071303
+Energy 55.200000
+Time 26.649886
+core_wr 3 168879.560004
+core_wr 4 267020.967154
+core_wr 5 266783.143904
+core_wr 6 293078.383046
+core_wr 7 292541.898008
+Charge: 76.0
+===
+time 574914663166
+smallf 1803000
+medf 400000
+largef 984000
+enabled 1726956429
+wait for edge
+start counter = 3340000
+wait for edge
+end counter = 3336000
+Power 1.166084
+Energy 55.200000
+Time 47.337928
+core_wr 0 177854.925916
+core_wr 2 178649.069805
+core_wr 3 176696.289208
+core_wr 7 158606.719224
+Charge: 75.9
+===
+time 574986542406
+smallf 1098000
+medf 2130000
+largef 1826000
+enabled 233665123
+wait for edge
+start counter = 3334000
+wait for edge
+end counter = 3330000
+Power 1.852049
+Energy 55.200000
+Time 29.804820
+core_wr 0 103906.415407
+core_wr 1 105351.303990
+core_wr 5 370269.032739
+core_wr 6 323967.002604
+Charge: 75.7
+===
+time 575032126581
+smallf 930000
+medf 1024000
+largef 500000
+enabled 1801979802
+wait for edge
+start counter = 3328000
+wait for edge
+end counter = 3324000
+Power 0.846328
+Energy 55.200000
+Time 65.222973
+core_wr 1 91803.133945
+core_wr 3 91801.647100
+core_wr 4 183423.052108
+core_wr 7 92357.902804
+Charge: 75.6
+===
+time 575130667988
+smallf 1803000
+medf 2130000
+largef 1582000
+enabled 1125898167
+wait for edge
+start counter = 3322000
+wait for edge
+end counter = 3318000
+Power 2.349703
+Energy 55.200000
+Time 23.492327
+core_wr 0 177569.808958
+core_wr 1 178537.765688
+core_wr 2 178508.452565
+core_wr 4 371619.286122
+core_wr 5 381175.248524
+core_wr 7 271113.056162
+Charge: 75.4
+===
+time 575167125788
+smallf 1401000
+medf 400000
+largef 1277000
+enabled 1656478042
+wait for edge
+start counter = 3316000
+wait for edge
+end counter = 3312000
+Power 1.078227
+Energy 55.200000
+Time 51.195148
+core_wr 1 138668.901157
+core_wr 3 138847.765527
+core_wr 4 72725.831822
+core_wr 6 236545.171659
+Charge: 75.3
+===
+time 575244274459
+smallf 1401000
+medf 1999000
+largef 984000
+enabled 1914544919
+wait for edge
+start counter = 3310000
+wait for edge
+end counter = 3306000
+Power 1.279860
+Energy 55.200000
+Time 43.129726
+core_wr 0 137294.663544
+core_wr 1 138642.508484
+core_wr 2 133304.108749
+core_wr 4 330411.058749
+Charge: 75.2
+===
+time 575309841357
+smallf 300000
+medf 799000
+largef 1106000
+enabled 1973594324
+wait for edge
+start counter = 3304000
+wait for edge
+end counter = 3300000
+Power 1.093175
+Energy 55.200000
+Time 50.495120
+core_wr 2 28947.830256
+core_wr 4 142691.201711
+core_wr 6 204591.553881
+core_wr 7 204417.926220
+Charge: 75.0
+===
+time 575386327780
+smallf 1401000
+medf 1491000
+largef 984000
+enabled 184803526
+wait for edge
+start counter = 3298000
+wait for edge
+end counter = 3294000
+Power 1.116452
+Energy 55.200000
+Time 49.442342
+core_wr 1 138703.060434
+core_wr 2 138695.574795
+core_wr 6 181758.236376
+core_wr 7 181685.714756
+Charge: 74.9
+===
+time 575461341830
+smallf 738000
+medf 1491000
+largef 500000
+enabled 749241873
+wait for edge
+start counter = 3292000
+wait for edge
+end counter = 3288000
+Power 0.815607
+Energy 55.200000
+Time 67.679648
+core_wr 0 71142.374362
+core_wr 4 231400.405750
+Charge: 74.8
+===
+time 575563719970
+smallf 1328000
+medf 910000
+largef 2188000
+enabled 135497281
+wait for edge
+start counter = 3286000
+wait for edge
+end counter = 3282000
+Power 1.471167
+Energy 55.200000
+Time 37.521222
+core_wr 0 130737.696722
+core_wr 6 366815.294140
+Charge: 74.6
+===
+time 575621226915
+smallf 1098000
+medf 2253000
+largef 1277000
+enabled 1827336327
+wait for edge
+start counter = 3280000
+wait for edge
+end counter = 3276000
+Power 1.116423
+Energy 55.200000
+Time 49.443630
+core_wr 0 105424.121411
+core_wr 1 106304.487484
+core_wr 2 108532.142111
+core_wr 7 212541.643416
+Charge: 74.5
+===
+time 575695569278
+smallf 1328000
+medf 1024000
+largef 2188000
+enabled 1632621729
+wait for edge
+start counter = 3274000
+wait for edge
+end counter = 3270000
+Power 1.622880
+Energy 55.200000
+Time 34.013598
+core_wr 0 125090.989411
+core_wr 5 162346.461825
+core_wr 7 405060.091039
+Charge: 74.4
+===
+time 575747816606
+smallf 1098000
+medf 1328000
+largef 2252000
+enabled 84353895
+wait for edge
+start counter = 3268000
+wait for edge
+end counter = 3264000
+Power 1.809476
+Energy 55.200000
+Time 30.506066
+core_wr 0 106486.140625
+core_wr 1 108333.209246
+core_wr 2 108515.407974
+core_wr 5 236421.761311
+core_wr 6 382472.999169
+Charge: 74.2
+===
+time 575794803359
+smallf 1704000
+medf 799000
+largef 1106000
+enabled 1548233367
+wait for edge
+start counter = 3262000
+wait for edge
+end counter = 3258000
+Power 1.229841
+Energy 55.200000
+Time 44.883837
+core_wr 0 166735.129052
+core_wr 1 168639.759272
+core_wr 2 168682.459393
+core_wr 4 142733.332027
+core_wr 7 178879.676461
+Charge: 74.1
+===
+time 575862478878
+smallf 574000
+medf 400000
+largef 1277000
+enabled 760313750
+wait for edge
+start counter = 3256000
+wait for edge
+end counter = 3252000
+Power 0.909912
+Energy 55.200000
+Time 60.665201
+core_wr 1 56375.979385
+core_wr 2 56429.035991
+core_wr 4 73066.080223
+core_wr 7 236332.648062
+Charge: 73.9
+===
+time 575954394131
+smallf 1401000
+medf 1836000
+largef 2704000
+enabled 1889947178
+wait for edge
+start counter = 3250000
+wait for edge
+end counter = 3246000
+Power 1.192534
+Energy 55.200000
+Time 46.287982
+core_wr 1 138708.563837
+core_wr 3 138628.172275
+core_wr 5 328849.076384
+Charge: 73.8
+===
+time 576024850591
+smallf 930000
+medf 910000
+largef 1277000
+enabled 1918502651
+wait for edge
+start counter = 3244000
+wait for edge
+end counter = 3240000
+Power 1.418196
+Energy 55.200000
+Time 38.922699
+core_wr 0 90623.574228
+core_wr 1 91663.233611
+core_wr 3 91805.093677
+core_wr 4 162481.850915
+core_wr 5 162535.209021
+core_wr 6 207915.376035
+core_wr 7 235841.341620
+Charge: 73.7
+===
+time 576084447637
+smallf 930000
+medf 553000
+largef 1745000
+enabled 1264095060
+wait for edge
+start counter = 3238000
+wait for edge
+end counter = 3234000
+Power 1.201665
+Energy 55.200000
+Time 45.936282
+core_wr 2 91756.729244
+core_wr 4 98797.341439
+core_wr 6 322827.083655
+Charge: 73.5
+===
+time 576153893070
+smallf 1704000
+medf 400000
+largef 2188000
+enabled 1984210012
+wait for edge
+start counter = 3232000
+wait for edge
+end counter = 3228000
+Power 1.749181
+Energy 55.200000
+Time 31.557618
+core_wr 2 168909.901373
+core_wr 3 168829.846112
+core_wr 4 71229.468871
+core_wr 6 404862.377804
+Charge: 73.4
+===
+time 576202286237
+smallf 1197000
+medf 1197000
+largef 2630000
+enabled 1956297539
+wait for edge
+start counter = 3226000
+wait for edge
+end counter = 3222000
+Power 2.217289
+Energy 55.200000
+Time 24.895267
+core_wr 0 115696.514880
+core_wr 1 112604.085318
+core_wr 6 453463.661451
+Charge: 73.3
+===
+time 576240135650
+smallf 1598000
+medf 400000
+largef 2252000
+enabled 1975960378
+wait for edge
+start counter = 3220000
+wait for edge
+end counter = 3216000
+Power 0.915221
+Energy 55.200000
+Time 60.313312
+core_wr 1 158285.074391
+core_wr 3 158143.175633
+core_wr 4 71207.386439
+core_wr 5 71222.187050
+Charge: 73.1
+===
+time 576330619786
+smallf 1197000
+medf 1024000
+largef 2704000
+enabled 927612902
+wait for edge
+start counter = 3214000
+wait for edge
+end counter = 3210000
+Power 4.373025
+Energy 55.200000
+Time 12.622842
+core_wr 1 118338.184841
+core_wr 2 118378.587749
+core_wr 5 183134.562924
+core_wr 6 498027.969771
+core_wr 7 497589.302515
+Charge: 73.0
+===
+time 576350960802
+smallf 1401000
+medf 400000
+largef 851000
+enabled 660260756
+wait for edge
+start counter = 3208000
+wait for edge
+end counter = 3204000
+Power 0.915233
+Energy 55.200000
+Time 60.312495
+core_wr 2 138663.182442
+core_wr 4 72403.561037
+core_wr 7 157458.771056
+Charge: 72.9
+===
+time 576440375530
+smallf 1803000
+medf 696000
+largef 2704000
+enabled 593209441
+wait for edge
+start counter = 3202000
+wait for edge
+end counter = 3198000
+Power 2.498924
+Energy 55.200000
+Time 22.089505
+core_wr 0 177503.084624
+core_wr 5 113448.950937
+core_wr 6 486007.315263
+Charge: 72.7
+===
+time 576474718414
+smallf 1328000
+medf 2253000
+largef 2188000
+enabled 1947346619
+wait for edge
+start counter = 3196000
+wait for edge
+end counter = 3192000
+Power 3.027588
+Energy 55.200000
+Time 18.232334
+core_wr 0 130742.138696
+core_wr 1 131382.483622
+core_wr 3 110886.046183
+core_wr 4 403244.414132
+core_wr 5 402896.798337
+core_wr 7 403665.956421
+Charge: 72.6
+===
+time 576503120089
+smallf 1098000
+medf 799000
+largef 2048000
+enabled 1633108117
+wait for edge
+start counter = 3190000
+wait for edge
+end counter = 3186000
+Power 1.528462
+Energy 55.200000
+Time 36.114743
+core_wr 0 107718.816286
+core_wr 2 108448.970774
+core_wr 4 131141.111345
+core_wr 7 359349.934223
+Charge: 72.4
+===
+time 576557817858
+smallf 1803000
+medf 1999000
+largef 2630000
+enabled 822890675
+wait for edge
+start counter = 3184000
+wait for edge
+end counter = 3180000
+Power 3.279841
+Energy 55.200000
+Time 16.830086
+core_wr 0 177917.171850
+core_wr 1 178467.783644
+core_wr 4 357581.945432
+core_wr 5 358082.168055
+core_wr 7 454545.367959
+Charge: 72.3
+===
+time 576584113163
+smallf 1803000
+medf 1024000
+largef 1106000
+enabled 498777856
+wait for edge
+start counter = 3178000
+wait for edge
+end counter = 3174000
+Power 0.684417
+Energy 55.200000
+Time 80.652630
+Charge: 72.2
+===
+time 576704042238
+smallf 300000
+medf 1024000
+largef 2507000
+enabled 1572276965
+wait for edge
+start counter = 3172000
+wait for edge
+end counter = 3168000
+Power 3.279737
+Energy 55.200000
+Time 16.830618
+core_wr 0 28710.906137
+core_wr 2 28522.210057
+core_wr 5 182864.496558
+core_wr 6 431174.808034
+core_wr 7 462803.026550
+Charge: 72.0
+===
+time 576730688383
+smallf 1803000
+medf 553000
+largef 2188000
+enabled 1600028624
+wait for edge
+start counter = 3166000
+wait for edge
+end counter = 3162000
+Power 2.623833
+Energy 55.200000
+Time 21.037924
+core_wr 4 101121.703707
+core_wr 6 409902.310549
+core_wr 7 404872.634849
+Charge: 71.9
+===
+time 576762961261
+smallf 1803000
+medf 799000
+largef 1426000
+enabled 1120048829
+wait for edge
+start counter = 3160000
+wait for edge
+end counter = 3156000
+Power 1.513723
+Energy 55.200000
+Time 36.466388
+core_wr 0 177878.721259
+core_wr 2 178584.104058
+core_wr 3 178562.131880
+core_wr 4 139388.919358
+core_wr 5 142758.302575
+core_wr 7 237313.547336
+Charge: 71.8
+===
+time 576818347372
+smallf 1803000
+medf 1999000
+largef 1277000
+enabled 1573363368
+wait for edge
+start counter = 3154000
+wait for edge
+end counter = 3150000
+Power 1.590139
+Energy 55.200000
+Time 34.713952
+core_wr 3 178533.461970
+core_wr 5 363043.786111
+core_wr 7 236348.406811
+Charge: 71.6
+===
+time 576871297439
+smallf 930000
+medf 799000
+largef 500000
+enabled 1631518149
+wait for edge
+start counter = 3148000
+wait for edge
+end counter = 3144000
+Power 0.811416
+Energy 55.200000
+Time 68.029234
+core_wr 0 91335.112692
+core_wr 2 91625.258675
+core_wr 6 73981.454627
+core_wr 7 91852.361173
+Charge: 71.5
+===
+time 576973338913
+smallf 1401000
+medf 1999000
+largef 2252000
+enabled 168002245
+wait for edge
+start counter = 3142000
+wait for edge
+end counter = 3138000
+Power 2.761806
+Energy 55.200000
+Time 19.986918
+core_wr 0 138369.046017
+core_wr 2 138604.072290
+core_wr 6 385045.412416
+core_wr 7 416786.937511
+Charge: 71.4
+===
+time 577004894831
+smallf 1197000
+medf 1024000
+largef 2704000
+enabled 1760243555
+wait for edge
+start counter = 3136000
+wait for edge
+end counter = 3132000
+Power 2.623847
+Energy 55.200000
+Time 21.037816
+core_wr 0 116531.739089
+core_wr 1 116164.041868
+core_wr 5 165705.651698
+core_wr 6 494560.793538
+Charge: 71.2
+===
+time 577037503490
+smallf 1803000
+medf 1491000
+largef 2802000
+enabled 338888228
+wait for edge
+start counter = 3130000
+wait for edge
+end counter = 3126000
+Power 1.093222
+Energy 55.200000
+Time 50.492940
+core_wr 2 178433.516051
+core_wr 5 272496.405523
+Charge: 71.1
+===
+time 577113255684
+smallf 300000
+medf 1836000
+largef 2802000
+enabled 269441500
+wait for edge
+start counter = 3124000
+wait for edge
+end counter = 3120000
+Power 4.372766
+Energy 55.200000
+Time 12.623588
+core_wr 2 29200.843877
+core_wr 3 29096.329182
+core_wr 4 328466.868806
+core_wr 6 500514.107570
+core_wr 7 506533.876533
+Charge: 70.9
+===
+time 577132561115
+smallf 300000
+medf 696000
+largef 2630000
+enabled 155324914
+wait for edge
+start counter = 3118000
+wait for edge
+end counter = 3114000
+Power 4.037105
+Energy 55.200000
+Time 13.673165
+core_wr 1 29075.987485
+core_wr 4 124407.930482
+core_wr 5 124306.646745
+core_wr 6 484333.506084
+core_wr 7 484357.639038
+Charge: 70.8
+===
+time 577153946545
+smallf 1098000
+medf 1491000
+largef 2704000
+enabled 387346491
+wait for edge
+start counter = 3112000
+wait for edge
+end counter = 3108000
+Power 1.269558
+Energy 55.200000
+Time 43.479696
+core_wr 0 107246.948225
+core_wr 1 108313.850709
+core_wr 3 108352.906595
+core_wr 4 236275.479696
+core_wr 5 270229.476115
+Charge: 70.7
+===
+time 577218434228
+smallf 738000
+medf 553000
+largef 851000
+enabled 1760281936
+wait for edge
+start counter = 3106000
+wait for edge
+end counter = 3102000
+Power 0.799065
+Energy 55.200000
+Time 69.080775
+core_wr 4 98689.008718
+core_wr 6 157355.383484
+Charge: 70.5
+===
+time 577322245381
+smallf 1401000
+medf 1999000
+largef 2048000
+enabled 971899228
+wait for edge
+start counter = 3100000
+wait for edge
+end counter = 3096000
+Power 2.018273
+Energy 55.200000
+Time 27.350115
+core_wr 2 138715.603882
+core_wr 3 138721.681013
+core_wr 4 365913.188317
+core_wr 6 379074.032143
+Charge: 70.4
+===
+time 577364310775
+smallf 930000
+medf 1663000
+largef 2704000
+enabled 1626276121
+wait for edge
+start counter = 3094000
+wait for edge
+end counter = 3090000
+Power 1.002666
+Energy 55.200000
+Time 55.053242
+core_wr 0 90283.368781
+core_wr 3 88265.556716
+core_wr 4 261442.792812
+Charge: 70.3
+===
+time 577446710166
+smallf 1704000
+medf 1663000
+largef 1426000
+enabled 1884661237
+wait for edge
+start counter = 3088000
+wait for edge
+end counter = 3084000
+Power 2.156529
+Energy 55.200000
+Time 25.596686
+core_wr 0 163680.487449
+core_wr 2 168754.365878
+core_wr 4 298402.234988
+core_wr 5 297894.305574
+core_wr 6 244035.130745
+core_wr 7 260775.374912
+Charge: 70.1
+===
+time 577486333287
+smallf 1598000
+medf 1663000
+largef 2704000
+enabled 1605894428
+wait for edge
+start counter = 3082000
+wait for edge
+end counter = 3078000
+Power 1.201679
+Energy 55.200000
+Time 45.935726
+core_wr 2 158265.623673
+core_wr 3 158148.592710
+core_wr 4 298081.919172
+Charge: 70.0
+===
+time 577555775051
+smallf 1098000
+medf 799000
+largef 984000
+enabled 1784639529
+wait for edge
+start counter = 3076000
+wait for edge
+end counter = 3072000
+Power 0.742521
+Energy 55.200000
+Time 74.341350
+core_wr 0 100139.512557
+core_wr 3 105974.941194
+core_wr 5 124913.414695
+Charge: 69.8
+===
+time 577667975585
+smallf 1704000
+medf 1197000
+largef 1826000
+enabled 2112255763
+wait for edge
+start counter = 3070000
+wait for edge
+end counter = 3066000
+Power 0.983846
+Energy 55.200000
+Time 56.106358
+core_wr 0 165046.063286
+core_wr 1 168529.729776
+core_wr 4 186154.806781
+Charge: 69.7
+===
+time 577752837000
+smallf 1328000
+medf 696000
+largef 1106000
+enabled 1782436840
+wait for edge
+start counter = 3064000
+wait for edge
+end counter = 3060000
+Power 1.229844
+Energy 55.200000
+Time 44.883747
+core_wr 3 131284.311673
+core_wr 5 125573.206306
+core_wr 6 204667.405192
+core_wr 7 204647.787688
+Charge: 69.6
+===
+time 577820531016
+smallf 1328000
+medf 696000
+largef 2188000
+enabled 532670688
+wait for edge
+start counter = 3058000
+wait for edge
+end counter = 3054000
+Power 2.498845
+Energy 55.200000
+Time 22.090206
+core_wr 5 124459.622157
+core_wr 6 405134.400520
+core_wr 7 405025.046416
+Charge: 69.4
+===
+time 577854902647
+smallf 1803000
+medf 1024000
+largef 2507000
+enabled 680466996
+wait for edge
+start counter = 3052000
+wait for edge
+end counter = 3048000
+Power 1.078219
+Energy 55.200000
+Time 51.195533
+core_wr 2 178449.275185
+core_wr 4 183236.161859
+core_wr 5 183278.573187
+Charge: 69.3
+===
+time 577931342362
+smallf 1598000
+medf 1328000
+largef 984000
+enabled 1359512183
+wait for edge
+start counter = 3046000
+wait for edge
+end counter = 3042000
+Power 1.418219
+Energy 55.200000
+Time 38.922048
+core_wr 0 156392.288273
+core_wr 1 157965.875647
+core_wr 2 153345.970862
+core_wr 4 230250.420002
+core_wr 5 237220.125251
+core_wr 6 165945.034716
+Charge: 69.2
+===
+time 577990929079
+smallf 574000
+medf 2253000
+largef 851000
+enabled 2086206725
+wait for edge
+start counter = 3040000
+wait for edge
+end counter = 3036000
+Power 0.699607
+Energy 55.200000
+Time 78.901426
+core_wr 0 45989.092373
+core_wr 2 45017.164982
+Charge: 69.0
+===
+time 578109812628
+smallf 738000
+medf 1197000
+largef 1277000
+enabled 243268139
+wait for edge
+start counter = 3034000
+wait for edge
+end counter = 3030000
+Power 0.819856
+Energy 55.200000
+Time 67.328918
+core_wr 0 71515.753271
+core_wr 1 71521.517756
+core_wr 3 72626.639541
+core_wr 5 183808.934148
+Charge: 68.9
+===
+time 578211851764
+smallf 574000
+medf 400000
+largef 1745000
+enabled 968338082
+wait for edge
+start counter = 3028000
+wait for edge
+end counter = 3024000
+Power 1.183571
+Energy 55.200000
+Time 46.638507
+core_wr 1 56319.967852
+core_wr 5 71241.787066
+core_wr 7 322791.267639
+Charge: 68.8
+===
+time 578282697003
+smallf 1803000
+medf 1197000
+largef 984000
+enabled 6939507
+wait for edge
+start counter = 3022000
+wait for edge
+end counter = 3018000
+Power 1.380877
+Energy 55.200000
+Time 39.974608
+core_wr 0 177444.116129
+core_wr 1 174200.648268
+core_wr 4 209658.304663
+core_wr 5 205526.358045
+core_wr 6 175798.018290
+Charge: 68.6
+===
+time 578343350514
+smallf 1328000
+medf 1197000
+largef 1277000
+enabled 502278611
+wait for edge
+start counter = 3016000
+wait for edge
+end counter = 3012000
+Power 1.471262
+Energy 55.200000
+Time 37.518807
+core_wr 0 130882.954446
+core_wr 1 131343.754367
+core_wr 4 212437.187163
+core_wr 6 209938.979119
+core_wr 7 236011.881956
+Charge: 68.5
+===
+time 578400857090
+smallf 930000
+medf 696000
+largef 2048000
+enabled 654887343
+wait for edge
+start counter = 3010000
+wait for edge
+end counter = 3006000
+Power 1.558684
+Energy 55.200000
+Time 35.414494
+core_wr 0 90273.427525
+core_wr 1 90186.124214
+core_wr 2 91713.824210
+core_wr 3 91739.765510
+core_wr 5 119545.152122
+core_wr 7 352216.509120
+Charge: 68.3
+===
+time 578455206153
+smallf 574000
+medf 1491000
+largef 1426000
+enabled 87755422
+wait for edge
+start counter = 3006000
+wait for edge
+end counter = 3002000
+Power 1.249391
+Energy 55.200000
+Time 44.181537
+core_wr 1 56431.832860
+core_wr 2 56431.630719
+core_wr 3 56404.814768
+core_wr 4 266907.222692
+core_wr 7 263491.827251
+Charge: 68.3
+===
+time 578502565682
+smallf 300000
+medf 910000
+largef 2048000
+enabled 1369321801
+wait for edge
+start counter = 3002000
+wait for edge
+end counter = 2998000
+Power 1.300997
+Energy 55.200000
+Time 42.429014
+core_wr 0 28539.427470
+core_wr 3 28885.964774
+core_wr 6 340259.058074
+Charge: 68.2
+===
+time 578548132628
+smallf 738000
+medf 696000
+largef 1582000
+enabled 1346811305
+wait for edge
+start counter = 2998000
+wait for edge
+end counter = 2994000
+Power 1.132496
+Energy 55.200000
+Time 48.741893
+core_wr 0 72203.563280
+core_wr 3 72522.998669
+core_wr 5 124529.293840
+core_wr 7 260609.967536
+Charge: 68.1
+===
+time 578600028800
+smallf 1803000
+medf 1836000
+largef 2802000
+enabled 434248626
+wait for edge
+start counter = 2994000
+wait for edge
+end counter = 2990000
+Power 3.577630
+Energy 55.200000
+Time 15.429208
+core_wr 1 178593.200365
+core_wr 4 328705.729586
+core_wr 5 331031.158542
+core_wr 7 518434.972331
+Charge: 68.0
+===
+time 578616876302
+smallf 930000
+medf 1999000
+largef 1826000
+enabled 552473416
+wait for edge
+start counter = 2990000
+wait for edge
+end counter = 2986000
+Power 1.345494
+Energy 55.200000
+Time 41.025834
+core_wr 3 91798.943565
+core_wr 6 338314.430344
+Charge: 67.9
+===
+time 578660694448
+smallf 1197000
+medf 696000
+largef 2188000
+enabled 1884167637
+wait for edge
+start counter = 2986000
+wait for edge
+end counter = 2982000
+Power 2.580718
+Energy 55.200000
+Time 21.389393
+core_wr 0 117752.670483
+core_wr 2 118219.732327
+core_wr 4 124468.892576
+core_wr 6 379226.376596
+core_wr 7 404702.448256
+Charge: 67.8
+===
+time 578683831268
+smallf 1098000
+medf 696000
+largef 2048000
+enabled 776532036
+wait for edge
+start counter = 2980000
+wait for edge
+end counter = 2976000
+Power 1.431127
+Energy 55.200000
+Time 38.571002
+core_wr 2 108487.117187
+core_wr 6 379101.210656
+Charge: 67.7
+===
+time 578742057529
+smallf 930000
+medf 553000
+largef 2802000
+enabled 620145550
+wait for edge
+start counter = 2976000
+wait for edge
+end counter = 2972000
+Power 2.862331
+Energy 55.200000
+Time 19.284983
+core_wr 1 91922.562391
+core_wr 2 91895.188323
+core_wr 3 91951.036222
+core_wr 7 518578.662728
+Charge: 67.6
+===
+time 578762743888
+smallf 1704000
+medf 553000
+largef 2401000
+enabled 407487131
+wait for edge
+start counter = 2972000
+wait for edge
+end counter = 2968000
+Power 2.156583
+Energy 55.200000
+Time 25.596053
+core_wr 0 167413.992749
+core_wr 1 168736.106955
+core_wr 3 146703.623714
+core_wr 4 98755.638932
+core_wr 7 442880.719157
+Charge: 67.5
+===
+time 578789724592
+smallf 574000
+medf 1491000
+largef 2048000
+enabled 711845894
+wait for edge
+start counter = 2968000
+wait for edge
+end counter = 2964000
+Power 0.684420
+Energy 55.200000
+Time 80.652264
+core_wr 1 56441.338789
+core_wr 2 56254.308559
+Charge: 67.4
+===
+time 578875302591
+smallf 1098000
+medf 1663000
+largef 1426000
+enabled 1973387981
+wait for edge
+start counter = 2964000
+wait for edge
+end counter = 2960000
+Power 1.543334
+Energy 55.200000
+Time 35.766713
+core_wr 0 107975.373561
+core_wr 2 108344.667133
+core_wr 3 108441.043642
+core_wr 6 254811.458635
+core_wr 7 245917.562989
+Charge: 67.3
+===
+time 578913506609
+smallf 738000
+medf 2130000
+largef 1277000
+enabled 1472713773
+wait for edge
+start counter = 2960000
+wait for edge
+end counter = 2956000
+Power 1.239526
+Energy 55.200000
+Time 44.533148
+core_wr 0 71347.807717
+core_wr 2 72473.201393
+core_wr 3 71628.224938
+core_wr 5 343495.847477
+Charge: 67.2
+===
+time 578961546323
+smallf 574000
+medf 696000
+largef 1277000
+enabled 1967681095
+wait for edge
+start counter = 2956000
+wait for edge
+end counter = 2952000
+Power 0.894415
+Energy 55.200000
+Time 61.716325
+core_wr 0 56073.233562
+core_wr 1 56439.607374
+core_wr 2 56172.119285
+core_wr 6 206624.162202
+Charge: 67.1
+===
+time 579027471508
+smallf 1704000
+medf 1836000
+largef 2252000
+enabled 1176911340
+wait for edge
+start counter = 2952000
+wait for edge
+end counter = 2948000
+Power 3.212789
+Energy 55.200000
+Time 17.181335
+core_wr 2 168799.538141
+core_wr 3 168852.177714
+core_wr 5 328346.355358
+core_wr 6 416804.486365
+core_wr 7 416977.259032
+Charge: 67.0
+===
+time 579046078566
+smallf 1704000
+medf 910000
+largef 2704000
+enabled 1876855542
+wait for edge
+start counter = 2946000
+wait for edge
+end counter = 2942000
+Power 4.373003
+Energy 55.200000
+Time 12.622906
+core_wr 1 168839.144438
+core_wr 2 168728.874875
+core_wr 4 162694.420769
+core_wr 5 167695.948844
+core_wr 6 488179.738700
+core_wr 7 488145.749114
+Charge: 66.9
+===
+time 579065698345
+smallf 1401000
+medf 2253000
+largef 2401000
+enabled 588219756
+wait for edge
+start counter = 2942000
+wait for edge
+end counter = 2938000
+Power 2.714385
+Energy 55.200000
+Time 20.336096
+core_wr 2 138695.829026
+core_wr 3 138751.499015
+core_wr 5 403867.731482
+core_wr 6 444242.260398
+Charge: 66.8
+===
+time 579087440121
+smallf 738000
+medf 400000
+largef 1582000
+enabled 1823089412
+wait for edge
+start counter = 2938000
+wait for edge
+end counter = 2934000
+Power 0.669884
+Energy 55.200000
+Time 82.402274
+core_wr 2 72509.887583
+Charge: 66.7
+===
+time 579174051048
+smallf 574000
+medf 696000
+largef 851000
+enabled 1469262009
+wait for edge
+start counter = 2934000
+wait for edge
+end counter = 2930000
+Power 0.884373
+Energy 55.200000
+Time 62.417070
+core_wr 0 55790.485401
+core_wr 3 56307.659099
+core_wr 4 124210.653655
+core_wr 5 124424.656252
+core_wr 7 134459.302857
+Charge: 66.6
+===
+time 579241014459
+smallf 300000
+medf 696000
+largef 1745000
+enabled 1057467587
+wait for edge
+start counter = 2930000
+wait for edge
+end counter = 2926000
+Power 1.622906
+Energy 55.200000
+Time 34.013056
+core_wr 0 28302.408905
+core_wr 1 28155.438483
+core_wr 6 309629.834525
+core_wr 7 303359.987001
+Charge: 66.5
+===
+time 579277833740
+smallf 1197000
+medf 1999000
+largef 1106000
+enabled 476667372
+wait for edge
+start counter = 2924000
+wait for edge
+end counter = 2920000
+Power 1.768802
+Energy 55.200000
+Time 31.207558
+core_wr 2 118489.363870
+core_wr 3 118269.023243
+core_wr 5 368348.128701
+core_wr 6 204396.316862
+core_wr 7 204336.428468
+Charge: 66.4
+===
+time 579325526462
+smallf 738000
+medf 1663000
+largef 1745000
+enabled 774044599
+wait for edge
+start counter = 2920000
+wait for edge
+end counter = 2916000
+Power 1.852024
+Energy 55.200000
+Time 29.805237
+core_wr 0 72193.824307
+core_wr 1 72653.427548
+core_wr 2 72556.572098
+core_wr 4 289044.264594
+core_wr 5 297639.448802
+core_wr 7 307257.314375
+Charge: 66.3
+===
+time 579357430527
+smallf 1803000
+medf 696000
+largef 851000
+enabled 1335939811
+wait for edge
+start counter = 2916000
+wait for edge
+end counter = 2912000
+Power 1.322860
+Energy 55.200000
+Time 41.727778
+core_wr 0 177948.838177
+core_wr 1 177925.642912
+core_wr 5 124381.631796
+core_wr 6 143102.600001
+core_wr 7 151372.396064
+Charge: 66.2
+===
+time 579401962332
+smallf 738000
+medf 799000
+largef 1745000
+enabled 719346228
+wait for edge
+start counter = 2912000
+wait for edge
+end counter = 2908000
+Power 0.819880
+Energy 55.200000
+Time 67.326945
+core_wr 2 72583.049140
+core_wr 4 147096.784847
+core_wr 5 146511.630291
+Charge: 66.1
+===
+time 579474216914
+smallf 1598000
+medf 400000
+largef 984000
+enabled 555996658
+wait for edge
+start counter = 2908000
+wait for edge
+end counter = 2904000
+Power 1.210886
+Energy 55.200000
+Time 45.586448
+core_wr 1 158345.959608
+core_wr 4 71221.374873
+core_wr 5 71220.573248
+core_wr 6 181898.606333
+core_wr 7 181796.046500
+Charge: 66.0
+===
+time 579522946361
+smallf 1598000
+medf 1836000
+largef 2704000
+enabled 1389867269
+wait for edge
+start counter = 2904000
+wait for edge
+end counter = 2900000
+Power 0.889354
+Energy 55.200000
+Time 62.067507
+core_wr 0 150641.385483
+core_wr 2 134918.922029
+Charge: 65.9
+===
+time 579589217836
+smallf 930000
+medf 1663000
+largef 2252000
+enabled 195740084
+wait for edge
+start counter = 2900000
+wait for edge
+end counter = 2896000
+Power 2.217166
+Energy 55.200000
+Time 24.896642
+core_wr 2 91727.146137
+core_wr 4 298220.015808
+core_wr 5 298005.061466
+core_wr 7 417202.823681
+Charge: 65.8
+===
+time 579616240903
+smallf 738000
+medf 910000
+largef 1582000
+enabled 570073850
+wait for edge
+start counter = 2896000
+wait for edge
+end counter = 2892000
+Power 1.729924
+Energy 55.200000
+Time 31.908917
+core_wr 1 72727.141970
+core_wr 3 72701.660367
+core_wr 4 162582.403836
+core_wr 5 164508.770241
+core_wr 6 292547.432152
+core_wr 7 292502.163757
+Charge: 65.8
+===
+time 579650264389
+smallf 1328000
+medf 1663000
+largef 851000
+enabled 337739299
+wait for edge
+start counter = 2892000
+wait for edge
+end counter = 2888000
+Power 1.100851
+Energy 55.200000
+Time 50.143038
+core_wr 0 128940.326570
+core_wr 1 127429.993125
+core_wr 5 265735.377303
+Charge: 65.7
+===
+time 579703881453
+smallf 1598000
+medf 696000
+largef 2630000
+enabled 446340713
+wait for edge
+start counter = 2886000
+wait for edge
+end counter = 2882000
+Power 2.421899
+Energy 55.200000
+Time 22.792036
+core_wr 0 156521.450827
+core_wr 3 157527.871642
+core_wr 5 117119.450802
+core_wr 6 463193.143463
+Charge: 65.5
+===
+time 579739295607
+smallf 1803000
+medf 696000
+largef 2630000
+enabled 846942590
+wait for edge
+start counter = 2882000
+wait for edge
+end counter = 2878000
+Power 2.668313
+Energy 55.200000
+Time 20.687226
+core_wr 1 178862.507795
+core_wr 2 178861.675770
+core_wr 3 178482.475542
+core_wr 4 124608.540538
+core_wr 5 124343.676398
+core_wr 6 486436.573187
+Charge: 65.4
+===
+time 579761738793
+smallf 574000
+medf 1999000
+largef 1745000
+enabled 1371499336
+wait for edge
+start counter = 2878000
+wait for edge
+end counter = 2874000
+Power 1.229855
+Energy 55.200000
+Time 44.883351
+core_wr 3 56284.704080
+core_wr 6 322770.080983
+Charge: 65.3
+===
+time 579809100981
+smallf 1328000
+medf 2253000
+largef 1426000
+enabled 292218004
+wait for edge
+start counter = 2874000
+wait for edge
+end counter = 2870000
+Power 1.768828
+Energy 55.200000
+Time 31.207099
+core_wr 2 131301.144558
+core_wr 4 403831.169598
+core_wr 7 263660.338355
+Charge: 65.3
+===
+time 579842764635
+smallf 574000
+medf 1024000
+largef 2048000
+enabled 1662981776
+wait for edge
+start counter = 2870000
+wait for edge
+end counter = 2866000
+Power 1.471408
+Energy 55.200000
+Time 37.515099
+core_wr 4 185014.582556
+core_wr 7 379031.640666
+Charge: 65.2
+===
+time 579882737818
+smallf 1704000
+medf 1663000
+largef 500000
+enabled 1548348142
+wait for edge
+start counter = 2866000
+wait for edge
+end counter = 2862000
+Power 1.485138
+Energy 55.200000
+Time 37.168266
+core_wr 1 169073.700815
+core_wr 2 169073.747854
+core_wr 3 169042.819155
+core_wr 5 298267.872060
+core_wr 6 92153.930028
+core_wr 7 92146.356538
+Charge: 65.1
+===
+time 579922338012
+smallf 1803000
+medf 1836000
+largef 1745000
+enabled 1520223205
+wait for edge
+start counter = 2862000
+wait for edge
+end counter = 2858000
+Power 2.349603
+Energy 55.200000
+Time 23.493332
+core_wr 0 156069.075045
+core_wr 2 178247.470109
+core_wr 5 328263.952821
+core_wr 6 322197.717524
+core_wr 7 322242.647152
+Charge: 65.0
+===
+time 579947930321
+smallf 1598000
+medf 1663000
+largef 500000
+enabled 201690613
+wait for edge
+start counter = 2858000
+wait for edge
+end counter = 2854000
+Power 1.639912
+Energy 55.200000
+Time 33.660333
+core_wr 0 157475.162460
+core_wr 2 158042.886424
+core_wr 4 298039.296673
+core_wr 5 297007.360599
+core_wr 6 91816.538955
+core_wr 7 77693.136506
+Charge: 64.9
+===
+time 579984045346
+smallf 1803000
+medf 2130000
+largef 2507000
+enabled 1411154259
+wait for edge
+start counter = 2854000
+wait for edge
+end counter = 2850000
+Power 2.668224
+Energy 55.200000
+Time 20.687915
+core_wr 0 176143.452979
+core_wr 1 178169.303120
+core_wr 4 356563.957886
+core_wr 6 462957.807942
+Charge: 64.8
+===
+time 580006135488
+smallf 1401000
+medf 1197000
+largef 2802000
+enabled 114723506
+wait for edge
+start counter = 2850000
+wait for edge
+end counter = 2846000
+Power 3.279796
+Energy 55.200000
+Time 16.830315
+core_wr 1 138642.574579
+core_wr 4 213854.921497
+core_wr 5 214271.320101
+core_wr 7 518905.482263
+Charge: 64.7
+===
+time 580024374246
+smallf 1197000
+medf 1999000
+largef 851000
+enabled 950390868
+wait for edge
+start counter = 2846000
+wait for edge
+end counter = 2842000
+Power 1.393152
+Energy 55.200000
+Time 39.622382
+core_wr 2 118250.006864
+core_wr 4 360550.010304
+core_wr 6 157670.854114
+Charge: 64.6
+===
+time 580066818054
+smallf 1197000
+medf 1663000
+largef 2048000
+enabled 1137949908
+wait for edge
+start counter = 2842000
+wait for edge
+end counter = 2838000
+Power 2.623778
+Energy 55.200000
+Time 21.038364
+core_wr 2 118285.299085
+core_wr 4 297605.526147
+core_wr 6 379073.871588
+core_wr 7 379010.917077
+Charge: 64.5
+===
+time 580089598244
+smallf 300000
+medf 1491000
+largef 2507000
+enabled 1908518808
+wait for edge
+start counter = 2838000
+wait for edge
+end counter = 2834000
+Power 2.186584
+Energy 55.200000
+Time 25.244857
+core_wr 3 29063.412019
+core_wr 4 274727.508021
+core_wr 7 463489.396941
+Charge: 64.4
+===
+time 580116603831
+smallf 1803000
+medf 1836000
+largef 1277000
+enabled 1129033333
+wait for edge
+start counter = 2832000
+wait for edge
+end counter = 2828000
+Power 1.919786
+Energy 55.200000
+Time 28.753211
+core_wr 0 177440.584746
+core_wr 2 167051.576199
+core_wr 4 325253.877096
+core_wr 5 328630.313521
+core_wr 6 223000.394103
+Charge: 64.3
+===
+time 580160415170
+smallf 1803000
+medf 910000
+largef 1582000
+enabled 1781999754
+wait for edge
+start counter = 2828000
+wait for edge
+end counter = 2824000
+Power 1.405581
+Energy 55.200000
+Time 39.272016
+core_wr 1 178646.336969
+core_wr 3 178583.127469
+core_wr 7 292788.706779
+Charge: 64.2
+===
+time 580202501799
+smallf 738000
+medf 400000
+largef 2401000
+enabled 364319529
+wait for edge
+start counter = 2824000
+wait for edge
+end counter = 2820000
+Power 0.779300
+Energy 55.200000
+Time 70.832809
+core_wr 0 71309.980426
+core_wr 3 72092.010627
+core_wr 5 51926.960502
+Charge: 64.1
+===
+time 580277885837
+smallf 1598000
+medf 2130000
+largef 2188000
+enabled 624549797
+wait for edge
+start counter = 2820000
+wait for edge
+end counter = 2816000
+Power 2.248852
+Energy 55.200000
+Time 24.545860
+core_wr 0 157468.842430
+core_wr 2 157962.029100
+core_wr 5 358492.111733
+core_wr 7 404258.328648
+Charge: 64.0
+===
+time 580304182700
+smallf 1098000
+medf 910000
+largef 2704000
+enabled 1750003033
+wait for edge
+start counter = 2816000
+wait for edge
+end counter = 2812000
+Power 2.580671
+Energy 55.200000
+Time 21.389782
+core_wr 0 107459.615595
+core_wr 3 107409.266192
+core_wr 4 162564.971772
+core_wr 6 471405.108400
+Charge: 63.9
+===
+time 580326974559
+smallf 1598000
+medf 799000
+largef 2048000
+enabled 1671294892
+wait for edge
+start counter = 2812000
+wait for edge
+end counter = 2808000
+Power 1.711153
+Energy 55.200000
+Time 32.258959
+core_wr 2 158284.379161
+core_wr 3 158259.982568
+core_wr 5 143382.146312
+core_wr 7 379313.178041
+Charge: 63.8
+===
+time 580361360620
+smallf 574000
+medf 553000
+largef 2188000
+enabled 474613996
+wait for edge
+start counter = 2808000
+wait for edge
+end counter = 2804000
+Power 2.580758
+Energy 55.200000
+Time 21.389065
+core_wr 2 56375.849867
+core_wr 3 56279.322015
+core_wr 5 98781.975807
+core_wr 6 404959.926032
+core_wr 7 405681.869321
+Charge: 63.8
+===
+time 580384503840
+smallf 300000
+medf 1197000
+largef 984000
+enabled 1448703729
+wait for edge
+start counter = 2804000
+wait for edge
+end counter = 2800000
+Power 1.290378
+Energy 55.200000
+Time 42.778167
+core_wr 0 28666.219238
+core_wr 4 213595.331737
+core_wr 5 213689.021856
+core_wr 6 169351.040950
+core_wr 7 170014.277664
+Charge: 63.7
+===
+time 580430066543
+smallf 1803000
+medf 1197000
+largef 1582000
+enabled 861543921
+wait for edge
+start counter = 2800000
+wait for edge
+end counter = 2796000
+Power 2.018260
+Energy 55.200000
+Time 27.350288
+core_wr 0 177310.953288
+core_wr 4 213858.567081
+core_wr 5 213938.597896
+core_wr 6 292212.337963
+core_wr 7 267653.882960
+Charge: 63.6
+===
+time 580459517637
+smallf 930000
+medf 1197000
+largef 2252000
+enabled 828388027
+wait for edge
+start counter = 2796000
+wait for edge
+end counter = 2792000
+Power 1.992794
+Energy 55.200000
+Time 27.699807
+core_wr 0 91155.118798
+core_wr 1 91829.857910
+core_wr 3 84292.103856
+core_wr 4 211782.003181
+core_wr 5 213904.181934
+core_wr 7 399852.146924
+Charge: 63.5
+===
+time 580489321240
+smallf 930000
+medf 696000
+largef 500000
+enabled 31308902
+wait for edge
+start counter = 2790000
+wait for edge
+end counter = 2786000
+Power 0.832892
+Energy 55.200000
+Time 66.275131
+core_wr 1 91827.036205
+core_wr 2 91821.224141
+core_wr 5 127143.783452
+core_wr 6 92195.327232
+Charge: 63.3
+===
+time 580588914651
+smallf 1328000
+medf 553000
+largef 1826000
+enabled 1583571043
+wait for edge
+start counter = 2786000
+wait for edge
+end counter = 2782000
+Power 1.357065
+Energy 55.200000
+Time 40.676012
+core_wr 0 128987.844857
+core_wr 1 131071.745248
+core_wr 5 98635.025001
+core_wr 6 309390.410432
+Charge: 63.3
+===
+time 580632388441
+smallf 300000
+medf 2130000
+largef 1106000
+enabled 1974806403
+wait for edge
+start counter = 2780000
+wait for edge
+end counter = 2776000
+Power 0.894423
+Energy 55.200000
+Time 61.715789
+core_wr 0 28718.904485
+core_wr 1 28839.067944
+core_wr 7 175243.771595
+Charge: 63.1
+===
+time 580726016746
+smallf 930000
+medf 1024000
+largef 1277000
+enabled 669908538
+wait for edge
+start counter = 2774000
+wait for edge
+end counter = 2770000
+Power 0.884362
+Energy 55.200000
+Time 62.417888
+core_wr 1 91823.295436
+core_wr 3 91757.103228
+core_wr 4 183217.322139
+core_wr 5 186166.951853
+Charge: 63.0
+===
+time 580820372190
+smallf 930000
+medf 799000
+largef 500000
+enabled 1812282134
+wait for edge
+start counter = 2770000
+wait for edge
+end counter = 2766000
+Power 0.732157
+Energy 55.200000
+Time 75.393705
+core_wr 1 91849.079378
+core_wr 2 91771.556043
+core_wr 4 144474.450409
+Charge: 62.9
+===
+time 580901019840
+smallf 574000
+medf 910000
+largef 1426000
+enabled 860516127
+wait for edge
+start counter = 2766000
+wait for edge
+end counter = 2762000
+Power 0.771627
+Energy 55.200000
+Time 71.537166
+core_wr 0 54945.770815
+core_wr 1 56256.516230
+core_wr 2 53065.255920
+core_wr 3 56112.912134
+core_wr 4 136440.307085
+Charge: 62.8
+===
+time 580977095886
+smallf 300000
+medf 799000
+largef 2802000
+enabled 1455590964
+wait for edge
+start counter = 2762000
+wait for edge
+end counter = 2758000
+Power 0.819865
+Energy 55.200000
+Time 67.328136
+core_wr 2 28915.195608
+core_wr 4 142717.533731
+core_wr 5 145014.995904
+Charge: 62.7
+===
+time 581049367507
+smallf 1401000
+medf 799000
+largef 2630000
+enabled 1472576335
+wait for edge
+start counter = 2758000
+wait for edge
+end counter = 2754000
+Power 2.459622
+Energy 55.200000
+Time 22.442469
+core_wr 0 138130.089263
+core_wr 1 134497.831936
+core_wr 2 138625.354375
+core_wr 3 138482.604535
+core_wr 6 462871.712495
+Charge: 62.6
+===
+time 581073878143
+smallf 1328000
+medf 910000
+largef 2048000
+enabled 1219407971
+wait for edge
+start counter = 2754000
+wait for edge
+end counter = 2750000
+Power 1.590148
+Energy 55.200000
+Time 34.713745
+core_wr 0 108706.471970
+core_wr 1 131145.307239
+core_wr 5 162678.372839
+core_wr 6 376022.703617
+Charge: 62.5
+===
+time 581111045808
+smallf 1401000
+medf 2253000
+largef 500000
+enabled 561717988
+wait for edge
+start counter = 2750000
+wait for edge
+end counter = 2746000
+Power 1.622900
+Energy 55.200000
+Time 34.013194
+core_wr 2 138734.683617
+core_wr 5 403833.688672
+core_wr 6 92211.728880
+core_wr 7 92198.987327
+Charge: 62.4
+===
+time 581147887011
+smallf 1704000
+medf 1328000
+largef 2188000
+enabled 733053144
+wait for edge
+start counter = 2746000
+wait for edge
+end counter = 2742000
+Power 2.811132
+Energy 55.200000
+Time 19.636216
+core_wr 3 168808.159481
+core_wr 4 237808.995447
+core_wr 6 404941.633518
+core_wr 7 404842.240608
+Charge: 62.3
+===
+time 581169280557
+smallf 1098000
+medf 696000
+largef 2507000
+enabled 672655340
+wait for edge
+start counter = 2740000
+wait for edge
+end counter = 2736000
+Power 3.661336
+Energy 55.200000
+Time 15.076465
+core_wr 2 108529.236549
+core_wr 3 108589.837870
+core_wr 5 124699.269633
+core_wr 6 463931.436984
+core_wr 7 463802.505179
+Charge: 62.2
+===
+time 581193106315
+smallf 1401000
+medf 799000
+largef 851000
+enabled 1081174232
+wait for edge
+start counter = 2736000
+wait for edge
+end counter = 2732000
+Power 1.166091
+Energy 55.200000
+Time 47.337637
+core_wr 3 138653.303294
+core_wr 4 142805.898248
+core_wr 6 157425.561770
+core_wr 7 157327.139085
+Charge: 62.1
+===
+time 581243245884
+smallf 1803000
+medf 910000
+largef 500000
+enabled 410409117
+wait for edge
+start counter = 2732000
+wait for edge
+end counter = 2728000
+Power 1.192551
+Energy 55.200000
+Time 46.287332
+core_wr 0 177687.210562
+core_wr 2 178531.446891
+core_wr 3 173188.945859
+core_wr 4 156014.403881
+core_wr 7 84845.170664
+Charge: 62.0
+===
+time 581293034418
+smallf 1098000
+medf 1663000
+largef 2252000
+enabled 1175526309
+wait for edge
+start counter = 2728000
+wait for edge
+end counter = 2724000
+Power 2.044402
+Energy 55.200000
+Time 27.000561
+core_wr 0 90099.881477
+core_wr 2 107225.848109
+core_wr 5 297917.735734
+core_wr 7 416184.813097
+Charge: 61.9
+===
+time 581322137902
+smallf 1098000
+medf 1328000
+largef 1277000
+enabled 1989806367
+wait for edge
+start counter = 2724000
+wait for edge
+end counter = 2720000
+Power 0.971712
+Energy 55.200000
+Time 56.806936
+core_wr 0 103913.171168
+core_wr 1 108276.933914
+core_wr 2 108330.705643
+core_wr 3 107613.367198
+core_wr 4 207983.566078
+Charge: 61.8
+===
+time 581382101025
+smallf 1598000
+medf 2130000
+largef 1826000
+enabled 1186631626
+wait for edge
+start counter = 2720000
+wait for edge
+end counter = 2716000
+Power 2.071255
+Energy 55.200000
+Time 26.650505
+core_wr 1 158229.580365
+core_wr 3 158229.767430
+core_wr 6 338327.130686
+core_wr 7 338289.241593
+Charge: 61.8
+===
+time 581410873084
+smallf 1197000
+medf 553000
+largef 2802000
+enabled 1276673168
+wait for edge
+start counter = 2716000
+wait for edge
+end counter = 2712000
+Power 2.811073
+Energy 55.200000
+Time 19.636627
+core_wr 4 98748.715367
+core_wr 7 518611.779828
+Charge: 61.7
+===
+time 581431917146
+smallf 574000
+medf 2130000
+largef 2630000
+enabled 696947386
+wait for edge
+start counter = 2712000
+wait for edge
+end counter = 2708000
+Power 3.349351
+Energy 55.200000
+Time 16.480806
+core_wr 1 56461.703902
+core_wr 3 56494.691042
+core_wr 4 381487.523175
+core_wr 5 381803.553260
+core_wr 7 486340.575674
+Charge: 61.6
+===
+time 581449804581
+smallf 1098000
+medf 400000
+largef 1277000
+enabled 1630634994
+wait for edge
+start counter = 2708000
+wait for edge
+end counter = 2704000
+Power 1.380889
+Energy 55.200000
+Time 39.974250
+core_wr 1 108419.389910
+core_wr 4 71220.252458
+core_wr 5 71233.238419
+core_wr 6 236424.950788
+core_wr 7 236253.189347
+Charge: 61.5
+===
+time 581491874750
+smallf 574000
+medf 2130000
+largef 1277000
+enabled 1297893529
+wait for edge
+start counter = 2704000
+wait for edge
+end counter = 2700000
+Power 1.499182
+Energy 55.200000
+Time 36.820091
+core_wr 0 55410.907774
+core_wr 3 56148.616316
+core_wr 4 368614.306724
+core_wr 7 220752.834985
+Charge: 61.4
+===
+time 581531479632
+smallf 1704000
+medf 910000
+largef 500000
+enabled 1857756970
+wait for edge
+start counter = 2700000
+wait for edge
+end counter = 2696000
+Power 1.015578
+Energy 55.200000
+Time 54.353289
+core_wr 1 168902.502436
+core_wr 3 168691.945511
+core_wr 5 166607.127140
+Charge: 61.3
+===
+time 581589694649
+smallf 1098000
+medf 1491000
+largef 2252000
+enabled 1314218593
+wait for edge
+start counter = 2696000
+wait for edge
+end counter = 2692000
+Power 1.809421
+Energy 55.200000
+Time 30.506997
+core_wr 0 107550.544797
+core_wr 5 266994.685041
+core_wr 6 384517.987008
+Charge: 61.2
+===
+time 581622651657
+smallf 1803000
+medf 2253000
+largef 2704000
+enabled 318561886
+wait for edge
+start counter = 2694000
+wait for edge
+end counter = 2688000
+Power 5.023980
+Energy 82.800000
+Time 16.480958
+core_wr 1 178613.650776
+core_wr 2 178611.986566
+core_wr 3 178629.735939
+core_wr 4 412434.482352
+core_wr 6 500239.308901
+Charge: 61.1
+===
+time 581640197523
+smallf 1328000
+medf 553000
+largef 2630000
+enabled 1112720090
+wait for edge
+start counter = 2686000
+wait for edge
+end counter = 2682000
+Power 4.254888
+Energy 55.200000
+Time 12.973313
+core_wr 1 131362.684011
+core_wr 3 131322.788047
+core_wr 4 98725.670730
+core_wr 6 486506.220068
+core_wr 7 485739.227815
+Charge: 61.0
+===
+time 581660900271
+smallf 1598000
+medf 1328000
+largef 851000
+enabled 1051858969
+wait for edge
+start counter = 2682000
+wait for edge
+end counter = 2678000
+Power 1.035649
+Energy 55.200000
+Time 53.299913
+core_wr 0 127961.151861
+core_wr 3 157874.709153
+core_wr 4 236913.924782
+Charge: 60.9
+===
+time 581716977867
+smallf 1803000
+medf 696000
+largef 851000
+enabled 826047641
+wait for edge
+start counter = 2678000
+wait for edge
+end counter = 2674000
+Power 1.174736
+Energy 55.200000
+Time 46.989300
+core_wr 0 178027.350700
+core_wr 3 178268.666469
+core_wr 4 124665.294456
+core_wr 7 138577.667612
+Charge: 60.8
+===
+time 581767473663
+smallf 1197000
+medf 1663000
+largef 2401000
+enabled 887077888
+wait for edge
+start counter = 2674000
+wait for edge
+end counter = 2670000
+Power 0.687376
+Energy 55.200000
+Time 80.305440
+Charge: 60.7
+===
+time 581853770956
+smallf 1401000
+medf 2130000
+largef 2802000
+enabled 1541027284
+wait for edge
+start counter = 2668000
+wait for edge
+end counter = 2664000
+Power 4.770735
+Energy 55.200000
+Time 11.570545
+core_wr 2 138699.746326
+core_wr 4 381766.238762
+core_wr 6 500909.466294
+core_wr 7 500751.792626
+Charge: 60.6
+===
+time 581871637180
+smallf 1598000
+medf 1328000
+largef 500000
+enabled 959372260
+wait for edge
+start counter = 2664000
+wait for edge
+end counter = 2660000
+Power 1.174766
+Energy 55.200000
+Time 46.988091
+core_wr 2 158187.341587
+core_wr 5 237938.131743
+core_wr 6 92243.100437
+core_wr 7 92186.984537
+Charge: 60.5
+===
+time 581920728661
+smallf 300000
+medf 2253000
+largef 2704000
+enabled 159473059
+wait for edge
+start counter = 2660000
+wait for edge
+end counter = 2656000
+Power 2.970203
+Energy 55.200000
+Time 18.584591
+core_wr 0 28612.332884
+core_wr 1 28229.092943
+core_wr 5 403673.270059
+core_wr 7 474463.131246
+Charge: 60.4
+===
+time 581940703869
+smallf 1401000
+medf 910000
+largef 2252000
+enabled 471990783
+wait for edge
+start counter = 2654000
+wait for edge
+end counter = 2650000
+Power 3.148557
+Energy 55.200000
+Time 17.531838
+core_wr 0 136463.489629
+core_wr 1 138454.032828
+core_wr 2 138480.212262
+core_wr 3 138387.818859
+core_wr 4 162346.410563
+core_wr 5 162401.778427
+core_wr 6 415899.442989
+core_wr 7 387350.005802
+Charge: 60.3
+===
+time 581968402208
+smallf 1598000
+medf 1491000
+largef 2252000
+enabled 993967637
+wait for edge
+start counter = 2650000
+wait for edge
+end counter = 2646000
+Power 1.056495
+Energy 55.200000
+Time 52.248214
+core_wr 0 145762.687831
+core_wr 2 150843.543246
+core_wr 4 259457.238300
+Charge: 60.2
+===
+time 582023455591
+smallf 1598000
+medf 1663000
+largef 2188000
+enabled 2037770478
+wait for edge
+start counter = 2646000
+wait for edge
+end counter = 2642000
+Power 3.148329
+Energy 55.200000
+Time 17.533110
+core_wr 1 158228.864959
+core_wr 2 158188.136383
+core_wr 3 158189.083550
+core_wr 5 297752.116278
+core_wr 6 404937.485391
+core_wr 7 404637.580444
+Charge: 60.1
+===
+time 582042403991
+smallf 574000
+medf 1197000
+largef 2630000
+enabled 1152645729
+wait for edge
+start counter = 2642000
+wait for edge
+end counter = 2638000
+Power 2.315024
+Energy 55.200000
+Time 23.844248
+core_wr 0 55172.081770
+core_wr 5 213845.309862
+core_wr 6 454958.042395
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 60.0
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge
+Charge: 59.9
+Waiting for charge

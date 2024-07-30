@@ -1,0 +1,60 @@
+**** run starting Thu 13 Jun 14:31:59 BST 2024
+started Thu 13 Jun 14:32:09 BST 2024
+===
+name web
+Charge: 98.9
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+
+** Graphics info for pid 5546 [org.lineageos.jelly] **
+
+Stats since: 59264928942ns
+Total frames rendered: 12
+Janky frames: 2 (16.67%)
+Janky frames (legacy): 5 (41.67%)
+50th percentile: 29ms
+90th percentile: 53ms
+95th percentile: 150ms
+99th percentile: 150ms
+Number Missed Vsync: 1
+t=61187
+CH0(T=2078)[S2M_VDD_CPUCL2], 1032117
+CH1(T=2078)[S3M_VDD_CPUCL1], 186061
+CH2(T=2077)[S4M_VDD_CPUCL0], 882624
+CH3(T=2077)[S6M_VDD_CPUCL2_M], 43038
+CH4(T=2077)[L2M_ALIVE], 40028
+CH5(T=2077)[L11M_VDD_CPUCL1_M], 7131
+CH6(T=2077)[L12M_VDD_CPUCL0_M], 62625
+CH7(T=61187)[S1M_VDD_MIF], 8304061
+t=61212
+CH0(T=2100)[S1S_VDD_CAM], 55633
+CH1(T=2100)[S2S_VDD_G3D], 117920
+CH2(T=2100)[S4S_VDD2H_MEM], 246523
+CH3(T=61212)[S5S_VDDQ_MEM], 1148996
+CH4(T=2100)[S8S_VDD_G3D_L2], 27589
+CH5(T=2099)[S10S_VDD2L], 41331
+CH6(T=2099)[L1S_VDD_G3D_M], 13599
+CH7(T=61212)[L8S_UFS_VCCQ], 10308437
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400006e98b85210 | 60, 61, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 23.5504 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400006e98b84c90 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.487074 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400006e98b824b0 | 32, 33, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   3    |    1     | 0xb400006e98b81850 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 4.1328 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400006e98b83ab0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 56.5963 |
+^C

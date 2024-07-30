@@ -1,0 +1,26 @@
+#!/bin/env bash
+
+function quote() {
+   for x in "$@"; do
+      printf %q "$x"
+      printf " "
+   done
+}
+
+#set -eux
+
+if [ -v SSH ] && [ "$1" = push -o "$1" = pull ] ; then
+   if [ "$1" = push ] ; then
+      cat $2 | remote_adb shell "if test -d \"$3\" ; then cat > $3/\$(basename $2) ; else cat > $3 ; fi"
+   else
+      remote_adb shell "cat $2" > ${3:-$(basename "$2")}
+   fi
+else
+   if [ -v SSH ] ; then
+      ssh $SSH -t $(quote adb "$@")
+    else
+      adb "$@"
+    fi
+fi
+
+
