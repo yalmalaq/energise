@@ -44,6 +44,9 @@ This second value is to allow for single-threaded workloads that cannot be split
 
 There are some pre-computed tables in the /data/ryan directory on the pixel device.
 
+Kernel documentation for the CPU related sysfs files:
+https://www.kernel.org/doc/Documentation/ABI/testing/sysfs-devices-system-cpu
+
 ==== Table Loader ==== 
 the sources for this are in the github repo at /load_table
 The program takes four arguments
@@ -102,7 +105,15 @@ After this, on the phone itself
 $ adb shell
 $$ /data/ryan/load-table 100 0 0 /data/ryan/<table name>.dat
 $$ exit
-$ sh benchmarks/runall.sh
+$ cd benchmarks
+$ sh runall.sh
+
+The output is put into a file in the "output" directory.
+Kernel log messages go to dmesg
+$ adb shell dmesg
+
+The lineage project has a page giving a more comprehensive overview of the android build process for this device:
+https://wiki.lineageos.org/devices/bluejay/build/
 
 ==== Benchmarks ==== 
 
@@ -123,7 +134,9 @@ I am not as familiar with the benchmarks since this was the part that was done b
 
 ==== Measurements and analysis ==== 
 
-The script "util/parse_data.py" implements parsing the results format file and outputting the energy and QOS values.
+The script "scripts/parse_data.py" implements parsing the results format file and outputting the energy and QOS values.
+
+It takes two arguments <baseline output file> <output file with our scheduler>
 
 We use real energy counters from the Power Management IC on the pixel device which can measure individual rails. We also use a couple of sources in android itself to measure frames per second which we use for QOS. A better proxy for QOS is an open question in this work and more ideas would be great.
 
