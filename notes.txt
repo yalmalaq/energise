@@ -1,0 +1,118 @@
+Overview
+
+The scheduling patches are composed of several pieces.
+- The synthetic load which is used to estimate the freq -> (power, instructions/s) function for each core.
+- The table generator which uses the above mapping to derive an energy-optimal configuration of cores and freqs for each target performance level (instructions/s)
+- The kernel driver which dynamically measures load and turns cores on/off and sets frequencies in accordance with the above table.
+- The table loader, a small userspace program that uploads the table file to the kernel mode driver
+- The "benchmarks", a series of android applications and pre-scripted interactions
+- The quality of service measurement and analysis scripts which collect data and post-processes them into figures for energy consumption and QOS
+
+Note:
+when working in the github repo the scripts directory needs to be on your path, particularly for the "remote_adb" command which is designed to let you work
+with a device that is connected either locally or to a remote machine.
+
+You will also need the android ndk installed, the scripts may need tweaking if yours is installed at a different path
+
+==== Synthetic load ====
+The sources for this are in the github repo at /synthetic_load/
+The script "run.sh" builds and runs the synthetic load, the output is to stdout
+
+We force the system to different operating points (sets of on cores + frequencies of cores) by writing to sysfs, and run the synthetic load at each chosen operating point. There is an initial set of operating points exploring each core type in isolation and then configurations are explored at random.
+
+The synthetic load runs for a fixed time and has a simple loop pinned to each core which counts how many times each core could complete the loop, this is taken as a proxy for the "performance" of that core. In parallel the total energy consumed is also measured using the rails.
+
+The result of this process is non-exhaustive data which gives us (operating point) -> (total power, core1 performance, core2 performance, ...)
+
+==== Table generator ==== 
+The sources for this are in the github repo at /table_gen/
+It needs output files from a synthetic load run above (ie. the captured stdout)
+It is currently configured to load these files from a fixed location but you can easily change this in the source if need be (the global variable LOAD_FROM)
+
+The table generator constructs a model (either linear or random forests) that estimates (total power, core1 performance, core2 performance, ...) for any possible system operating point (set of on cores + frequencies of on cores). We do these because exhaustively measuring all of the possible system operating points is prohibitively expensive. After we have a model we can exhaustively search that in a fraction of the time it would take to run real experiments. As we enumerate all of the (power, core performance) pairs for each state we keep track of the best configuration (meaning that with the lowest power) that achieves each given performance point. At the end of this process we have a table from (total performance required, single-threaded performance required) -> (configuration with the min power that achieves at least this level of performance).
+
+Note that on the pixel device there is only frequency control for each "type" of core and not individual control. ie. all medium cores must be at the same frequency.
+
+The table file is a series of little-endian 32 bit integers, starting with a brief header, our kernel sources are the best reference for this. Note that the loader program prepends three additional ints to the table file read off disk.
+
+The table is flat and is indexed by two values:
+(a) the current system load as a percentage of the maximum system load
+(b) the highest single-cpu load as a percentage of the maximum system load
+
+This second value is to allow for single-threaded workloads that cannot be split between cores.
+
+==== Table Loader ==== 
+the sources for this are in the github repo at /load_table
+The program takes four arguments
+
+./load-table <N> <uptime> <downtime> <tablefile>
+
+It uses an ioctl to call into our driver and pass it the table to use. The driver works on a loop where it checks every N milliseconds if there are changes to be made. On the order of 50ms is a good value for N.
+
+additional options
+uptime:   Number of driver loops to wait between the last change and making a change that INCREASES the system capacity, can be 0
+downtime: Number of driver loops to wait between the last change and making a change that DECREASES the system capacity, can be 0
+
+==== Kernel driver ==== 
+The sources for the kernel driver are in the bluejay lineage checkout on bach:
+/home/energise_shared_files/lineage20-2/kernel/google/gs201/private/gs-google/kernel/sched/sleepy_sched.c
+
+Note that I have modified the default kernel configuration options at:
+/home/energise_shared_files/lineage20-2/kernel/google/gs201/private/gs-google/arch/arm64/configs/slider_gki_defconfig
+to enable some debug features
+
+There are 4 main structures
+struct sys_op_table : the entire table generated above
+struct sys_op       : A single configuration from the table (set of on cores and frequencies)
+struct cpu_op       : The configuration of a single CPU (on/off and frequency)
+struct sleepy_pcpu  : The runtime data that we hold for an individual CPU
+
+The first section implements the table parsing and the ioctl that triggers it.
+
+set_sys_op : is the main function that drives all the hardware changes from a pre-selected operating point
+sleepy_sched_work : is the main worker function that runs in a loop (via a constantly re-arming timer callback)
+sleepy_sched_init : is the entrypoint to the driver, I patched in a call to this function from the main kernel init routines
+
+Setting the operating point uses the Linux QOS subsystem to register a desired frequency range. We also have to force the governor to "userspace" via some sysfs hackery otherwise the cpufreq subsystem might not respect this on all platforms.
+
+NOTE that there is a call to kmalloc in the table loader that should probably be replaced with vmalloc since the allocation is often too big to be allocated physically contiguously.
+There is also a LOT of debug printing that should be probably be reined in before final benchmark runs
+
+==== Benchmarks ==== 
+
+The benchmarks are stored in /benchmarks in the github repo
+There are scripts runall and runone that are used to build and execute them
+
+A script util/clear.sh is used to reset the phone to known-state before each run
+The common files "benchmark.inc" and "common.inc" implement the parts of the suite that are common to all benchmarks
+and also output data to stdout as the benchmark runs.
+
+The file "results_format.txt" describes all the data that each run generates.
+
+I am not as familiar with the benchmarks since this was the part that was done by others, but I think there needs to be a more robust approach to clicking the correct part of the screen / waiting for an input. Cookie dialogues etc mean manual monitoring is required at the moment. Maybe screenshots + image correlation to find the right areas to press at the right time?
+
+==== Measurements and analysis ==== 
+
+The script "util/parse_data.py" implements parsing the results format file and outputting the energy and QOS values.
+
+We use real energy counters from the Power Management IC on the pixel device which can measure individual rails. We also use a couple of sources in android itself to measure frames per second which we use for QOS. A better proxy for QOS is an open question in this work and more ideas would be great.
+
+==== Thermals ==== 
+
+We encountered an issue with thermals: since these devices are passively cooled it is normal for them to impose thermal limits on CPU frequencies in addition to out limits. Previously, in the case that the thermal limit was more restrictive than our setpoint our driver could get confused, the basic outline is as follows:
+
+- We impose frequency limits that restrict a core to, say, 50% of its total capacity
+- After a period of time the thermal subsystem imposes a limit of say 25% of max capacity to the same CPU in an effort to keep the temperatures in a desired range
+- Say that the load on this CPU might ordinarily consume 75% of its total capacity, however the thermal limit makes it appear like 25%, well below the 50% our model allocated
+- If this happens on multiple cores simultaneously the effect is that a system load is massively understated to our driver, which will continue on an endless spiral ramping down and shutting off cores until the system is rendered effectively useless.
+
+To fix this, in our calculation of CPU load we use the thermal_avg member of each CPUs runqueue to get an estimation of how much capacity is being consumed by the thermal throttling. By adding these values together our driver gets a more realistic picture of what the load would be without throttling and so won't take away all the performance.
+
+Ryan
+
+
+
+
+
+
+
