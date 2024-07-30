@@ -12,7 +12,8 @@ Note:
 when working in the github repo the scripts directory needs to be on your path, particularly for the "remote_adb" command which is designed to let you work
 with a device that is connected either locally or to a remote machine.
 
-You will also need the android ndk installed, the scripts may need tweaking if yours is installed at a different path
+You will also need the android NDK installed, the scripts may need tweaking if yours is installed at a different path.
+The tools "adb" and "fastboot" need to available and work.
 
 ==== Synthetic load ====
 The sources for this are in the github repo at /synthetic_load/
@@ -41,6 +42,8 @@ The table is flat and is indexed by two values:
 
 This second value is to allow for single-threaded workloads that cannot be split between cores.
 
+There are some pre-computed tables in the /data/ryan directory on the pixel device.
+
 ==== Table Loader ==== 
 the sources for this are in the github repo at /load_table
 The program takes four arguments
@@ -52,6 +55,8 @@ It uses an ioctl to call into our driver and pass it the table to use. The drive
 additional options
 uptime:   Number of driver loops to wait between the last change and making a change that INCREASES the system capacity, can be 0
 downtime: Number of driver loops to wait between the last change and making a change that DECREASES the system capacity, can be 0
+
+There is a pre-compiled load-table binary in the /data/ryan directory on the pixel device.
 
 ==== Kernel driver ==== 
 The sources for the kernel driver are in the bluejay lineage checkout on bach:
@@ -78,12 +83,37 @@ Setting the operating point uses the Linux QOS subsystem to register a desired f
 NOTE that there is a call to kmalloc in the table loader that should probably be replaced with vmalloc since the allocation is often too big to be allocated physically contiguously.
 There is also a LOT of debug printing that should be probably be reined in before final benchmark runs
 
+To build the kernel on bach:
+$ sudo -i -u vt29
+$ cd /home/energise_shared_files/lineage20-2
+$ source build/envsetup.sh
+$ brunch bluejay
+
+That does a full android build you can also ctrl-C this and do
+$ m out/target/product/bluejay/boot.img
+to just build the bootable image
+
+copy this boot.img to the machine the phone is plugged into and then run
+$ adb reboot bootloader
+$ fastboot boot boot.img
+
+This will boot the phone with our custom kernel.
+After this, on the phone itself
+$ adb shell
+$$ /data/ryan/load-table /data/ryan/<table name>.dat
+$$ exit
+$ sh benchmarks/runall.sh
+
 ==== Benchmarks ==== 
 
 The benchmarks are stored in /benchmarks in the github repo
 There are scripts runall and runone that are used to build and execute them
 
-A script util/clear.sh is used to reset the phone to known-state before each run
+There are a few utility scripts in util
+prevent_sleep.sh, unlock.sh, allow_sleep.sh, and clear.sh
+that are used to reset the phone to known-state and prevent sleeping etc.
+They should be put in /data/ryan on the device
+
 The common files "benchmark.inc" and "common.inc" implement the parts of the suite that are common to all benchmarks
 and also output data to stdout as the benchmark runs.
 
@@ -109,7 +139,6 @@ We encountered an issue with thermals: since these devices are passively cooled 
 To fix this, in our calculation of CPU load we use the thermal_avg member of each CPUs runqueue to get an estimation of how much capacity is being consumed by the thermal throttling. By adding these values together our driver gets a more realistic picture of what the load would be without throttling and so won't take away all the performance.
 
 Ryan
-
 
 
 
