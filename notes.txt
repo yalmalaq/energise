@@ -100,7 +100,7 @@ $ fastboot boot boot.img
 This will boot the phone with our custom kernel.
 After this, on the phone itself
 $ adb shell
-$$ /data/ryan/load-table /data/ryan/<table name>.dat
+$$ /data/ryan/load-table 100 0 0 /data/ryan/<table name>.dat
 $$ exit
 $ sh benchmarks/runall.sh
 
