@@ -15,6 +15,19 @@ with a device that is connected either locally or to a remote machine.
 You will also need the android NDK installed, the scripts may need tweaking if yours is installed at a different path.
 The tools "adb" and "fastboot" need to available and work.
 
+To connect to the device:
+
+sudo adb kill-server
+sudo adb start-server
+
+The device needs to be rooted in order to run any benchmarks.
+
+adb root
+
+to unroot:
+
+adb unroot 
+
 ==== Synthetic load ====
 The sources for this are in the github repo at /synthetic_load/
 The script "run.sh" builds and runs the synthetic load, the output is to stdout
