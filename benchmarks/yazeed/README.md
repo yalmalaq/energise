@@ -1,4 +1,4 @@
-# How to run it benchmark with all cores or specific core numbers:
+# How to run a benchmark with all cores or specific core numbers:
  
 - First see the benchmark ex: social-media.cpp
  
