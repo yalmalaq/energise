@@ -10,8 +10,25 @@ void open_url(char *url)
 }
 
 void actions() {
+
+
+	// old music benchmark 
+    // // To touch somewhere on the screen
+    // sleep(2);
     
-    // To touch somewhere on the screen
+    // system("input touchscreen tap 40 1200");
+    // sleep(2);
+
+    // //To start playing music
+    // system("input touchscreen tap 1000 600");
+    // sleep(2);
+
+    //        // To go to home screen
+    // system("input keyevent KEYCODE_HOME");
+    // sleep(2);
+    
+    // //system("input keyevent KEYCODE_POWER");
+	
     sleep(2);
     
     system("input touchscreen tap 40 1200");
@@ -19,13 +36,19 @@ void actions() {
 
     //To start playing music
     system("input touchscreen tap 1000 600");
-    sleep(2);
-
-           // To go to home screen
-    system("input keyevent KEYCODE_HOME");
-    sleep(2);
+    sleep(30);
     
-    //system("input keyevent KEYCODE_POWER");
+    system("input touchscreen swipe 100 1000 100 200");
+    sleep(30);
+      
+    system("input touchscreen swipe 100 1000 100 200");
+    sleep(30);
+    
+    system("input touchscreen swipe 100 1000 100 200");
+    sleep(10);
+    
+    system("input touchscreen swipe 100 1000 100 200");
+    
 }
 
 void run_benchmark()
