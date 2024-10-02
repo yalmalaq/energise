@@ -1,0 +1,630 @@
+**** run starting Wed  2 Oct 2024 16:31:04 BST
+started Wed 2 Oct 2024 16:31:08 BST
+===
+name socialmedia
+Charge: 99.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 10033 [com.twitter.android] **
+
+Stats since: 951398362239ns
+Total frames rendered: 5358
+Janky frames: 57 (1.06%)
+Janky frames (legacy): 158 (2.95%)
+50th percentile: 11ms
+90th percentile: 12ms
+95th percentile: 15ms
+99th percentile: 26ms
+Number Missed Vsync: 5
+t=1909535
+CH0(T=1844427)[S2M_VDD_CPUCL2], 253745515
+CH1(T=1844427)[S3M_VDD_CPUCL1], 82807080
+CH2(T=1844427)[S4M_VDD_CPUCL0], 199229929
+CH3(T=1844424)[S6M_VDD_CPUCL2_M], 23074790
+CH4(T=1844423)[L2M_ALIVE], 18654257
+CH5(T=1844422)[L11M_VDD_CPUCL1_M], 4722422
+CH6(T=1844422)[L12M_VDD_CPUCL0_M], 27186309
+CH7(T=1909535)[S1M_VDD_MIF], 114028677
+t=1909547
+CH0(T=1844431)[S1S_VDD_CAM], 25885934
+CH1(T=1844429)[S2S_VDD_G3D], 29792940
+CH2(T=1844428)[S4S_VDD2H_MEM], 74522031
+CH3(T=1909547)[S5S_VDDQ_MEM], 15506297
+CH4(T=1844428)[S8S_VDD_G3D_L2], 15521900
+CH5(T=1844427)[S10S_VDD2L], 25695821
+CH6(T=1844427)[L1S_VDD_G3D_M], 5651163
+CH7(T=1909547)[L8S_UFS_VCCQ], 41749943
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e6010 | 81, 82, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 16.2784 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb400007af75e6850 | 35, 39, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 4.62842 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007af75e7cf0 | 55, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+**** run starting Wed  2 Oct 2024 16:31:26 BST
+started Wed 2 Oct 2024 16:31:27 BST
+===
+name socialmedia
+Charge: 99.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 99
+Janky frames: 1 (1.01%)
+Janky frames (legacy): 5 (5.05%)
+50th percentile: 12ms
+90th percentile: 13ms
+95th percentile: 20ms
+99th percentile: 81ms
+Number Missed Vsync: 0
+t=1929047
+CH0(T=1863939)[S2M_VDD_CPUCL2], 256789064
+CH1(T=1863939)[S3M_VDD_CPUCL1], 83840313
+CH2(T=1863939)[S4M_VDD_CPUCL0], 201755955
+CH3(T=1863936)[S6M_VDD_CPUCL2_M], 23361459
+CH4(T=1863935)[L2M_ALIVE], 18885725
+CH5(T=1863934)[L11M_VDD_CPUCL1_M], 4779383
+CH6(T=1863934)[L12M_VDD_CPUCL0_M], 27468030
+CH7(T=1929047)[S1M_VDD_MIF], 115569762
+t=1929079
+CH0(T=1863963)[S1S_VDD_CAM], 26199200
+CH1(T=1863961)[S2S_VDD_G3D], 30529094
+CH2(T=1863960)[S4S_VDD2H_MEM], 75553245
+CH3(T=1929079)[S5S_VDDQ_MEM], 15716601
+CH4(T=1863960)[S8S_VDD_G3D_L2], 15719673
+CH5(T=1863959)[S10S_VDD2L], 25963857
+CH6(T=1863959)[L1S_VDD_G3D_M], 5760961
+CH7(T=1929079)[L8S_UFS_VCCQ], 42155848
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e8ed0 | 62, 66, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 60.3475 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e6850 | 35, 39, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.142583 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007af75ea0b0 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+**DONE**
+
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 4538
+Janky frames: 63 (1.39%)
+Janky frames (legacy): 257 (5.66%)
+50th percentile: 11ms
+90th percentile: 12ms
+95th percentile: 21ms
+99th percentile: 26ms
+Number Missed Vsync: 2
+t=2049202
+CH0(T=1984094)[S2M_VDD_CPUCL2], 266050940
+CH1(T=1984094)[S3M_VDD_CPUCL1], 88941821
+CH2(T=1984094)[S4M_VDD_CPUCL0], 216316454
+CH3(T=1984091)[S6M_VDD_CPUCL2_M], 25240981
+CH4(T=1984090)[L2M_ALIVE], 20529184
+CH5(T=1984089)[L11M_VDD_CPUCL1_M], 5136967
+CH6(T=1984089)[L12M_VDD_CPUCL0_M], 29163730
+CH7(T=2049202)[S1M_VDD_MIF], 123893950
+t=2049233
+CH0(T=1984117)[S1S_VDD_CAM], 28375504
+CH1(T=1984115)[S2S_VDD_G3D], 33313699
+CH2(T=1984114)[S4S_VDD2H_MEM], 81959340
+CH3(T=2049233)[S5S_VDDQ_MEM], 16669373
+CH4(T=1984114)[S8S_VDD_G3D_L2], 16890809
+CH5(T=1984113)[S10S_VDD2L], 27578871
+CH6(T=1984113)[L1S_VDD_G3D_M], 6268740
+CH7(T=2049233)[L8S_UFS_VCCQ], 44686723
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e6010 | 52, 55, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 53.3121 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e7e50 | 64, 65, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.111925 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af75ea0b0 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.113608 |
+Time 120.144712
+stopped Wed 2 Oct 2024 16:33:30 BST
+started Wed 2 Oct 2024 16:33:31 BST
+===
+name socialmedia
+Charge: 99.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 4661
+Janky frames: 67 (1.44%)
+Janky frames (legacy): 304 (6.52%)
+50th percentile: 11ms
+90th percentile: 13ms
+95th percentile: 23ms
+99th percentile: 27ms
+Number Missed Vsync: 3
+t=2052591
+CH0(T=1987483)[S2M_VDD_CPUCL2], 267192718
+CH1(T=1987483)[S3M_VDD_CPUCL1], 89275869
+CH2(T=1987483)[S4M_VDD_CPUCL0], 217068979
+CH3(T=1987480)[S6M_VDD_CPUCL2_M], 25315782
+CH4(T=1987479)[L2M_ALIVE], 20580305
+CH5(T=1987478)[L11M_VDD_CPUCL1_M], 5154863
+CH6(T=1987478)[L12M_VDD_CPUCL0_M], 29232380
+CH7(T=2052591)[S1M_VDD_MIF], 124322246
+t=2052623
+CH0(T=1987507)[S1S_VDD_CAM], 28435888
+CH1(T=1987505)[S2S_VDD_G3D], 33547556
+CH2(T=1987504)[S4S_VDD2H_MEM], 82273713
+CH3(T=2052623)[S5S_VDDQ_MEM], 16732300
+CH4(T=1987504)[S8S_VDD_G3D_L2], 16935634
+CH5(T=1987503)[S10S_VDD2L], 27624459
+CH6(T=1987503)[L1S_VDD_G3D_M], 6300175
+CH7(T=2052623)[L8S_UFS_VCCQ], 44836102
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e71f0 | 80, 83, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 32.2932 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb400007af75e6850 | 55, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.37442 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007af75eb970 | 34, 35, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+**DONE**
+
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 9046
+Janky frames: 128 (1.41%)
+Janky frames (legacy): 616 (6.81%)
+50th percentile: 11ms
+90th percentile: 13ms
+95th percentile: 23ms
+99th percentile: 26ms
+Number Missed Vsync: 5
+t=2172738
+CH0(T=2107630)[S2M_VDD_CPUCL2], 276297808
+CH1(T=2107630)[S3M_VDD_CPUCL1], 94093502
+CH2(T=2107630)[S4M_VDD_CPUCL0], 231044978
+CH3(T=2107627)[S6M_VDD_CPUCL2_M], 27176081
+CH4(T=2107626)[L2M_ALIVE], 22198662
+CH5(T=2107625)[L11M_VDD_CPUCL1_M], 5514840
+CH6(T=2107625)[L12M_VDD_CPUCL0_M], 30945977
+CH7(T=2172738)[S1M_VDD_MIF], 132333634
+t=2172751
+CH0(T=2107635)[S1S_VDD_CAM], 30625271
+CH1(T=2107633)[S2S_VDD_G3D], 36545959
+CH2(T=2107632)[S4S_VDD2H_MEM], 88525297
+CH3(T=2172751)[S5S_VDDQ_MEM], 17617857
+CH4(T=2107632)[S8S_VDD_G3D_L2], 18100157
+CH5(T=2107631)[S10S_VDD2L], 29229899
+CH6(T=2107631)[L1S_VDD_G3D_M], 6828215
+CH7(T=2172751)[L8S_UFS_VCCQ], 46472266
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e7cf0 | 68, 71, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 18.2727 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e7e50 | 58, 61, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.111837 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af75eb970 | 34, 35, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.111903 |
+Time 120.132251
+stopped Wed 2 Oct 2024 16:35:33 BST
+started Wed 2 Oct 2024 16:35:34 BST
+===
+name socialmedia
+Charge: 99.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 9163
+Janky frames: 135 (1.47%)
+Janky frames (legacy): 625 (6.82%)
+50th percentile: 11ms
+90th percentile: 13ms
+95th percentile: 23ms
+99th percentile: 26ms
+Number Missed Vsync: 7
+t=2175833
+CH0(T=2110725)[S2M_VDD_CPUCL2], 277695632
+CH1(T=2110725)[S3M_VDD_CPUCL1], 94482222
+CH2(T=2110725)[S4M_VDD_CPUCL0], 231789072
+CH3(T=2110722)[S6M_VDD_CPUCL2_M], 27247005
+CH4(T=2110721)[L2M_ALIVE], 22248485
+CH5(T=2110720)[L11M_VDD_CPUCL1_M], 5533042
+CH6(T=2110720)[L12M_VDD_CPUCL0_M], 31010339
+CH7(T=2175833)[S1M_VDD_MIF], 132755694
+t=2175867
+CH0(T=2110751)[S1S_VDD_CAM], 30680753
+CH1(T=2110749)[S2S_VDD_G3D], 36670972
+CH2(T=2110748)[S4S_VDD2H_MEM], 88811617
+CH3(T=2175867)[S5S_VDDQ_MEM], 17681544
+CH4(T=2110748)[S8S_VDD_G3D_L2], 18135760
+CH5(T=2110747)[S10S_VDD2L], 29272873
+CH6(T=2110747)[L1S_VDD_G3D_M], 6856308
+CH7(T=2175867)[L8S_UFS_VCCQ], 46661760
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e6850 | 63, 65, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 26.3005 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e8ed0 | 35, 39, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.263283 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007af75ea0b0 | 85, 88, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+**DONE**
+
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 13435
+Janky frames: 198 (1.47%)
+Janky frames (legacy): 758 (5.64%)
+50th percentile: 12ms
+90th percentile: 13ms
+95th percentile: 21ms
+99th percentile: 26ms
+Number Missed Vsync: 8
+t=2295976
+CH0(T=2230868)[S2M_VDD_CPUCL2], 286424808
+CH1(T=2230868)[S3M_VDD_CPUCL1], 99004791
+CH2(T=2230868)[S4M_VDD_CPUCL0], 245337303
+CH3(T=2230865)[S6M_VDD_CPUCL2_M], 29006413
+CH4(T=2230864)[L2M_ALIVE], 23882774
+CH5(T=2230863)[L11M_VDD_CPUCL1_M], 5875048
+CH6(T=2230863)[L12M_VDD_CPUCL0_M], 32725085
+CH7(T=2295976)[S1M_VDD_MIF], 140455971
+t=2296010
+CH0(T=2230894)[S1S_VDD_CAM], 32842372
+CH1(T=2230892)[S2S_VDD_G3D], 39450626
+CH2(T=2230891)[S4S_VDD2H_MEM], 94919751
+CH3(T=2296010)[S5S_VDDQ_MEM], 18531280
+CH4(T=2230891)[S8S_VDD_G3D_L2], 19298770
+CH5(T=2230890)[S10S_VDD2L], 30887312
+CH6(T=2230890)[L1S_VDD_G3D_M], 7363076
+CH7(T=2296010)[L8S_UFS_VCCQ], 48077894
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e7cf0 | 68, 71, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 37.4314 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e71f0 | 57, 58, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.111898 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af75ea0b0 | 85, 88, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.112663 |
+Time 120.138548
+stopped Wed 2 Oct 2024 16:37:37 BST
+started Wed 2 Oct 2024 16:37:38 BST
+===
+name socialmedia
+Charge: 99.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 13565
+Janky frames: 204 (1.50%)
+Janky frames (legacy): 769 (5.67%)
+50th percentile: 12ms
+90th percentile: 13ms
+95th percentile: 21ms
+99th percentile: 26ms
+Number Missed Vsync: 11
+t=2299479
+CH0(T=2234371)[S2M_VDD_CPUCL2], 287427131
+CH1(T=2234371)[S3M_VDD_CPUCL1], 99433772
+CH2(T=2234371)[S4M_VDD_CPUCL0], 246240152
+CH3(T=2234368)[S6M_VDD_CPUCL2_M], 29087244
+CH4(T=2234367)[L2M_ALIVE], 23942107
+CH5(T=2234366)[L11M_VDD_CPUCL1_M], 5896395
+CH6(T=2234366)[L12M_VDD_CPUCL0_M], 32802630
+CH7(T=2299479)[S1M_VDD_MIF], 140901306
+t=2299508
+CH0(T=2234392)[S1S_VDD_CAM], 32912270
+CH1(T=2234390)[S2S_VDD_G3D], 39701070
+CH2(T=2234389)[S4S_VDD2H_MEM], 95271511
+CH3(T=2299508)[S5S_VDDQ_MEM], 18602760
+CH4(T=2234389)[S8S_VDD_G3D_L2], 19343366
+CH5(T=2234388)[S10S_VDD2L], 30936374
+CH6(T=2234388)[L1S_VDD_G3D_M], 7398436
+CH7(T=2299508)[L8S_UFS_VCCQ], 48262573
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   0    |    1     | 0xb400007af75eb970 | 60, 61, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 17.383 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e8ed0 | 35, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.196951 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007af75e7e50 | 39, 52, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+**DONE**
+
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 17872
+Janky frames: 266 (1.49%)
+Janky frames (legacy): 1002 (5.61%)
+50th percentile: 12ms
+90th percentile: 13ms
+95th percentile: 21ms
+99th percentile: 26ms
+Number Missed Vsync: 12
+t=2419614
+CH0(T=2354506)[S2M_VDD_CPUCL2], 296481924
+CH1(T=2354506)[S3M_VDD_CPUCL1], 104103498
+CH2(T=2354506)[S4M_VDD_CPUCL0], 259699771
+CH3(T=2354503)[S6M_VDD_CPUCL2_M], 30870050
+CH4(T=2354502)[L2M_ALIVE], 25561129
+CH5(T=2354501)[L11M_VDD_CPUCL1_M], 6252289
+CH6(T=2354501)[L12M_VDD_CPUCL0_M], 34528343
+CH7(T=2419614)[S1M_VDD_MIF], 148617368
+t=2419645
+CH0(T=2354529)[S1S_VDD_CAM], 35080394
+CH1(T=2354527)[S2S_VDD_G3D], 42699668
+CH2(T=2354526)[S4S_VDD2H_MEM], 101414838
+CH3(T=2419645)[S5S_VDDQ_MEM], 19466465
+CH4(T=2354526)[S8S_VDD_G3D_L2], 20527277
+CH5(T=2354525)[S10S_VDD2L], 32560631
+CH6(T=2354525)[L1S_VDD_G3D_M], 7915783
+CH7(T=2419645)[L8S_UFS_VCCQ], 49635330
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e8270 | 72, 73, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 18.3091 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75ea370 | 45, 50, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.334289 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af75e6dd0 | 35, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.334208 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+Time 120.148170
+stopped Wed 2 Oct 2024 16:39:40 BST
+started Wed 2 Oct 2024 16:39:41 BST
+===
+name socialmedia
+Charge: 99.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 18028
+Janky frames: 274 (1.52%)
+Janky frames (legacy): 1014 (5.62%)
+50th percentile: 12ms
+90th percentile: 13ms
+95th percentile: 21ms
+99th percentile: 26ms
+Number Missed Vsync: 16
+t=2423018
+CH0(T=2357910)[S2M_VDD_CPUCL2], 297609026
+CH1(T=2357910)[S3M_VDD_CPUCL1], 104520422
+CH2(T=2357910)[S4M_VDD_CPUCL0], 260611476
+CH3(T=2357907)[S6M_VDD_CPUCL2_M], 30956876
+CH4(T=2357906)[L2M_ALIVE], 25622176
+CH5(T=2357905)[L11M_VDD_CPUCL1_M], 6275339
+CH6(T=2357905)[L12M_VDD_CPUCL0_M], 34604212
+CH7(T=2423018)[S1M_VDD_MIF], 149098329
+t=2423033
+CH0(T=2357917)[S1S_VDD_CAM], 35151326
+CH1(T=2357915)[S2S_VDD_G3D], 42939698
+CH2(T=2357914)[S4S_VDD2H_MEM], 101748814
+CH3(T=2423033)[S5S_VDDQ_MEM], 19530140
+CH4(T=2357914)[S8S_VDD_G3D_L2], 20572434
+CH5(T=2357913)[S10S_VDD2L], 32605043
+CH6(T=2357913)[L1S_VDD_G3D_M], 7946132
+CH7(T=2423033)[L8S_UFS_VCCQ], 49811190
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e7cf0 | 80, 81, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 45.1061 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e71f0 | 52, 55, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.546446 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007af75e6dd0 | 64, 65, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+**DONE**
+
+
+** Graphics info for pid 12378 [com.twitter.android] **
+
+Stats since: 1927139904626ns
+Total frames rendered: 22646
+Janky frames: 332 (1.47%)
+Janky frames (legacy): 1224 (5.40%)
+50th percentile: 12ms
+90th percentile: 13ms
+95th percentile: 21ms
+99th percentile: 26ms
+Number Missed Vsync: 19
+t=2543125
+CH0(T=2478017)[S2M_VDD_CPUCL2], 307072612
+CH1(T=2478017)[S3M_VDD_CPUCL1], 109987863
+CH2(T=2478017)[S4M_VDD_CPUCL0], 275202014
+CH3(T=2478014)[S6M_VDD_CPUCL2_M], 32853581
+CH4(T=2478013)[L2M_ALIVE], 27314382
+CH5(T=2478012)[L11M_VDD_CPUCL1_M], 6685347
+CH6(T=2478012)[L12M_VDD_CPUCL0_M], 36439233
+CH7(T=2543125)[S1M_VDD_MIF], 157399494
+t=2543139
+CH0(T=2478023)[S1S_VDD_CAM], 37464132
+CH1(T=2478021)[S2S_VDD_G3D], 46205154
+CH2(T=2478020)[S4S_VDD2H_MEM], 108352505
+CH3(T=2543139)[S5S_VDDQ_MEM], 20465275
+CH4(T=2478020)[S8S_VDD_G3D_L2], 21778554
+CH5(T=2478019)[S10S_VDD2L], 34224980
+CH6(T=2478019)[L1S_VDD_G3D_M], 8496862
+CH7(T=2543139)[L8S_UFS_VCCQ], 51954775
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007af75e6010 | 31, 57, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 5.41878 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007af75e7b90 | 59, 60, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.111475 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af75e8950 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.190903 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400007af75e7350 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 59.4748 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af75e6dd0 | 64, 65, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.111542 |
+Time 120.088684
+stopped Wed 2 Oct 2024 16:41:44 BST
