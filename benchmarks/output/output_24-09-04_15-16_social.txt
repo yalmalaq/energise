@@ -1,0 +1,2 @@
+**** run starting Wed  4 Sep 2024 15:16:07 BST
+could not find NDK, set the NDK environment variable

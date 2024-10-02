@@ -3,7 +3,8 @@ first() {
 }
 
 : ${NDK:=$(first /opt/android-sdk/ndk/*)}
-CLANG=$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android33-clang++
+#CLANG=$NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android33-clang++
+CLANG=$NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android33-clang++
 
 if ! test -d $NDK ; then
     echo could not find NDK, set the NDK environment variable

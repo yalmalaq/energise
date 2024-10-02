@@ -22,7 +22,7 @@ void scroll(bool up)
 void run_benchmark()
 {
     while (1) {
-	std::vector<const char*> urls = {"https://youtube.com", "https://reddit.com", "https://bbc.co.uk", "https://vice.com"};
+	std::vector<const char*> urls = {"https://youtube.com", "https://reddit.com", "https://bbc.co.uk", "https://www.theguardian.com/uk"};
 	for (const char *s : urls) {
             open_url(s);
             for (int i = 0; i < 25; i++) {

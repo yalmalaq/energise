@@ -1,0 +1,115 @@
+**** run starting Wed  4 Sep 2024 15:30:32 BST
+started Wed 4 Sep 2024 15:30:43 BST
+===
+name socialmedia
+Charge: 98.0
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+
+** Graphics info for pid 12339 [com.twitter.android] **
+
+Stats since: 3448331070652ns
+Total frames rendered: 105
+Janky frames: 1 (0.95%)
+Janky frames (legacy): 2 (1.90%)
+50th percentile: 8ms
+90th percentile: 11ms
+95th percentile: 17ms
+99th percentile: 89ms
+Number Missed Vsync: 1
+t=4355956
+CH0(T=2074)[S2M_VDD_CPUCL2], 743056
+CH1(T=2073)[S3M_VDD_CPUCL1], 293459
+CH2(T=2073)[S4M_VDD_CPUCL0], 576904
+CH3(T=2072)[S6M_VDD_CPUCL2_M], 45771
+CH4(T=2071)[L2M_ALIVE], 37366
+CH5(T=2071)[L11M_VDD_CPUCL1_M], 13243
+CH6(T=2070)[L12M_VDD_CPUCL0_M], 38762
+CH7(T=4355956)[S1M_VDD_MIF], 126703501
+t=4356005
+CH0(T=2118)[S1S_VDD_CAM], 38872
+CH1(T=2118)[S2S_VDD_G3D], 40071
+CH2(T=2117)[S4S_VDD2H_MEM], 170178
+CH3(T=4356005)[S5S_VDDQ_MEM], 17347890
+CH4(T=2117)[S8S_VDD_G3D_L2], 26156
+CH5(T=2117)[S10S_VDD2L], 35337
+CH6(T=2116)[L1S_VDD_G3D_M], 10490
+CH7(T=4356005)[L8S_UFS_VCCQ], 73447520
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000079b2522df0 | 56, 58, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 60.3961 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb4000079b251fc70 | 50, 52, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.95402 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb4000079b2521110 | 59, 60, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000079b25213d0 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0591448 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb4000079b2522c90 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.4604 |
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+Starting: Intent { cmp=com.twitter.android/.StartActivity }
+**DONE**
+
+
+** Graphics info for pid 12339 [com.twitter.android] **
+
+Stats since: 3448331070652ns
+Total frames rendered: 5751
+Janky frames: 61 (1.06%)
+Janky frames (legacy): 215 (3.74%)
+50th percentile: 8ms
+90th percentile: 12ms
+95th percentile: 17ms
+99th percentile: 26ms
+Number Missed Vsync: 5
+t=4476128
+CH0(T=122246)[S2M_VDD_CPUCL2], 14763478
+CH1(T=122245)[S3M_VDD_CPUCL1], 7947070
+CH2(T=122245)[S4M_VDD_CPUCL0], 22979619
+CH3(T=122244)[S6M_VDD_CPUCL2_M], 2365555
+CH4(T=122243)[L2M_ALIVE], 2082793
+CH5(T=122243)[L11M_VDD_CPUCL1_M], 564402
+CH6(T=122242)[L12M_VDD_CPUCL0_M], 2057322
+CH7(T=4476128)[S1M_VDD_MIF], 137597584
+t=4476151
+CH0(T=122264)[S1S_VDD_CAM], 2792026
+CH1(T=122264)[S2S_VDD_G3D], 4668292
+CH2(T=122263)[S4S_VDD2H_MEM], 9012760
+CH3(T=4476151)[S5S_VDDQ_MEM], 18696935
+CH4(T=122263)[S8S_VDD_G3D_L2], 1355121
+CH5(T=122263)[S10S_VDD2L], 1732125
+CH6(T=122262)[L1S_VDD_G3D_M], 678300
+CH7(T=4476151)[L8S_UFS_VCCQ], 77382745
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000079b2521ed0 | 76, 88, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 37.9791 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000079b25222f0 | 61, 64, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.109139 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000079b25213d0 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0591448 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb4000079b2522c90 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.4604 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb4000079b2521110 | 59, 60, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.109166 |
+Time 120.140268
+stopped Wed 4 Sep 2024 15:32:46 BST

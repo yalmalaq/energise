@@ -62,7 +62,7 @@ void actions() {
     
     sleep(3);
     system("input touchscreen swipe 540 960 540 1600 1000");
-    }
+    
 }
 
 void run_benchmark()
