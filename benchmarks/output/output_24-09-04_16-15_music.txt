@@ -1,0 +1,100 @@
+**** run starting Wed  4 Sep 2024 16:15:21 BST
+started Wed 4 Sep 2024 16:15:24 BST
+===
+name bgmusic
+Charge: 98.8
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+t=905970
+CH0(T=862100)[S2M_VDD_CPUCL2], 78067028
+CH1(T=862100)[S3M_VDD_CPUCL1], 36923352
+CH2(T=862100)[S4M_VDD_CPUCL0], 88621376
+CH3(T=862099)[S6M_VDD_CPUCL2_M], 9256549
+CH4(T=862099)[L2M_ALIVE], 8860397
+CH5(T=862099)[L11M_VDD_CPUCL1_M], 2109502
+CH6(T=862099)[L12M_VDD_CPUCL0_M], 11775432
+CH7(T=905970)[S1M_VDD_MIF], 55065032
+t=905971
+CH0(T=862098)[S1S_VDD_CAM], 12961362
+CH1(T=862098)[S2S_VDD_G3D], 15436005
+CH2(T=862098)[S4S_VDD2H_MEM], 33015256
+CH3(T=905971)[S5S_VDDQ_MEM], 8917593
+CH4(T=862097)[S8S_VDD_G3D_L2], 7422426
+CH5(T=862097)[S10S_VDD2L], 12241928
+CH6(T=862097)[L1S_VDD_G3D_M], 2835324
+CH7(T=905971)[L8S_UFS_VCCQ], 40302100
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400006f15b43090 | 61, 66, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 60.7071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   1    |    1     | 0xb400006f15b42b10 | 79, 80, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |        color        | format  | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+---------------------+---------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0x0, 0x0, 0x0, 0xff | ImplDef |    0x0    |    0    |  0x2  |  0.700195  |  0  |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   3    |    1     | 0xb400006f15b46e70 | 82, 87, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 63.0364 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400006f15b452f0 | 70, 72, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.62346 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   5    |    1     | 0xb400006f15b47ad0 | 55, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   6    |    1     | 0xb400006f15b46370 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 4.14011 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   7    |    1     | 0xb400006f15b45c90 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 57.4369 |
+**DONE**
+
+t=1026155
+CH0(T=982285)[S2M_VDD_CPUCL2], 78939054
+CH1(T=982285)[S3M_VDD_CPUCL1], 38449090
+CH2(T=982285)[S4M_VDD_CPUCL0], 93256278
+CH3(T=982284)[S6M_VDD_CPUCL2_M], 9929800
+CH4(T=982284)[L2M_ALIVE], 9731513
+CH5(T=982284)[L11M_VDD_CPUCL1_M], 2169259
+CH6(T=982284)[L12M_VDD_CPUCL0_M], 12913299
+CH7(T=1026155)[S1M_VDD_MIF], 58021921
+t=1026193
+CH0(T=982320)[S1S_VDD_CAM], 14476213
+CH1(T=982320)[S2S_VDD_G3D], 16070638
+CH2(T=982320)[S4S_VDD2H_MEM], 35423033
+CH3(T=1026193)[S5S_VDDQ_MEM], 9552036
+CH4(T=982319)[S8S_VDD_G3D_L2], 8254841
+CH5(T=982319)[S10S_VDD2L], 13991643
+CH6(T=982319)[L1S_VDD_G3D_M], 3047898
+CH7(T=1026193)[L8S_UFS_VCCQ], 41633791
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400006f15b42590 | 36, 45, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 6.92228 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   1    |    1     | 0xb400006f15b42010 | 33, 34, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0697804 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   2    |    1     | 0xb400006f15b47ad0 | 55, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0657381 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   3    |    1     | 0xb400006f15b46370 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 4.14011 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb400006f15b45c90 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 57.4369 |
+Time 120.169467
+stopped Wed 4 Sep 2024 16:17:27 BST
