@@ -1,7 +1,7 @@
 void extra_stats();
 
 #define BENCHMARK_NAME "Game"
-#define PACKAGE_NAME "com.JindoBlu.OfflineGames"
+#define PACKAGE_NAME "com.bigduckgames.flow"
 #define EXTRA_STATS extra_stats
 
 #include "benchmark.inc"
