@@ -1,3 +1,4 @@
+#define PACKAGE_NAME "com.soundcloud.android"
 #define BENCHMARK_NAME "bgmusic"
 
 #include "benchmark.inc"
