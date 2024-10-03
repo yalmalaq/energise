@@ -2,10 +2,10 @@ OUTPUT_FILE=output/output_$(date '+%y-%m-%d_%H-%M')_games.txt
 
 echo "**** run starting $(date)" >> $OUTPUT_FILE
 
-remote_adb shell sh /data/ryan/unlock.sh
-remote_adb shell sh /data/ryan/prevent_sleep.sh
 
 for i in $(seq 1); do
+remote_adb shell sh /data/ryan/unlock.sh
+remote_adb shell sh /data/ryan/prevent_sleep.sh
     #sh runone.sh apps/web-task.cpp | tee -a $OUTPUT_FILE
     #sh runone.sh apps/background-music.cpp | tee -a $OUTPUT_FILE
     sh runone.sh apps/games.cpp | tee -a $OUTPUT_FILE
@@ -14,10 +14,13 @@ for i in $(seq 1); do
     
     #sh runone.sh video-call.cpp | tee -a output
     #video playing?
+    remote_adb shell sh /data/ryan/allow_sleep.sh
+    remote_adb shell sh /data/ryan/clear.sh
+
+    sleep 10
+
 done
 
-remote_adb shell sh /data/ryan/allow_sleep.sh
-remote_adb shell sh /data/ryan/clear.sh
 
 echo "done"
 

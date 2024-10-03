@@ -16,11 +16,11 @@ for i in $(seq 5); do
     #sh runone.sh video-call.cpp | tee -a output
     #video playing?
 
-    sleep 5
 
     remote_adb shell sh /data/ryan/allow_sleep.sh
     remote_adb shell sh /data/ryan/clear.sh
 
+    sleep 10 
 done
 
 
