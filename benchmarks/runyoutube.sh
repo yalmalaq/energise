@@ -3,7 +3,7 @@ OUTPUT_FILE=output/base/output_$(date '+%y-%m-%d_%H-%M')_youtube.txt
 echo "**** run starting $(date)" >> $OUTPUT_FILE
 
 
-for i in $(seq 1); do
+for i in $(seq 5); do
     remote_adb shell sh /data/ryan/unlock.sh
     remote_adb shell sh /data/ryan/prevent_sleep.sh
 
