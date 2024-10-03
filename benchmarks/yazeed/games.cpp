@@ -141,24 +141,94 @@ void actions() {
     sleep(5);
     
     system("input touchscreen tap 540 600");
-    
     sleep(3);
-    system("input touchscreen tap 540 600");
-
+    system("input touchscreen tap 200 700");
     sleep(3);
     system("input touchscreen tap 200 900");
+    
+    
+    sleep(3);
+//    system("input touchscreen tap 540 600");
+//
+//    sleep(3);
+//    system("input touchscreen tap 200 900");
+//    
+//    system("input touchscreen tap 200 800");
 
-    sleep(3);
     system("input touchscreen swipe 540 960 800 400 1000");
     
     sleep(3);
     system("input touchscreen swipe 540 960 800 400 1000");
+    
+    //green
+    system("input touchscreen swipe 540 800 200 1600 1000");
+    sleep(2);
     
     sleep(3);
     system("input touchscreen swipe 540 960 540 1600 1000");
     
     sleep(3);
     system("input touchscreen swipe 540 960 540 1600 1000");
+    
+    system("input touchscreen swipe 540 960 800 400 1000");
+    
+    sleep(3);
+    system("input touchscreen swipe 540 960 800 400 1000");
+    
+    
+    //blue
+    sleep(3);
+    system("input touchscreen swipe 540 960 540 1600 1000");
+    
+    sleep(2);
+
+    system("input touchscreen swipe 540 800 200 1600 1000");
+    sleep(2);
+    
+    //yellow
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+    
+    
+    //orange
+    system("input touchscreen swipe 950 950 500 1800 1000");
+    sleep(2);
+    
+    //yellow again crash
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+    
+    //yellow
+    system("input touchscreen swipe 950 950 800 1600 1000");
+    sleep(2);
+    
+    //orange
+    system("input touchscreen swipe 540 960 800 400 1000");
+    
+    sleep(3);
+    system("input touchscreen swipe 540 960 540 1600 1000");
+    
+
+    system("input touchscreen swipe 540 800 200 1600 1000");
+    sleep(2);
+
+    //yellow
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+
+    //orange
+    system("input touchscreen swipe 950 950 500 1800 1000");
+    sleep(2);
+
+    //yellow again crash
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+
+    //yellow
+    system("input touchscreen swipe 950 950 800 1600 1000");
+    
+    system("input touchscreen swipe 200 960 200 1600 1000");
+
 
 }
 
