@@ -1,4 +1,4 @@
-OUTPUT_FILE=output/base/output_$(date '+%y-%m-%d_%H-%M')_music.txt
+OUTPUT_FILE=output/sleepy_run/output_$(date '+%y-%m-%d_%H-%M')_music.txt
 
 echo "**** run starting $(date)" >> $OUTPUT_FILE
 

@@ -1,0 +1,560 @@
+**** run starting Fri  4 Oct 2024 09:26:19 BST
+started Fri 4 Oct 2024 09:26:23 BST
+===
+name bgmusic
+Charge: 98.2
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 41
+Janky frames: 3 (7.32%)
+Janky frames (legacy): 8 (19.51%)
+50th percentile: 12ms
+90th percentile: 61ms
+95th percentile: 89ms
+99th percentile: 250ms
+Number Missed Vsync: 2
+t=1852693
+CH0(T=1808647)[S2M_VDD_CPUCL2], 319371938
+CH1(T=1808647)[S3M_VDD_CPUCL1], 110176627
+CH2(T=1808647)[S4M_VDD_CPUCL0], 279356027
+CH3(T=1808647)[S6M_VDD_CPUCL2_M], 28774925
+CH4(T=1808646)[L2M_ALIVE], 24298924
+CH5(T=1808644)[L11M_VDD_CPUCL1_M], 6974906
+CH6(T=1808643)[L12M_VDD_CPUCL0_M], 31567337
+CH7(T=1852693)[S1M_VDD_MIF], 150125350
+t=1852704
+CH0(T=1808652)[S1S_VDD_CAM], 32612458
+CH1(T=1808652)[S2S_VDD_G3D], 46804790
+CH2(T=1808652)[S4S_VDD2H_MEM], 105684937
+CH3(T=1852704)[S5S_VDDQ_MEM], 23251248
+CH4(T=1808651)[S8S_VDD_G3D_L2], 17542513
+CH5(T=1808651)[S10S_VDD2L], 26518762
+CH6(T=1808651)[L1S_VDD_G3D_M], 7799309
+CH7(T=1852704)[L8S_UFS_VCCQ], 48116018
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b7f990 | 63, 65, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 25.1888 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb4000073b9b7a190 | 69, 70, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.62289 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb4000073b9b7c6b0 | 28, 30, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   3    |    1     | 0xb4000073b9b78350 | 50, 57, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   4    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   5    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 3.08194 |
+**DONE**
+
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 7088
+Janky frames: 6 (0.08%)
+Janky frames (legacy): 4267 (60.20%)
+50th percentile: 22ms
+90th percentile: 25ms
+95th percentile: 25ms
+99th percentile: 28ms
+Number Missed Vsync: 2
+t=1972849
+CH0(T=1928803)[S2M_VDD_CPUCL2], 324676714
+CH1(T=1928803)[S3M_VDD_CPUCL1], 114359148
+CH2(T=1928803)[S4M_VDD_CPUCL0], 290542836
+CH3(T=1928803)[S6M_VDD_CPUCL2_M], 30306487
+CH4(T=1928802)[L2M_ALIVE], 26158174
+CH5(T=1928800)[L11M_VDD_CPUCL1_M], 7391386
+CH6(T=1928799)[L12M_VDD_CPUCL0_M], 33203318
+CH7(T=1972849)[S1M_VDD_MIF], 158306068
+t=1972861
+CH0(T=1928809)[S1S_VDD_CAM], 34909188
+CH1(T=1928809)[S2S_VDD_G3D], 49092416
+CH2(T=1928809)[S4S_VDD2H_MEM], 111894110
+CH3(T=1972861)[S5S_VDDQ_MEM], 24290248
+CH4(T=1928808)[S8S_VDD_G3D_L2], 18747473
+CH5(T=1928808)[S10S_VDD2L], 28345657
+CH6(T=1928808)[L1S_VDD_G3D_M], 8324377
+CH7(T=1972861)[L8S_UFS_VCCQ], 49596151
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b78610 | 55, 56, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 59.9942 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000073b9b7adf0 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.361428 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb4000073b9b77010 | 52, 60, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.121951 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.08194 |
+Time 120.166907
+stopped Fri 4 Oct 2024 09:28:26 BST
+started Fri 4 Oct 2024 09:28:38 BST
+===
+name bgmusic
+Charge: 98.2
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 7131
+Janky frames: 7 (0.10%)
+Janky frames (legacy): 4270 (59.88%)
+50th percentile: 22ms
+90th percentile: 25ms
+95th percentile: 25ms
+99th percentile: 28ms
+Number Missed Vsync: 3
+t=1987433
+CH0(T=1943387)[S2M_VDD_CPUCL2], 327341950
+CH1(T=1943387)[S3M_VDD_CPUCL1], 114991830
+CH2(T=1943387)[S4M_VDD_CPUCL0], 292163361
+CH3(T=1943387)[S6M_VDD_CPUCL2_M], 30451622
+CH4(T=1943386)[L2M_ALIVE], 26293748
+CH5(T=1943384)[L11M_VDD_CPUCL1_M], 7417306
+CH6(T=1943383)[L12M_VDD_CPUCL0_M], 33405679
+CH7(T=1987433)[S1M_VDD_MIF], 159200882
+t=1987435
+CH0(T=1943383)[S1S_VDD_CAM], 35093174
+CH1(T=1943383)[S2S_VDD_G3D], 49272409
+CH2(T=1943383)[S4S_VDD2H_MEM], 112464836
+CH3(T=1987435)[S5S_VDDQ_MEM], 24451871
+CH4(T=1943382)[S8S_VDD_G3D_L2], 18863703
+CH5(T=1943382)[S10S_VDD2L], 28568534
+CH6(T=1943382)[L1S_VDD_G3D_M], 8367531
+CH7(T=1987435)[L8S_UFS_VCCQ], 50021501
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b77010 | 60, 82, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 61.4396 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000073b9b784b0 | 68, 80, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.329198 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb4000073b9b7a5b0 | 50, 55, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 3.08194 |
+**DONE**
+
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 14173
+Janky frames: 9 (0.06%)
+Janky frames (legacy): 4338 (30.61%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 3
+t=2107509
+CH0(T=2063463)[S2M_VDD_CPUCL2], 333045784
+CH1(T=2063463)[S3M_VDD_CPUCL1], 118844042
+CH2(T=2063463)[S4M_VDD_CPUCL0], 302885085
+CH3(T=2063463)[S6M_VDD_CPUCL2_M], 32090043
+CH4(T=2063462)[L2M_ALIVE], 28112272
+CH5(T=2063460)[L11M_VDD_CPUCL1_M], 7823365
+CH6(T=2063459)[L12M_VDD_CPUCL0_M], 34998754
+CH7(T=2107509)[S1M_VDD_MIF], 167132502
+t=2107510
+CH0(T=2063458)[S1S_VDD_CAM], 37376558
+CH1(T=2063458)[S2S_VDD_G3D], 51490840
+CH2(T=2063458)[S4S_VDD2H_MEM], 118597141
+CH3(T=2107510)[S5S_VDDQ_MEM], 25466561
+CH4(T=2063457)[S8S_VDD_G3D_L2], 20045221
+CH5(T=2063457)[S10S_VDD2L], 30331182
+CH6(T=2063457)[L1S_VDD_G3D_M], 8874158
+CH7(T=2107510)[L8S_UFS_VCCQ], 51058925
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b779b0 | 30, 31, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 59.9725 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   1    |    1     | 0xb4000073b9b7a190 | 69, 70, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0719274 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   2    |    1     | 0xb4000073b9b7bd10 | 36, 62, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0481838 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.08194 |
+Time 120.161573
+stopped Fri 4 Oct 2024 09:30:41 BST
+started Fri 4 Oct 2024 09:30:53 BST
+===
+name bgmusic
+Charge: 98.2
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 14217
+Janky frames: 11 (0.08%)
+Janky frames (legacy): 4341 (30.53%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 5
+t=2122248
+CH0(T=2078202)[S2M_VDD_CPUCL2], 335691994
+CH1(T=2078202)[S3M_VDD_CPUCL1], 119413445
+CH2(T=2078202)[S4M_VDD_CPUCL0], 304282654
+CH3(T=2078202)[S6M_VDD_CPUCL2_M], 32235759
+CH4(T=2078201)[L2M_ALIVE], 28246022
+CH5(T=2078199)[L11M_VDD_CPUCL1_M], 7846852
+CH6(T=2078198)[L12M_VDD_CPUCL0_M], 35193190
+CH7(T=2122248)[S1M_VDD_MIF], 167996024
+t=2122279
+CH0(T=2078227)[S1S_VDD_CAM], 37562180
+CH1(T=2078227)[S2S_VDD_G3D], 51632317
+CH2(T=2078227)[S4S_VDD2H_MEM], 119146487
+CH3(T=2122279)[S5S_VDDQ_MEM], 25627678
+CH4(T=2078226)[S8S_VDD_G3D_L2], 20160618
+CH5(T=2078226)[S10S_VDD2L], 30555888
+CH6(T=2078226)[L1S_VDD_G3D_M], 8910924
+CH7(T=2122279)[L8S_UFS_VCCQ], 51341191
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b77010 | 66, 85, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 20.1082 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   1    |    1     | 0xb4000073b9b784b0 | 68, 80, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0918076 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb4000073b9b78350 | 39, 52, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 3.08194 |
+**DONE**
+
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 21261
+Janky frames: 13 (0.06%)
+Janky frames (legacy): 7149 (33.62%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 5
+t=2242441
+CH0(T=2198395)[S2M_VDD_CPUCL2], 341221453
+CH1(T=2198395)[S3M_VDD_CPUCL1], 122976426
+CH2(T=2198395)[S4M_VDD_CPUCL0], 314856526
+CH3(T=2198395)[S6M_VDD_CPUCL2_M], 33844432
+CH4(T=2198394)[L2M_ALIVE], 30086006
+CH5(T=2198392)[L11M_VDD_CPUCL1_M], 8224345
+CH6(T=2198391)[L12M_VDD_CPUCL0_M], 36779923
+CH7(T=2242441)[S1M_VDD_MIF], 175939877
+t=2242475
+CH0(T=2198423)[S1S_VDD_CAM], 39846194
+CH1(T=2198423)[S2S_VDD_G3D], 53867721
+CH2(T=2198423)[S4S_VDD2H_MEM], 125264972
+CH3(T=2242475)[S5S_VDDQ_MEM], 26626073
+CH4(T=2198422)[S8S_VDD_G3D_L2], 21338637
+CH5(T=2198422)[S10S_VDD2L], 32333558
+CH6(T=2198422)[L1S_VDD_G3D_M], 9414631
+CH7(T=2242475)[L8S_UFS_VCCQ], 52376307
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b7bd10 | 45, 50, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 59.9925 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000073b9b784b0 | 68, 80, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.170927 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb4000073b9b779b0 | 36, 55, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.115264 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.08194 |
+Time 120.191919
+stopped Fri 4 Oct 2024 09:32:55 BST
+started Fri 4 Oct 2024 09:33:08 BST
+===
+name bgmusic
+Charge: 98.2
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 21305
+Janky frames: 15 (0.07%)
+Janky frames (legacy): 7152 (33.57%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 7
+t=2257057
+CH0(T=2213011)[S2M_VDD_CPUCL2], 344050762
+CH1(T=2213011)[S3M_VDD_CPUCL1], 123597758
+CH2(T=2213011)[S4M_VDD_CPUCL0], 316297105
+CH3(T=2213011)[S6M_VDD_CPUCL2_M], 33988360
+CH4(T=2213010)[L2M_ALIVE], 30220395
+CH5(T=2213008)[L11M_VDD_CPUCL1_M], 8248429
+CH6(T=2213007)[L12M_VDD_CPUCL0_M], 36976510
+CH7(T=2257057)[S1M_VDD_MIF], 176832402
+t=2257093
+CH0(T=2213041)[S1S_VDD_CAM], 40031213
+CH1(T=2213041)[S2S_VDD_G3D], 54043172
+CH2(T=2213041)[S4S_VDD2H_MEM], 125836322
+CH3(T=2257093)[S5S_VDDQ_MEM], 26773080
+CH4(T=2213040)[S8S_VDD_G3D_L2], 21454231
+CH5(T=2213040)[S10S_VDD2L], 32554062
+CH6(T=2213040)[L1S_VDD_G3D_M], 9451385
+CH7(T=2257093)[L8S_UFS_VCCQ], 52787013
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b78610 | 86, 90, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 19.7794 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb4000073b9b7a190 | 69, 70, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.23808 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb4000073b9b779b0 | 45, 50, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 3.08194 |
+**DONE**
+
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 28339
+Janky frames: 21 (0.07%)
+Janky frames (legacy): 9926 (35.03%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 8
+t=2377254
+CH0(T=2333208)[S2M_VDD_CPUCL2], 349671509
+CH1(T=2333208)[S3M_VDD_CPUCL1], 127728137
+CH2(T=2333208)[S4M_VDD_CPUCL0], 326946631
+CH3(T=2333208)[S6M_VDD_CPUCL2_M], 35556881
+CH4(T=2333207)[L2M_ALIVE], 32066855
+CH5(T=2333205)[L11M_VDD_CPUCL1_M], 8670686
+CH6(T=2333204)[L12M_VDD_CPUCL0_M], 38563360
+CH7(T=2377254)[S1M_VDD_MIF], 184871060
+t=2377335
+CH0(T=2333283)[S1S_VDD_CAM], 42322353
+CH1(T=2333283)[S2S_VDD_G3D], 56323829
+CH2(T=2333283)[S4S_VDD2H_MEM], 132054586
+CH3(T=2377335)[S5S_VDDQ_MEM], 27812158
+CH4(T=2333282)[S8S_VDD_G3D_L2], 22667638
+CH5(T=2333282)[S10S_VDD2L], 34323482
+CH6(T=2333282)[L1S_VDD_G3D_M], 9951933
+CH7(T=2377335)[L8S_UFS_VCCQ], 54005158
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b78090 | 91, 92, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 59.9948 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000073b9b784b0 | 68, 80, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.263481 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb4000073b9b7a5b0 | 36, 55, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.178816 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.08194 |
+Time 120.262672
+stopped Fri 4 Oct 2024 09:35:10 BST
+started Fri 4 Oct 2024 09:35:23 BST
+===
+name bgmusic
+Charge: 98.2
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 28382
+Janky frames: 22 (0.08%)
+Janky frames (legacy): 9930 (34.99%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 9
+t=2391958
+CH0(T=2347912)[S2M_VDD_CPUCL2], 352599348
+CH1(T=2347912)[S3M_VDD_CPUCL1], 128350412
+CH2(T=2347912)[S4M_VDD_CPUCL0], 328622819
+CH3(T=2347912)[S6M_VDD_CPUCL2_M], 35702127
+CH4(T=2347911)[L2M_ALIVE], 32207696
+CH5(T=2347909)[L11M_VDD_CPUCL1_M], 8694414
+CH6(T=2347908)[L12M_VDD_CPUCL0_M], 38769772
+CH7(T=2391958)[S1M_VDD_MIF], 185784464
+t=2391975
+CH0(T=2347923)[S1S_VDD_CAM], 42506656
+CH1(T=2347923)[S2S_VDD_G3D], 56460510
+CH2(T=2347923)[S4S_VDD2H_MEM], 132613989
+CH3(T=2391975)[S5S_VDDQ_MEM], 27970777
+CH4(T=2347922)[S8S_VDD_G3D_L2], 22782050
+CH5(T=2347922)[S10S_VDD2L], 34551566
+CH6(T=2347922)[L1S_VDD_G3D_M], 9987694
+CH7(T=2391975)[L8S_UFS_VCCQ], 54347045
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b7f990 | 55, 77, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 60.9839 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000073b9b7adf0 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.300434 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb4000073b9b7c6b0 | 50, 52, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 3.08194 |
+**DONE**
+
+
+** Graphics info for pid 9286 [com.soundcloud.android] **
+
+Stats since: 1850686266487ns
+Total frames rendered: 35421
+Janky frames: 25 (0.07%)
+Janky frames (legacy): 11434 (32.28%)
+50th percentile: 12ms
+90th percentile: 24ms
+95th percentile: 25ms
+99th percentile: 26ms
+Number Missed Vsync: 9
+t=2512114
+CH0(T=2468068)[S2M_VDD_CPUCL2], 358168196
+CH1(T=2468068)[S3M_VDD_CPUCL1], 132308758
+CH2(T=2468068)[S4M_VDD_CPUCL0], 338326923
+CH3(T=2468068)[S6M_VDD_CPUCL2_M], 37337602
+CH4(T=2468067)[L2M_ALIVE], 34037096
+CH5(T=2468065)[L11M_VDD_CPUCL1_M], 9133164
+CH6(T=2468064)[L12M_VDD_CPUCL0_M], 40299090
+CH7(T=2512114)[S1M_VDD_MIF], 193706000
+t=2512141
+CH0(T=2468089)[S1S_VDD_CAM], 44792326
+CH1(T=2468089)[S2S_VDD_G3D], 58618618
+CH2(T=2468089)[S4S_VDD2H_MEM], 138770061
+CH3(T=2512141)[S5S_VDDQ_MEM], 28987304
+CH4(T=2468088)[S8S_VDD_G3D_L2], 24036708
+CH5(T=2468088)[S10S_VDD2L], 36318352
+CH6(T=2468088)[L1S_VDD_G3D_M], 10495895
+CH7(T=2512141)[L8S_UFS_VCCQ], 55317887
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb4000073b9b7a5b0 | 36, 39, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 59.9734 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb4000073b9b784b0 | 68, 80, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.114331 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   2    |    1     | 0xb4000073b9b77dd0 | 45, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0768019 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb4000073b9b78b90 | 40, 41, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0956071 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb4000073b9b7a2f0 | 42, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 3.08194 |
+Time 120.168521
+stopped Fri 4 Oct 2024 09:37:25 BST
