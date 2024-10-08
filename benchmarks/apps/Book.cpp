@@ -22,7 +22,7 @@ void scroll(bool up)
 void run_benchmark()
 {
     while (1) {
-	std::vector<const char*> urls = {"https://milton.host.dartmouth.edu/reading_room/pl/book_9/text.shtml"};
+	std::vector<const char*> urls = {"https://www.gutenberg.org/cache/epub/26/pg26-images.html"};
 	for (const char *s : urls) {
             open_url(s);
             for (int i = 0; i < 25; i++) {
