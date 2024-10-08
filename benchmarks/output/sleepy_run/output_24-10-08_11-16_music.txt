@@ -1,0 +1,17 @@
+**** run starting Tue  8 Oct 2024 11:16:13 BST
+started Tue 8 Oct 2024 11:16:22 BST
+===
+name bgmusic
+Charge: 95.8
+smallf -1
+medf -1
+largef -1
+enabled 255
+started Tue 8 Oct 2024 11:16:47 BST
+===
+name bgmusic
+Charge: 95.9
+smallf -1
+medf -1
+largef -1
+enabled 255
