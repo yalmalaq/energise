@@ -1,4 +1,4 @@
-OUTPUT_FILE=output/output_$(date '+%y-%m-%d_%H-%M')_idle.txt
+OUTPUT_FILE=output/base/output_$(date '+%y-%m-%d_%H-%M')_idle.txt
 
 echo "**** run starting $(date)" >> $OUTPUT_FILE
 
