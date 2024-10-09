@@ -1,0 +1,556 @@
+**** run starting Tue  8 Oct 2024 15:24:03 BST
+started Tue 8 Oct 2024 15:24:07 BST
+===
+name book
+Charge: 96.4
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.gutenberg.org/... }
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 21
+Janky frames: 2 (9.52%)
+Janky frames (legacy): 3 (14.29%)
+50th percentile: 11ms
+90th percentile: 30ms
+95th percentile: 46ms
+99th percentile: 150ms
+Number Missed Vsync: 1
+t=702870
+CH0(T=2103)[S2M_VDD_CPUCL2], 1861072
+CH1(T=2102)[S3M_VDD_CPUCL1], 335322
+CH2(T=2102)[S4M_VDD_CPUCL0], 582743
+CH3(T=2102)[S6M_VDD_CPUCL2_M], 58026
+CH4(T=2101)[L2M_ALIVE], 29057
+CH5(T=2101)[L11M_VDD_CPUCL1_M], 13698
+CH6(T=2100)[L12M_VDD_CPUCL0_M], 54390
+CH7(T=702870)[S1M_VDD_MIF], 45970658
+t=702903
+CH0(T=2132)[S1S_VDD_CAM], 37075
+CH1(T=2132)[S2S_VDD_G3D], 75476
+CH2(T=2132)[S4S_VDD2H_MEM], 189600
+CH3(T=702903)[S5S_VDDQ_MEM], 6879193
+CH4(T=2132)[S8S_VDD_G3D_L2], 21473
+CH5(T=2131)[S10S_VDD2L], 29431
+CH6(T=2131)[L1S_VDD_G3D_M], 10769
+CH7(T=702903)[L8S_UFS_VCCQ], 32632396
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e97690 | 71, 72, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 27.2043 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb400007690e98df0 | 37, 45, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 3.63814 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007690e9b310 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0671275 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+**DONE**
+
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 465
+Janky frames: 6 (1.29%)
+Janky frames (legacy): 7 (1.51%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 23ms
+Number Missed Vsync: 1
+t=823102
+CH0(T=122335)[S2M_VDD_CPUCL2], 2715933
+CH1(T=122334)[S3M_VDD_CPUCL1], 1465598
+CH2(T=122334)[S4M_VDD_CPUCL0], 5533794
+CH3(T=122334)[S6M_VDD_CPUCL2_M], 726711
+CH4(T=122333)[L2M_ALIVE], 936189
+CH5(T=122333)[L11M_VDD_CPUCL1_M], 54231
+CH6(T=122332)[L12M_VDD_CPUCL0_M], 1278381
+CH7(T=823102)[S1M_VDD_MIF], 48653523
+t=823135
+CH0(T=122364)[S1S_VDD_CAM], 1465092
+CH1(T=122364)[S2S_VDD_G3D], 755901
+CH2(T=122364)[S4S_VDD2H_MEM], 2595715
+CH3(T=823135)[S5S_VDDQ_MEM], 7262472
+CH4(T=122364)[S8S_VDD_G3D_L2], 860690
+CH5(T=122363)[S10S_VDD2L], 1776883
+CH6(T=122363)[L1S_VDD_G3D_M], 222505
+CH7(T=823135)[L8S_UFS_VCCQ], 36526608
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e97690 | 71, 72, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 7.61023 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb400007690e98450 | 32, 33, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.20226 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007690e9b310 | 58, 59, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.194709 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0671275 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+Time 120.218684
+stopped Tue 8 Oct 2024 15:26:09 BST
+started Tue 8 Oct 2024 15:26:22 BST
+===
+name book
+Charge: 96.9
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.gutenberg.org/... }
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 493
+Janky frames: 10 (2.03%)
+Janky frames (legacy): 12 (2.43%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 30ms
+Number Missed Vsync: 2
+t=837856
+CH0(T=137089)[S2M_VDD_CPUCL2], 6634223
+CH1(T=137088)[S3M_VDD_CPUCL1], 2027103
+CH2(T=137088)[S4M_VDD_CPUCL0], 7022007
+CH3(T=137088)[S6M_VDD_CPUCL2_M], 892226
+CH4(T=137087)[L2M_ALIVE], 1074134
+CH5(T=137087)[L11M_VDD_CPUCL1_M], 78595
+CH6(T=137086)[L12M_VDD_CPUCL0_M], 1482549
+CH7(T=837856)[S1M_VDD_MIF], 49543585
+t=837876
+CH0(T=137105)[S1S_VDD_CAM], 1654576
+CH1(T=137105)[S2S_VDD_G3D], 1066579
+CH2(T=137105)[S4S_VDD2H_MEM], 3151956
+CH3(T=837876)[S5S_VDDQ_MEM], 7407269
+CH4(T=137105)[S8S_VDD_G3D_L2], 980034
+CH5(T=137104)[S10S_VDD2L], 1986157
+CH6(T=137104)[L1S_VDD_G3D_M], 266766
+CH7(T=837876)[L8S_UFS_VCCQ], 36980814
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e98f50 | 72, 73, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 26.7252 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007690e98450 | 32, 33, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.193549 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007690e96e50 | 59, 69, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0991806 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+**DONE**
+
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 942
+Janky frames: 15 (1.59%)
+Janky frames (legacy): 18 (1.91%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 23ms
+Number Missed Vsync: 2
+t=958054
+CH0(T=257287)[S2M_VDD_CPUCL2], 7420164
+CH1(T=257286)[S3M_VDD_CPUCL1], 3014551
+CH2(T=257286)[S4M_VDD_CPUCL0], 9605958
+CH3(T=257286)[S6M_VDD_CPUCL2_M], 1546932
+CH4(T=257285)[L2M_ALIVE], 1919301
+CH5(T=257285)[L11M_VDD_CPUCL1_M], 107826
+CH6(T=257284)[L12M_VDD_CPUCL0_M], 2578479
+CH7(T=958054)[S1M_VDD_MIF], 51770799
+t=958087
+CH0(T=257316)[S1S_VDD_CAM], 3080254
+CH1(T=257316)[S2S_VDD_G3D], 1740503
+CH2(T=257316)[S4S_VDD2H_MEM], 5376980
+CH3(T=958087)[S5S_VDDQ_MEM], 7713901
+CH4(T=257316)[S8S_VDD_G3D_L2], 1819676
+CH5(T=257315)[S10S_VDD2L], 3714812
+CH6(T=257315)[L1S_VDD_G3D_M], 478762
+CH7(T=958087)[L8S_UFS_VCCQ], 37882771
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e96610 | 91, 94, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 7.66589 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   1    |    1     | 0xb400007690e9a130 | 60, 64, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0991807 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0991806 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 1.3626 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007690e96e50 | 59, 69, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.194784 |
+Time 120.213573
+stopped Tue 8 Oct 2024 15:28:24 BST
+started Tue 8 Oct 2024 15:28:37 BST
+===
+name book
+Charge: 97.3
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.gutenberg.org/... }
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 972
+Janky frames: 16 (1.65%)
+Janky frames (legacy): 19 (1.95%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 23ms
+Number Missed Vsync: 2
+t=972632
+CH0(T=271865)[S2M_VDD_CPUCL2], 10999933
+CH1(T=271864)[S3M_VDD_CPUCL1], 4263793
+CH2(T=271864)[S4M_VDD_CPUCL0], 11960866
+CH3(T=271864)[S6M_VDD_CPUCL2_M], 1720006
+CH4(T=271863)[L2M_ALIVE], 2070802
+CH5(T=271863)[L11M_VDD_CPUCL1_M], 162233
+CH6(T=271862)[L12M_VDD_CPUCL0_M], 2818944
+CH7(T=972632)[S1M_VDD_MIF], 52933828
+t=972659
+CH0(T=271888)[S1S_VDD_CAM], 3268746
+CH1(T=271888)[S2S_VDD_G3D], 1993855
+CH2(T=271888)[S4S_VDD2H_MEM], 6001592
+CH3(T=972659)[S5S_VDDQ_MEM], 7884710
+CH4(T=271888)[S8S_VDD_G3D_L2], 1933172
+CH5(T=271887)[S10S_VDD2L], 3917616
+CH6(T=271887)[L1S_VDD_G3D_M], 519410
+CH7(T=972659)[L8S_UFS_VCCQ], 38289691
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e964b0 | 94, 95, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 28.5629 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007690e98450 | 32, 33, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.195243 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007690e9bb50 | 90, 91, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0991806 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+**DONE**
+
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 1421
+Janky frames: 20 (1.41%)
+Janky frames (legacy): 24 (1.69%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 20ms
+Number Missed Vsync: 2
+t=1092800
+CH0(T=392033)[S2M_VDD_CPUCL2], 11899425
+CH1(T=392032)[S3M_VDD_CPUCL1], 5467753
+CH2(T=392032)[S4M_VDD_CPUCL0], 15397774
+CH3(T=392032)[S6M_VDD_CPUCL2_M], 2386706
+CH4(T=392031)[L2M_ALIVE], 2930400
+CH5(T=392031)[L11M_VDD_CPUCL1_M], 204599
+CH6(T=392030)[L12M_VDD_CPUCL0_M], 3945759
+CH7(T=1092800)[S1M_VDD_MIF], 55533154
+t=1092835
+CH0(T=392064)[S1S_VDD_CAM], 4693742
+CH1(T=392064)[S2S_VDD_G3D], 2668321
+CH2(T=392064)[S4S_VDD2H_MEM], 8299491
+CH3(T=1092835)[S5S_VDDQ_MEM], 8229762
+CH4(T=392064)[S8S_VDD_G3D_L2], 2768996
+CH5(T=392063)[S10S_VDD2L], 5644687
+CH6(T=392063)[L1S_VDD_G3D_M], 735317
+CH7(T=1092835)[L8S_UFS_VCCQ], 38831867
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e97ab0 | 79, 86, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 7.71735 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007690e97d70 | 60, 62, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.189786 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.0991806 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 1.3626 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007690e9bb50 | 90, 91, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     0      | 0.194312 |
+Time 120.213722
+stopped Tue 8 Oct 2024 15:30:39 BST
+started Tue 8 Oct 2024 15:30:51 BST
+===
+name book
+Charge: 97.7
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.gutenberg.org/... }
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 1450
+Janky frames: 22 (1.52%)
+Janky frames (legacy): 26 (1.79%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 21ms
+Number Missed Vsync: 2
+t=1107390
+CH0(T=406623)[S2M_VDD_CPUCL2], 15373256
+CH1(T=406622)[S3M_VDD_CPUCL1], 5991612
+CH2(T=406622)[S4M_VDD_CPUCL0], 16682512
+CH3(T=406622)[S6M_VDD_CPUCL2_M], 2550799
+CH4(T=406621)[L2M_ALIVE], 3063753
+CH5(T=406621)[L11M_VDD_CPUCL1_M], 225555
+CH6(T=406620)[L12M_VDD_CPUCL0_M], 4130465
+CH7(T=1107390)[S1M_VDD_MIF], 56380204
+t=1107402
+CH0(T=406631)[S1S_VDD_CAM], 4881820
+CH1(T=406631)[S2S_VDD_G3D], 2863771
+CH2(T=406631)[S4S_VDD2H_MEM], 8814952
+CH3(T=1107402)[S5S_VDDQ_MEM], 8358075
+CH4(T=406631)[S8S_VDD_G3D_L2], 2884341
+CH5(T=406630)[S10S_VDD2L], 5851853
+CH6(T=406630)[L1S_VDD_G3D_M], 772769
+CH7(T=1107402)[L8S_UFS_VCCQ], 38905114
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e96610 | 86, 87, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 27.3576 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007690e98df0 | 37, 45, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.298211 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007690e97270 | 90, 91, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0991806 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+**DONE**
+
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 1899
+Janky frames: 25 (1.32%)
+Janky frames (legacy): 33 (1.74%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 21ms
+Number Missed Vsync: 2
+t=1227546
+CH0(T=526779)[S2M_VDD_CPUCL2], 16187626
+CH1(T=526778)[S3M_VDD_CPUCL1], 7050769
+CH2(T=526778)[S4M_VDD_CPUCL0], 19410286
+CH3(T=526778)[S6M_VDD_CPUCL2_M], 3213411
+CH4(T=526777)[L2M_ALIVE], 3905987
+CH5(T=526777)[L11M_VDD_CPUCL1_M], 260011
+CH6(T=526776)[L12M_VDD_CPUCL0_M], 5211413
+CH7(T=1227546)[S1M_VDD_MIF], 58854239
+t=1227576
+CH0(T=526805)[S1S_VDD_CAM], 6307857
+CH1(T=526805)[S2S_VDD_G3D], 3576982
+CH2(T=526805)[S4S_VDD2H_MEM], 11084710
+CH3(T=1227576)[S5S_VDDQ_MEM], 8729199
+CH4(T=526805)[S8S_VDD_G3D_L2], 3734014
+CH5(T=526804)[S10S_VDD2L], 7573767
+CH6(T=526804)[L1S_VDD_G3D_M], 982553
+CH7(T=1227576)[L8S_UFS_VCCQ], 39328989
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e973d0 | 96, 99, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 7.78559 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   1    |    1     | 0xb400007690e98450 | 32, 33, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0242324 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007690e97270 | 90, 91, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.171692 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0991806 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+Time 120.208721
+stopped Tue 8 Oct 2024 15:32:54 BST
+started Tue 8 Oct 2024 15:33:06 BST
+===
+name book
+Charge: 98.0
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.gutenberg.org/... }
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 1929
+Janky frames: 27 (1.40%)
+Janky frames (legacy): 35 (1.81%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 21ms
+Number Missed Vsync: 2
+t=1242251
+CH0(T=541484)[S2M_VDD_CPUCL2], 19626800
+CH1(T=541483)[S3M_VDD_CPUCL1], 7616208
+CH2(T=541483)[S4M_VDD_CPUCL0], 20676848
+CH3(T=541483)[S6M_VDD_CPUCL2_M], 3368272
+CH4(T=541482)[L2M_ALIVE], 4037396
+CH5(T=541482)[L11M_VDD_CPUCL1_M], 280588
+CH6(T=541481)[L12M_VDD_CPUCL0_M], 5397673
+CH7(T=1242251)[S1M_VDD_MIF], 59684290
+t=1242282
+CH0(T=541511)[S1S_VDD_CAM], 6495052
+CH1(T=541511)[S2S_VDD_G3D], 3823843
+CH2(T=541511)[S4S_VDD2H_MEM], 11610035
+CH3(T=1242282)[S5S_VDDQ_MEM], 8855421
+CH4(T=541511)[S8S_VDD_G3D_L2], 3850224
+CH5(T=541510)[S10S_VDD2L], 7780161
+CH6(T=541510)[L1S_VDD_G3D_M], 1024756
+CH7(T=1242282)[L8S_UFS_VCCQ], 39451954
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e96610 | 67, 72, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 27.4084 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007690e98df0 | 37, 45, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.101685 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0xb400007690e97ed0 | 65, 66, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.149314 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+**DONE**
+
+
+** Graphics info for pid 8195 [org.lineageos.jelly] **
+
+Stats since: 510271415979ns
+Total frames rendered: 2376
+Janky frames: 31 (1.30%)
+Janky frames (legacy): 39 (1.64%)
+50th percentile: 12ms
+90th percentile: 12ms
+95th percentile: 13ms
+99th percentile: 21ms
+Number Missed Vsync: 2
+t=1362454
+CH0(T=661687)[S2M_VDD_CPUCL2], 20520747
+CH1(T=661686)[S3M_VDD_CPUCL1], 8800563
+CH2(T=661686)[S4M_VDD_CPUCL0], 23564318
+CH3(T=661686)[S6M_VDD_CPUCL2_M], 4031740
+CH4(T=661685)[L2M_ALIVE], 4882092
+CH5(T=661685)[L11M_VDD_CPUCL1_M], 319450
+CH6(T=661684)[L12M_VDD_CPUCL0_M], 6491122
+CH7(T=1362454)[S1M_VDD_MIF], 62103676
+t=1362484
+CH0(T=661713)[S1S_VDD_CAM], 7919730
+CH1(T=661713)[S2S_VDD_G3D], 4508847
+CH2(T=661713)[S4S_VDD2H_MEM], 13854056
+CH3(T=1362484)[S5S_VDDQ_MEM], 9194126
+CH4(T=661713)[S8S_VDD_G3D_L2], 4691852
+CH5(T=661712)[S10S_VDD2L], 9500410
+CH6(T=661712)[L1S_VDD_G3D_M], 1233048
+CH7(T=1362484)[L8S_UFS_VCCQ], 39980283
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007690e96610 | 67, 72, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 7.77863 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   1    |    1     | 0xb400007690e96350 | 50, 52, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.201971 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   2    |    1     | 0xb400007690e97ed0 | 65, 66, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.0649388 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007690e99370 | 43, 47, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.149314 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |  fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+--------+
+|   4    |    1     | 0xb400007690e96b90 | 46, 49, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.3626 |
+Time 120.208509
+stopped Tue 8 Oct 2024 15:35:09 BST
