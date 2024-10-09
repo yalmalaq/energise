@@ -1,0 +1,71 @@
+**** run starting Mon  7 Oct 2024 17:41:17 BST
+started Mon 7 Oct 2024 17:41:24 BST
+===
+name bgmusic
+Charge: 97.9
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=com.soundcloud.android/.launcher.LauncherActivity }
+
+** Graphics info for pid 14371 [com.soundcloud.android] **
+
+Stats since: 883985789534ns
+Total frames rendered: 44
+Janky frames: 6 (13.64%)
+Janky frames (legacy): 11 (25.00%)
+50th percentile: 12ms
+90th percentile: 105ms
+95th percentile: 150ms
+99th percentile: 250ms
+Number Missed Vsync: 5
+t=885763
+CH0(T=803285)[S2M_VDD_CPUCL2], 35643440
+CH1(T=803285)[S3M_VDD_CPUCL1], 20766291
+CH2(T=803285)[S4M_VDD_CPUCL0], 181882392
+CH3(T=803284)[S6M_VDD_CPUCL2_M], 6272770
+CH4(T=803284)[L2M_ALIVE], 10884262
+CH5(T=803284)[L11M_VDD_CPUCL1_M], 818128
+CH6(T=803284)[L12M_VDD_CPUCL0_M], 14355584
+CH7(T=885763)[S1M_VDD_MIF], 91233269
+t=885778
+CH0(T=803296)[S1S_VDD_CAM], 16213565
+CH1(T=803296)[S2S_VDD_G3D], 22310521
+CH2(T=803295)[S4S_VDD2H_MEM], 49610204
+CH3(T=885778)[S5S_VDDQ_MEM], 17881277
+CH4(T=803295)[S8S_VDD_G3D_L2], 7737161
+CH5(T=803295)[S10S_VDD2L], 11264748
+CH6(T=803294)[L1S_VDD_G3D_M], 3625926
+CH7(T=885778)[L8S_UFS_VCCQ], 40730210
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   0    |    1     | 0xb400007974572450 | 30, 31, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x1  |     1      | 39.1287 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   1    |    1     | 0xb40000797456fb10 | 52, 57, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |        color        | format  | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+---------------------+---------+-----------+---------+-------+------------+-----+
+|   2    |    1     | 0x0, 0x0, 0x0, 0xff | ImplDef |    0x0    |    0    |  0x2  |  0.409668  |  0  |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   3    |    1     | 0xb400007974576230 | 71, 76, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 68.3908 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   4    |    1     | 0xb40000797456f2d0 | 55, 56, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 1.62224 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   5    |    1     | 0xb400007974571d70 | 63, 64, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   6    |    1     | 0xb400007974571530 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.18818 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   7    |    1     | 0xb400007974570610 | 53, 54, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 59.4123 |

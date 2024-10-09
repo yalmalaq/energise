@@ -6,7 +6,6 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
-//#include <stdio.h>
 
 void enable_cores(long mask)
 {
@@ -50,6 +49,7 @@ long read_energy_values() {
     return 0;
     }
 
+
 void set_charging(bool on)
 {
     int fd = open("/sys/class/power_supply/usb/device/usb_limit_sink_enable", O_WRONLY);
@@ -72,12 +72,11 @@ void *energy_thread(void *ignore)
 	struct timespec small = {0, 500 * 1000UL};
 
 	long start_value, mid_value, end_value;
-    
+
 	printf("wait for edge\n");
 	fflush(stdout);
-    
+
 	start_value = read_counter();
-    
 	while (read_counter() == start_value) {
 		nanosleep(&small, NULL);
 	}
@@ -86,10 +85,10 @@ void *energy_thread(void *ignore)
 	clock_gettime(CLOCK_MONOTONIC, &start_time);
 
 	printf("start\n");
-    fflush(stdout);
+	fflush(stdout);
     printf("Start rails data:\n");
     read_energy_values();
-    sleep(120);
+	sleep(120);
 	printf("wait for edge\n");
 	fflush(stdout);
 
@@ -108,11 +107,11 @@ void *energy_thread(void *ignore)
 	double secs = micros / 1000000.0;
 	double energy = 0.0138 * (end_value - start_value); 
 	double power = energy / secs;
-
+    
     printf("Power Energy Time\n%lf %lf %lf\n", power, energy, secs);
+//	printf("Power %lf\nEnergy %lf\nTime %lf\n", power, energy, secs);
     printf("\nEnd rails data:\n");
     read_energy_values();
-//	printf("Power %lf\nEnergy %lf\nTime %lf\n", power, energy, secs);
 	fflush(stdout);
 	set_charging(true);
 	exit(-1);
@@ -120,131 +119,37 @@ void *energy_thread(void *ignore)
 
 void open_url(char *url)
 {
-	std::string cmd = "am start -n ";
+	std::string cmd = "am start -a android.intent.action.VIEW -d ";
 	std::string c = cmd + url;
 	system(c.c_str());
 }
-//
-//void scroll(bool up)
-//{
-//	if (up) {
-//		 system("input touchscreen swipe 100 500 100 1100 300");
-//	} else {
-//		 system("input touchscreen swipe 100 1100 100 500 300");
-//	}
-//}
 
+void scroll(bool up)
+{
 
-void actions() {
-
-    
-    sleep(5);
-    
-    system("input touchscreen tap 540 600");
-    sleep(3);
-    system("input touchscreen tap 200 700");
-    sleep(3);
-    system("input touchscreen tap 200 900");
-    
     
     sleep(3);
-//    system("input touchscreen tap 540 600");
-//
-//    sleep(3);
-//    system("input touchscreen tap 200 900");
-//    
-//    system("input touchscreen tap 200 800");
-
-    system("input touchscreen swipe 540 960 800 400 1000");
+    //        touch somehwere to unmute
+    system("input tap 540 400");
     
-    sleep(3);
-    system("input touchscreen swipe 540 960 800 400 1000");
-    
-    //green
-    system("input touchscreen swipe 540 800 200 1600 1000");
-    sleep(2);
-    
-    sleep(3);
-    system("input touchscreen swipe 540 960 540 1600 1000");
-    
-    sleep(3);
-    system("input touchscreen swipe 540 960 540 1600 1000");
-    
-    system("input touchscreen swipe 540 960 800 400 1000");
-    
-    sleep(3);
-    system("input touchscreen swipe 540 960 800 400 1000");
+    sleep(30);
+    system("input tap 540 300");
     
     
-    //blue
-    sleep(3);
-    system("input touchscreen swipe 540 960 540 1600 1000");
     
-    sleep(2);
-
-    system("input touchscreen swipe 540 800 200 1600 1000");
-    sleep(2);
-    
-    //yellow
-    system("input touchscreen swipe 950 800 500 1800 1000");
-    sleep(2);
-    
-    
-    //orange
-    system("input touchscreen swipe 950 950 500 1800 1000");
-    sleep(2);
-    
-    //yellow again crash
-    system("input touchscreen swipe 950 800 500 1800 1000");
-    sleep(2);
-    
-    //yellow
-    system("input touchscreen swipe 950 950 800 1600 1000");
-    sleep(2);
-    
-    //orange
-    system("input touchscreen swipe 540 960 800 400 1000");
-    
-    sleep(3);
-    system("input touchscreen swipe 540 960 540 1600 1000");
-    
-
-    system("input touchscreen swipe 540 800 200 1600 1000");
-    sleep(2);
-
-    //yellow
-    system("input touchscreen swipe 950 800 500 1800 1000");
-    sleep(2);
-
-    //orange
-    system("input touchscreen swipe 950 950 500 1800 1000");
-    sleep(2);
-
-    //yellow again crash
-    system("input touchscreen swipe 950 800 500 1800 1000");
-    sleep(2);
-
-    //yellow
-    system("input touchscreen swipe 950 950 800 1600 1000");
-    
-    system("input touchscreen swipe 200 960 200 1600 1000");
-
-
 }
-
-
 
 void test()
 {
 	while (1) {
-//	std::vector<char*> urls = {"com.JindoBlu.OfflineGames/com.unity3d.player.UnityPlayerActivity"};
-    std::vector<char*> urls = {"com.bigduckgames.flow/com.bigduckgames.flow.flow"};
+        std::vector<char*> urls = {"https://www.youtube.com/watch?v=VMV0O7cQRuU"};
 	for (char *s : urls) {
 		open_url(s);
 		for (int i = 0; i < 25; i++) {
-            actions();
+			scroll(true);
 			struct timespec ts = {1, 000 * 1000000UL};
 			nanosleep(&ts, NULL);
+            
 		}
 	}
 	}
@@ -254,23 +159,13 @@ void test()
 #define M(x) (1 << ((x) + 4))
 #define L(x) (1 << ((x) + 6))
 
-
-   // ./adb shell cat /sys/bus/iio/devices/iio:device0/energy_value | grep 't' | sed 's/t=//'
-  //  ./adb shell cat /sys/bus/iio/devices/iio:device0/energy_value | grep 'CH0' | awk '{print $2}'
-
-
 int main()
 {
-    
 	set_charging(false);
     enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
 	//enable_cores(0xFFFFFF);
-
-
 	pthread_t t;
 	pthread_create(&t, NULL, energy_thread, NULL);
 	test();
-
-    return 0;
-
 }
+

@@ -1,7 +1,7 @@
 void extra_stats();
 
 #define BENCHMARK_NAME "Game"
-#define PACKAGE_NAME "com.JindoBlu.OfflineGames"
+#define PACKAGE_NAME "com.bigduckgames.flow"
 #define EXTRA_STATS extra_stats
 
 #include "benchmark.inc"
@@ -22,46 +22,96 @@ void extra_stats()
 
 
 void actions() {
-	// Old games benchmark
-    // To touch somewhere on the screen
-    // system("input touchscreen tap 40 960");
-    // sleep(2);
-
-    // // To touch PLAY button
-    // system("input touchscreen tap 540 1900");
-    // sleep(2);
-
-    // // To choose restart again
-    // system("input touchscreen tap 500 1700");
-    // sleep(2);
-
-    // // Fake playing for 15 seconds
-    // while (1) {
-    //     system("input touchscreen tap 540 960");
-    //     sleep(1);
-
-
     sleep(5);
     
     system("input touchscreen tap 540 600");
-    
     sleep(3);
-    system("input touchscreen tap 540 600");
-
+    system("input touchscreen tap 200 700");
     sleep(3);
     system("input touchscreen tap 200 900");
+    
+    
+    sleep(3);
+//    system("input touchscreen tap 540 600");
+//
+//    sleep(3);
+//    system("input touchscreen tap 200 900");
+//    
+//    system("input touchscreen tap 200 800");
 
-    sleep(3);
     system("input touchscreen swipe 540 960 800 400 1000");
     
     sleep(3);
     system("input touchscreen swipe 540 960 800 400 1000");
+    
+    //green
+    system("input touchscreen swipe 540 800 200 1600 1000");
+    sleep(2);
     
     sleep(3);
     system("input touchscreen swipe 540 960 540 1600 1000");
     
     sleep(3);
     system("input touchscreen swipe 540 960 540 1600 1000");
+    
+    system("input touchscreen swipe 540 960 800 400 1000");
+    
+    sleep(3);
+    system("input touchscreen swipe 540 960 800 400 1000");
+    
+    
+    //blue
+    sleep(3);
+    system("input touchscreen swipe 540 960 540 1600 1000");
+    
+    sleep(2);
+
+    system("input touchscreen swipe 540 800 200 1600 1000");
+    sleep(2);
+    
+    //yellow
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+    
+    
+    //orange
+    system("input touchscreen swipe 950 950 500 1800 1000");
+    sleep(2);
+    
+    //yellow again crash
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+    
+    //yellow
+    system("input touchscreen swipe 950 950 800 1600 1000");
+    sleep(2);
+    
+    //orange
+    system("input touchscreen swipe 540 960 800 400 1000");
+    
+    sleep(3);
+    system("input touchscreen swipe 540 960 540 1600 1000");
+    
+
+    system("input touchscreen swipe 540 800 200 1600 1000");
+    sleep(2);
+
+    //yellow
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+
+    //orange
+    system("input touchscreen swipe 950 950 500 1800 1000");
+    sleep(2);
+
+    //yellow again crash
+    system("input touchscreen swipe 950 800 500 1800 1000");
+    sleep(2);
+
+    //yellow
+    system("input touchscreen swipe 950 950 800 1600 1000");
+    
+    system("input touchscreen swipe 200 960 200 1600 1000");
     
 }
 

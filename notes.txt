@@ -32,9 +32,11 @@ adb unroot
 The sources for this are in the github repo at /synthetic_load/
 The script "run.sh" builds and runs the synthetic load, the output is to stdout
 
-We force the system to different operating points (sets of on cores + frequencies of cores) by writing to sysfs, and run the synthetic load at each chosen operating point. There is an initial set of operating points exploring each core type in isolation and then configurations are explored at random.
+We force the system to different operating points (sets of on cores + frequencies of cores) by writing to sysfs, and run the synthetic load at each chosen operating point. 
+There is an initial set of operating points exploring each core type in isolation and then configurations are explored at random.
 
-The synthetic load runs for a fixed time and has a simple loop pinned to each core which counts how many times each core could complete the loop, this is taken as a proxy for the "performance" of that core. In parallel the total energy consumed is also measured using the rails.
+The synthetic load runs for a fixed time and has a simple loop pinned to each core which counts how many times each core could complete the loop, 
+this is taken as a proxy for the "performance" of that core. In parallel the total energy consumed is also measured using the rails.
 
 The result of this process is non-exhaustive data which gives us (operating point) -> (total power, core1 performance, core2 performance, ...)
 
@@ -43,11 +45,15 @@ The sources for this are in the github repo at /table_gen/
 It needs output files from a synthetic load run above (ie. the captured stdout)
 It is currently configured to load these files from a fixed location but you can easily change this in the source if need be (the global variable LOAD_FROM)
 
-The table generator constructs a model (either linear or random forests) that estimates (total power, core1 performance, core2 performance, ...) for any possible system operating point (set of on cores + frequencies of on cores). We do these because exhaustively measuring all of the possible system operating points is prohibitively expensive. After we have a model we can exhaustively search that in a fraction of the time it would take to run real experiments. As we enumerate all of the (power, core performance) pairs for each state we keep track of the best configuration (meaning that with the lowest power) that achieves each given performance point. At the end of this process we have a table from (total performance required, single-threaded performance required) -> (configuration with the min power that achieves at least this level of performance).
+The table generator constructs a model (either linear or random forests) that estimates (total power, core1 performance, core2 performance, ...) for any possible system operating point 
+(set of on cores + frequencies of on cores). We do these because exhaustively measuring all of the possible system operating points is prohibitively expensive. 
+After we have a model we can exhaustively search that in a fraction of the time it would take to run real experiments. 
+As we enumerate all of the (power, core performance) pairs for each state we keep track of the best configuration (meaning that with the lowest power) that achieves each given performance point. At the end of this process we have a table from (total performance required, single-threaded performance required) -> (configuration with the min power that achieves at least this level of performance).
 
 Note that on the pixel device there is only frequency control for each "type" of core and not individual control. ie. all medium cores must be at the same frequency.
 
-The table file is a series of little-endian 32 bit integers, starting with a brief header, our kernel sources are the best reference for this. Note that the loader program prepends three additional ints to the table file read off disk.
+The table file is a series of little-endian 32 bit integers, starting with a brief header, our kernel sources are the best reference for this. 
+Note that the loader program prepends three additional ints to the table file read off disk.
 
 The table is flat and is indexed by two values:
 (a) the current system load as a percentage of the maximum system load
@@ -143,7 +149,9 @@ and also output data to stdout as the benchmark runs.
 
 The file "results_format.txt" describes all the data that each run generates.
 
-I am not as familiar with the benchmarks since this was the part that was done by others, but I think there needs to be a more robust approach to clicking the correct part of the screen / waiting for an input. Cookie dialogues etc mean manual monitoring is required at the moment. Maybe screenshots + image correlation to find the right areas to press at the right time?
+I am not as familiar with the benchmarks since this was the part that was done by others, 
+but I think there needs to be a more robust approach to clicking the correct part of the screen / waiting for an input. Cookie dialogues etc mean manual monitoring is required at the moment. 
+Maybe screenshots + image correlation to find the right areas to press at the right time?
 
 ==== Measurements and analysis ==== 
 
@@ -151,18 +159,24 @@ The script "scripts/parse_data.py" implements parsing the results format file an
 
 It takes two arguments <baseline output file> <output file with our scheduler>
 
-We use real energy counters from the Power Management IC on the pixel device which can measure individual rails. We also use a couple of sources in android itself to measure frames per second which we use for QOS. A better proxy for QOS is an open question in this work and more ideas would be great.
+We use real energy counters from the Power Management IC on the pixel device which can measure individual rails. 
+We also use a couple of sources in android itself to measure frames per second which we use for QOS. A better proxy for QOS is an open question in this work and more ideas would be great.
 
 ==== Thermals ==== 
 
-We encountered an issue with thermals: since these devices are passively cooled it is normal for them to impose thermal limits on CPU frequencies in addition to out limits. Previously, in the case that the thermal limit was more restrictive than our setpoint our driver could get confused, the basic outline is as follows:
+We encountered an issue with thermals: since these devices are passively cooled it is normal for them to 
+impose thermal limits on CPU frequencies in addition to out limits. 
+Previously, in the case that the thermal limit was more restrictive than our setpoint our driver could get confused, 
+the basic outline is as follows:
 
 - We impose frequency limits that restrict a core to, say, 50% of its total capacity
 - After a period of time the thermal subsystem imposes a limit of say 25% of max capacity to the same CPU in an effort to keep the temperatures in a desired range
 - Say that the load on this CPU might ordinarily consume 75% of its total capacity, however the thermal limit makes it appear like 25%, well below the 50% our model allocated
-- If this happens on multiple cores simultaneously the effect is that a system load is massively understated to our driver, which will continue on an endless spiral ramping down and shutting off cores until the system is rendered effectively useless.
+- If this happens on multiple cores simultaneously the effect is that a system load is massively understated to our driver, which will continue on an endless spiral ramping down and 
+shutting off cores until the system is rendered effectively useless.
 
-To fix this, in our calculation of CPU load we use the thermal_avg member of each CPUs runqueue to get an estimation of how much capacity is being consumed by the thermal throttling. By adding these values together our driver gets a more realistic picture of what the load would be without throttling and so won't take away all the performance.
+To fix this, in our calculation of CPU load we use the thermal_avg member of each CPUs runqueue to get an estimation of how much capacity is being consumed by the thermal throttling. 
+By adding these values together our driver gets a more realistic picture of what the load would be without throttling and so won't take away all the performance.
 
 Ryan
 

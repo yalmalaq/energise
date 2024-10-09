@@ -1,3 +1,4 @@
+#define PACKAGE_NAME "com.soundcloud.android"
 #define BENCHMARK_NAME "bgmusic"
 
 #include "benchmark.inc"
@@ -35,7 +36,7 @@ void actions() {
     sleep(2);
 
     //To start playing music
-    system("input touchscreen tap 1000 600");
+    system("input touchscreen tap 44 2142");
     sleep(30);
     
     system("input touchscreen swipe 100 1000 100 200");
@@ -48,6 +49,10 @@ void actions() {
     sleep(10);
     
     system("input touchscreen swipe 100 1000 100 200");
+
+    sleep(15); 
+    system("input touchscreen tap 44 2142");
+
     
 }
 
