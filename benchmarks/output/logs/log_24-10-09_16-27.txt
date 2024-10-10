@@ -1,0 +1,1009 @@
+[Wed Oct  9 16:23:05 2024] SleepySched: Initalizing sleepy scheduler
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 0 capacity 250\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 1 capacity 250\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 2 capacity 250\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 3 capacity 250\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 4 capacity 620\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 5 capacity 620\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 6 capacity 1024\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: CPU 7 capacity 1024\x0a
+[Wed Oct  9 16:23:05 2024] SleepySched: create iidev
+[Wed Oct  9 16:23:05 2024] SleepySched: Enabling Timer
+[Wed Oct  9 16:23:07 2024] SleepySched: table 0000000000000000 total 1660 max 970
+[Wed Oct  9 16:23:09 2024] SleepySched: table 0000000000000000 total 1945 max 761
+[Wed Oct  9 16:23:11 2024] SleepySched: table 0000000000000000 total 2834 max 643
+[Wed Oct  9 16:23:14 2024] SleepySched: table 0000000000000000 total 430 max 168
+[Wed Oct  9 16:23:16 2024] SleepySched: table 0000000000000000 total 260 max 152
+[Wed Oct  9 16:23:18 2024] SleepySched: table 0000000000000000 total 220 max 186
+[Wed Oct  9 16:23:20 2024] SleepySched: table 0000000000000000 total 250 max 233
+[Wed Oct  9 16:23:22 2024] SleepySched: table 0000000000000000 total 2912 max 663
+[Wed Oct  9 16:23:24 2024] SleepySched: table 0000000000000000 total 2920 max 1443
+[Wed Oct  9 16:23:26 2024] SleepySched: table 0000000000000000 total 1567 max 806
+[Wed Oct  9 16:23:28 2024] SleepySched: table 0000000000000000 total 2315 max 472
+[Wed Oct  9 16:23:30 2024] SleepySched: table 0000000000000000 total 81 max 37
+[Wed Oct  9 16:23:32 2024] SleepySched: table 0000000000000000 total 66 max 32
+[Wed Oct  9 16:23:34 2024] SleepySched: table 0000000000000000 total 9 max 9
+[Wed Oct  9 16:23:37 2024] SleepySched: table 0000000000000000 total 85 max 47
+[Wed Oct  9 16:23:39 2024] SleepySched: table 0000000000000000 total 21 max 8
+[Wed Oct  9 16:23:41 2024] SleepySched: table 0000000000000000 total 32 max 14
+[Wed Oct  9 16:23:43 2024] SleepySched: table 0000000000000000 total 8 max 8
+[Wed Oct  9 16:23:45 2024] SleepySched: table 0000000000000000 total 10 max 8
+[Wed Oct  9 16:23:47 2024] SleepySched: table 0000000000000000 total 117 max 41
+[Wed Oct  9 16:23:49 2024] SleepySched: table 0000000000000000 total 132 max 40
+[Wed Oct  9 16:23:51 2024] SleepySched: table 0000000000000000 total 36 max 22
+[Wed Oct  9 16:23:53 2024] SleepySched: table 0000000000000000 total 60 max 20
+[Wed Oct  9 16:23:55 2024] SleepySched: table 0000000000000000 total 8 max 8
+[Wed Oct  9 16:23:57 2024] SleepySched: table 0000000000000000 total 65 max 24
+[Wed Oct  9 16:23:59 2024] SleepySched: table 0000000000000000 total 22 max 8
+[Wed Oct  9 16:24:02 2024] SleepySched: iotcl fde94 b4000073edcbc000 
+[Wed Oct  9 16:24:02 2024] SleepySched: copied 0 bytes of 1040020
+[Wed Oct  9 16:24:02 2024] SleepySched: table 0000000000000000 total 1134 max 860
+[Wed Oct  9 16:24:02 2024] SleepySched: parsed table
+[Wed Oct  9 16:24:02 2024] SleepySched: replaced table
+[Wed Oct  9 16:24:02 2024] SleepySched: installed new table
+[Wed Oct  9 16:24:02 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:02 2024] SleepySched: starting iidev
+[Wed Oct  9 16:24:02 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:04 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:04 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:04 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:24:04 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:24:04 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:06 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:24:06 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:24:06 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:07 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: table 00000000a2b270f0 total 700 max 700
+[Wed Oct  9 16:24:08 2024] SleepySched: index=1616 Util (16|16) / 42
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: table 00000000a2b270f0 total 421 max 421
+[Wed Oct  9 16:24:10 2024] SleepySched: index=1010 Util (10|10) / 42
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:12 2024] SleepySched: table 00000000a2b270f0 total 857 max 857
+[Wed Oct  9 16:24:12 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:24:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: table 00000000a2b270f0 total 955 max 955
+[Wed Oct  9 16:24:14 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:16 2024] SleepySched: table 00000000a2b270f0 total 1003 max 1003
+[Wed Oct  9 16:24:16 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:24:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:18 2024] SleepySched: table 00000000a2b270f0 total 1011 max 1011
+[Wed Oct  9 16:24:18 2024] SleepySched: index=2424 Util (24|24) / 42
+[Wed Oct  9 16:24:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:19 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:19 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:19 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:19 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:19 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:19 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:20 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:20 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:20 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: table 00000000a2b270f0 total 8 max 8
+[Wed Oct  9 16:24:21 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:24:21 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:22 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:22 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:22 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:22 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:22 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: table 00000000a2b270f0 total 710 max 710
+[Wed Oct  9 16:24:23 2024] SleepySched: index=1616 Util (16|16) / 42
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1401000 1 = 1401000 2 = 1401000 3 = 1401000 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 1197000 5 = 1197000 6 = 1826000 7 = off 
+[Wed Oct  9 16:24:23 2024] SleepySched: switched OP 0 = 1598000 1 = 1598000 2 = off 3 = off 4 = 2130000 5 = 2130000 6 = 1426000 7 = 1426000 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = off 4 = 2253000 5 = 2253000 6 = 2802000 7 = 2802000 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 2130000 5 = 2130000 6 = 2802000 7 = 2802000 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1024000 5 = 1024000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 1598000 1 = 1598000 2 = 1598000 3 = 1598000 4 = 1328000 5 = 1328000 6 = 2252000 7 = off 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 1663000 5 = 1663000 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 1401000 1 = 1401000 2 = 1401000 3 = 1401000 4 = 2130000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:25 2024] SleepySched: table 00000000a2b270f0 total 565 max 347
+[Wed Oct  9 16:24:25 2024] SleepySched: index=813 Util (13|8) / 42
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 984000 7 = off 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 1704000 1 = 1704000 2 = 1704000 3 = 1704000 4 = 2130000 5 = off 6 = 851000 7 = 851000 
+[Wed Oct  9 16:24:25 2024] SleepySched: switched OP 0 = 1401000 1 = 1401000 2 = 1401000 3 = 1401000 4 = 1663000 5 = 1663000 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1598000 1 = 1598000 2 = 1598000 3 = off 4 = 1328000 5 = 1328000 6 = 2252000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1704000 1 = 1704000 2 = 1704000 3 = 1704000 4 = 1663000 5 = 1663000 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1704000 1 = 1704000 2 = 1704000 3 = 1704000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1401000 1 = 1401000 2 = 1401000 3 = 1401000 4 = 2130000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1704000 1 = 1704000 2 = 1704000 3 = 1704000 4 = 2130000 5 = off 6 = 984000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:26 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: table 00000000a2b270f0 total 123 max 44
+[Wed Oct  9 16:24:27 2024] SleepySched: index=102 Util (2|1) / 42
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:27 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 1663000 5 = 1663000 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = off 4 = 2130000 5 = 2130000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:28 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 1401000 1 = 1401000 2 = 1401000 3 = 1401000 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:29 2024] SleepySched: table 00000000a2b270f0 total 238 max 131
+[Wed Oct  9 16:24:29 2024] SleepySched: index=305 Util (5|3) / 42
+[Wed Oct  9 16:24:29 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:24:30 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:31 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: table 00000000a2b270f0 total 828 max 828
+[Wed Oct  9 16:24:32 2024] SleepySched: index=1919 Util (19|19) / 42
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:32 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:33 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: table 00000000a2b270f0 total 341 max 341
+[Wed Oct  9 16:24:34 2024] SleepySched: index=808 Util (8|8) / 42
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:35 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:35 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:35 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:35 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:35 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:36 2024] SleepySched: table 00000000a2b270f0 total 920 max 920
+[Wed Oct  9 16:24:36 2024] SleepySched: index=2121 Util (21|21) / 42
+[Wed Oct  9 16:24:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:37 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:37 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:37 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:37 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: table 00000000a2b270f0 total 402 max 402
+[Wed Oct  9 16:24:38 2024] SleepySched: index=909 Util (9|9) / 42
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:39 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: table 00000000a2b270f0 total 76 max 76
+[Wed Oct  9 16:24:40 2024] SleepySched: index=101 Util (1|1) / 42
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:40 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:41 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: table 00000000a2b270f0 total 344 max 344
+[Wed Oct  9 16:24:42 2024] SleepySched: index=808 Util (8|8) / 42
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:42 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:44 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:44 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:44 2024] SleepySched: table 00000000a2b270f0 total 617 max 617
+[Wed Oct  9 16:24:44 2024] SleepySched: index=1414 Util (14|14) / 42
+[Wed Oct  9 16:24:44 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:44 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:46 2024] SleepySched: table 00000000a2b270f0 total 861 max 861
+[Wed Oct  9 16:24:46 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:24:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:47 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:47 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: table 00000000a2b270f0 total 655 max 655
+[Wed Oct  9 16:24:48 2024] SleepySched: index=1515 Util (15|15) / 42
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:48 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:49 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:50 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:50 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:50 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:50 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:50 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:50 2024] SleepySched: table 00000000a2b270f0 total 12 max 12
+[Wed Oct  9 16:24:50 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:24:50 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:51 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:52 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:52 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:52 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:52 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:52 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:52 2024] SleepySched: table 00000000a2b270f0 total 887 max 887
+[Wed Oct  9 16:24:52 2024] SleepySched: index=2121 Util (21|21) / 42
+[Wed Oct  9 16:24:52 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:54 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:55 2024] SleepySched: table 00000000a2b270f0 total 842 max 842
+[Wed Oct  9 16:24:55 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:24:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:57 2024] SleepySched: table 00000000a2b270f0 total 914 max 914
+[Wed Oct  9 16:24:57 2024] SleepySched: index=2121 Util (21|21) / 42
+[Wed Oct  9 16:24:57 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:57 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:57 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:57 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:24:57 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:57 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:58 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: table 00000000a2b270f0 total 423 max 423
+[Wed Oct  9 16:24:59 2024] SleepySched: index=1010 Util (10|10) / 42
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:24:59 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 910000 5 = 910000 6 = 1106000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:25:00 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: table 00000000a2b270f0 total 602 max 602
+[Wed Oct  9 16:25:01 2024] SleepySched: index=1414 Util (14|14) / 42
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:03 2024] SleepySched: table 00000000a2b270f0 total 865 max 865
+[Wed Oct  9 16:25:03 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:03 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:05 2024] SleepySched: table 00000000a2b270f0 total 932 max 932
+[Wed Oct  9 16:25:05 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:25:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:06 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:07 2024] SleepySched: table 00000000a2b270f0 total 945 max 945
+[Wed Oct  9 16:25:07 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:25:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:09 2024] SleepySched: table 00000000a2b270f0 total 949 max 949
+[Wed Oct  9 16:25:09 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:25:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: table 00000000a2b270f0 total 996 max 996
+[Wed Oct  9 16:25:11 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: table 00000000a2b270f0 total 848 max 848
+[Wed Oct  9 16:25:13 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:15 2024] SleepySched: table 00000000a2b270f0 total 876 max 876
+[Wed Oct  9 16:25:15 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:17 2024] SleepySched: table 00000000a2b270f0 total 857 max 857
+[Wed Oct  9 16:25:17 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:19 2024] SleepySched: table 00000000a2b270f0 total 863 max 863
+[Wed Oct  9 16:25:19 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:19 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:21 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:21 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:22 2024] SleepySched: table 00000000a2b270f0 total 851 max 851
+[Wed Oct  9 16:25:22 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:22 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:24 2024] SleepySched: table 00000000a2b270f0 total 843 max 843
+[Wed Oct  9 16:25:24 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:26 2024] SleepySched: table 00000000a2b270f0 total 901 max 901
+[Wed Oct  9 16:25:26 2024] SleepySched: index=2121 Util (21|21) / 42
+[Wed Oct  9 16:25:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:27 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:27 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:28 2024] SleepySched: table 00000000a2b270f0 total 869 max 869
+[Wed Oct  9 16:25:28 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:30 2024] SleepySched: table 00000000a2b270f0 total 850 max 850
+[Wed Oct  9 16:25:30 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:30 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:30 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:30 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:32 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:32 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:32 2024] SleepySched: table 00000000a2b270f0 total 855 max 855
+[Wed Oct  9 16:25:32 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:32 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:33 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:33 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:34 2024] SleepySched: table 00000000a2b270f0 total 860 max 860
+[Wed Oct  9 16:25:34 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:36 2024] SleepySched: table 00000000a2b270f0 total 862 max 862
+[Wed Oct  9 16:25:36 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:38 2024] SleepySched: table 00000000a2b270f0 total 835 max 835
+[Wed Oct  9 16:25:38 2024] SleepySched: index=1919 Util (19|19) / 42
+[Wed Oct  9 16:25:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:40 2024] SleepySched: table 00000000a2b270f0 total 857 max 857
+[Wed Oct  9 16:25:40 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:41 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:41 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:41 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: table 00000000a2b270f0 total 861 max 861
+[Wed Oct  9 16:25:42 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:44 2024] SleepySched: table 00000000a2b270f0 total 862 max 862
+[Wed Oct  9 16:25:44 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:46 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:25:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: table 00000000a2b270f0 total 680 max 680
+[Wed Oct  9 16:25:47 2024] SleepySched: index=1616 Util (16|16) / 42
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:48 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:48 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:49 2024] SleepySched: table 00000000a2b270f0 total 963 max 963
+[Wed Oct  9 16:25:49 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:25:49 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:49 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:50 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:50 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:50 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:50 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:51 2024] SleepySched: table 00000000a2b270f0 total 997 max 997
+[Wed Oct  9 16:25:51 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:25:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: table 00000000a2b270f0 total 936 max 936
+[Wed Oct  9 16:25:53 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:53 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:54 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:54 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:55 2024] SleepySched: table 00000000a2b270f0 total 877 max 877
+[Wed Oct  9 16:25:55 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:55 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:56 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:57 2024] SleepySched: table 00000000a2b270f0 total 869 max 869
+[Wed Oct  9 16:25:57 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:57 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:59 2024] SleepySched: table 00000000a2b270f0 total 871 max 871
+[Wed Oct  9 16:25:59 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:25:59 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:25:59 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:00 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:00 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:00 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:00 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:00 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:00 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:01 2024] SleepySched: table 00000000a2b270f0 total 924 max 924
+[Wed Oct  9 16:26:01 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:26:01 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:02 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:03 2024] SleepySched: table 00000000a2b270f0 total 980 max 980
+[Wed Oct  9 16:26:03 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:26:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:03 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:04 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:05 2024] SleepySched: table 00000000a2b270f0 total 856 max 856
+[Wed Oct  9 16:26:05 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:26:05 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:06 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:06 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:06 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:06 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:07 2024] SleepySched: table 00000000a2b270f0 total 950 max 950
+[Wed Oct  9 16:26:07 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:26:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:07 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:08 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:09 2024] SleepySched: table 00000000a2b270f0 total 949 max 949
+[Wed Oct  9 16:26:09 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:26:09 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:10 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:11 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:12 2024] SleepySched: table 00000000a2b270f0 total 915 max 915
+[Wed Oct  9 16:26:12 2024] SleepySched: index=2121 Util (21|21) / 42
+[Wed Oct  9 16:26:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:12 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:13 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:14 2024] SleepySched: table 00000000a2b270f0 total 863 max 863
+[Wed Oct  9 16:26:14 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:26:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:14 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:15 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:15 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: table 00000000a2b270f0 total 556 max 556
+[Wed Oct  9 16:26:16 2024] SleepySched: index=1313 Util (13|13) / 42
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:16 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:18 2024] SleepySched: table 00000000a2b270f0 total 918 max 918
+[Wed Oct  9 16:26:18 2024] SleepySched: index=2121 Util (21|21) / 42
+[Wed Oct  9 16:26:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:19 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:19 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:19 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:19 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:20 2024] SleepySched: table 00000000a2b270f0 total 873 max 873
+[Wed Oct  9 16:26:20 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:26:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:20 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:21 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:21 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:21 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:22 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:22 2024] SleepySched: table 00000000a2b270f0 total 974 max 974
+[Wed Oct  9 16:26:22 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:26:22 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:22 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:22 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:23 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:24 2024] SleepySched: table 00000000a2b270f0 total 854 max 854
+[Wed Oct  9 16:26:24 2024] SleepySched: index=2020 Util (20|20) / 42
+[Wed Oct  9 16:26:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:24 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:25 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:26 2024] SleepySched: table 00000000a2b270f0 total 790 max 790
+[Wed Oct  9 16:26:26 2024] SleepySched: index=1818 Util (18|18) / 42
+[Wed Oct  9 16:26:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:26 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:27 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:27 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:28 2024] SleepySched: table 00000000a2b270f0 total 1011 max 1011
+[Wed Oct  9 16:26:28 2024] SleepySched: index=2424 Util (24|24) / 42
+[Wed Oct  9 16:26:28 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:29 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:30 2024] SleepySched: table 00000000a2b270f0 total 999 max 999
+[Wed Oct  9 16:26:30 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:26:30 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:31 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:32 2024] SleepySched: table 00000000a2b270f0 total 1007 max 1007
+[Wed Oct  9 16:26:32 2024] SleepySched: index=2323 Util (23|23) / 42
+[Wed Oct  9 16:26:32 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:33 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:33 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:34 2024] SleepySched: table 00000000a2b270f0 total 1008 max 1008
+[Wed Oct  9 16:26:34 2024] SleepySched: index=2424 Util (24|24) / 42
+[Wed Oct  9 16:26:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:34 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:36 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:36 2024] SleepySched: table 00000000a2b270f0 total 799 max 799
+[Wed Oct  9 16:26:36 2024] SleepySched: index=1919 Util (19|19) / 42
+[Wed Oct  9 16:26:36 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:37 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:37 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:37 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:38 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:38 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:39 2024] SleepySched: table 00000000a2b270f0 total 766 max 766
+[Wed Oct  9 16:26:39 2024] SleepySched: index=1818 Util (18|18) / 42
+[Wed Oct  9 16:26:39 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:39 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:39 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:39 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:40 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:40 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:41 2024] SleepySched: table 00000000a2b270f0 total 943 max 943
+[Wed Oct  9 16:26:41 2024] SleepySched: index=2222 Util (22|22) / 42
+[Wed Oct  9 16:26:41 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:41 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:42 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:42 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: table 00000000a2b270f0 total 714 max 714
+[Wed Oct  9 16:26:43 2024] SleepySched: index=1717 Util (17|17) / 42
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:43 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:44 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:45 2024] SleepySched: table 00000000a2b270f0 total 1012 max 1012
+[Wed Oct  9 16:26:45 2024] SleepySched: index=2424 Util (24|24) / 42
+[Wed Oct  9 16:26:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:45 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:46 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:47 2024] SleepySched: table 00000000a2b270f0 total 1011 max 1011
+[Wed Oct  9 16:26:47 2024] SleepySched: index=2424 Util (24|24) / 42
+[Wed Oct  9 16:26:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:47 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:48 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:48 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:48 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 1663000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: table 00000000a2b270f0 total 23 max 23
+[Wed Oct  9 16:26:49 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:26:49 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = off 3 = off 4 = 910000 5 = 910000 6 = 500000 7 = off 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:26:50 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:26:51 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:51 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:52 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:52 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:52 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:52 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:52 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:53 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:26:53 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:26:53 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:55 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:26:55 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:26:55 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:57 2024] SleepySched: table 00000000a2b270f0 total 15 max 15
+[Wed Oct  9 16:26:57 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:26:57 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:58 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:58 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:58 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:26:58 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:26:59 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:26:59 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:26:59 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:01 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:27:01 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:27:01 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:04 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:27:04 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:27:04 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:06 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:27:06 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:27:06 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:08 2024] SleepySched: table 00000000a2b270f0 total 47 max 47
+[Wed Oct  9 16:27:08 2024] SleepySched: index=101 Util (1|1) / 42
+[Wed Oct  9 16:27:08 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:27:08 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:27:08 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:09 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:27:09 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:10 2024] SleepySched: table 00000000a2b270f0 total 23 max 23
+[Wed Oct  9 16:27:10 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:27:10 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:10 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:27:10 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:12 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:27:12 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:27:12 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:14 2024] SleepySched: table 00000000a2b270f0 total 7 max 7
+[Wed Oct  9 16:27:14 2024] SleepySched: index=0 Util (0|0) / 42
+[Wed Oct  9 16:27:14 2024] SleepySched: switched OP 0 = off 1 = off 2 = off 3 = off 4 = off 5 = off 6 = off 7 = off 
+[Wed Oct  9 16:27:16 2024] SleepySched: table 00000000a2b270f0 total 84 max 84
+[Wed Oct  9 16:27:16 2024] SleepySched: index=202 Util (2|2) / 42
+[Wed Oct  9 16:27:16 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:27:16 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = 930000 3 = off 4 = 799000 5 = off 6 = 851000 7 = off 
+[Wed Oct  9 16:27:16 2024] SleepySched: switched OP 0 = 738000 1 = 738000 2 = 738000 3 = 738000 4 = 1197000 5 = off 6 = 500000 7 = 500000 
+[Wed Oct  9 16:27:16 2024] SleepySched: switched OP 0 = 930000 1 = 930000 2 = off 3 = off 4 = 799000 5 = off 6 = 1582000 7 = off 
+[Wed Oct  9 16:27:16 2024] SleepySched: switched OP 0 = 300000 1 = 300000 2 = 300000 3 = off 4 = 1836000 5 = off 6 = 500000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1328000 1 = 1328000 2 = 1328000 3 = 1328000 4 = 2130000 5 = off 6 = 1106000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = 1803000 3 = 1803000 4 = 553000 5 = off 6 = 2401000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1598000 1 = off 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2507000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:27:17 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
+[Wed Oct  9 16:27:18 2024] SleepySched: switched OP 0 = 1803000 1 = 1803000 2 = off 3 = off 4 = 1663000 5 = 1663000 6 = 2704000 7 = off 
