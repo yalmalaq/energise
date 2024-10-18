@@ -2,6 +2,28 @@
 
 void run_benchmark();
 
+void enable_cores(long mask)
+{
+	for (int core = 1; core < 8; core++) {
+		char path[500];
+	snprintf(path, sizeof(path), "/sys/devices/system/cpu/cpu%d/online", core);
+			int fd = open(path, O_WRONLY);
+			if (fd < 0) {
+				printf("%s\n", path);
+				perror("no!");
+				exit(-1);
+			}
+			char buf[] = "0\n";
+			buf[0] = (mask & (1UL << core)) ? '1' : '0';
+			int size = write(fd, buf, sizeof(buf));
+			if (size < sizeof(buf)) {
+				perror("no!");
+				exit(-1);
+			}
+			close(fd);
+	}
+}
+
 void print_stats()
 {
 #ifdef EXTRA_STATS
@@ -32,6 +54,10 @@ void *benchmark_thread(void *_dat)
     return NULL;
 }
 
+#define S(x) (1 << (x))
+#define M(x) (1 << ((x) + 4))
+#define L(x) (1 << ((x) + 6))
+
 int main(int argc, char **argv)
 {
     setvbuf(stdout, NULL, _IOLBF, 512);
@@ -44,6 +70,9 @@ int main(int argc, char **argv)
     
     wait_for_charge();
     setup_from_env();
+
+    enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
+
 
     pthread_t t;
     pthread_create(&t, NULL, benchmark_thread, NULL);

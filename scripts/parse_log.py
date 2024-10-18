@@ -37,16 +37,16 @@ with open(file) as f:
             small = small + 1 
             # print(c1.group())
         if c2 != None: 
-            medium = medium + 1
+            small = small + 1
             # print(c2.group())
         if c3 != None: 
-            medium = medium + 1
+            small = small + 1
             # print(c3.group())
         if c4 != None: 
-            large = large + 1 
+            medium = medium + 1 
             # print(c4.group())
         if c5 != None: 
-            large = large + 1
+            medium = medium + 1
             # print(c5.group())
         if c6 != None: 
             large = large + 1 

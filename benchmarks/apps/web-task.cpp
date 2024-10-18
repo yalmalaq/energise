@@ -19,6 +19,10 @@ void scroll(bool up)
 	}
 }
 
+#define S(x) (1 << (x))
+#define M(x) (1 << ((x) + 4))
+#define L(x) (1 << ((x) + 6))
+
 void run_benchmark()
 {
     while (1) {
