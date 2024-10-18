@@ -12,7 +12,7 @@ with open(file) as f:
 
     time = 0
 
-    print ("Time,Cores,Active")
+    print ("Time (MS),Core Type,Cores Active")
 
     for line in lines:
         
@@ -20,7 +20,7 @@ with open(file) as f:
         medium = 0
         large = 0
 
-        time = time + 100
+
 
         c0 = re.search('0 = \d+', line)
         c1 = re.search('1 = \d+', line)
@@ -33,7 +33,6 @@ with open(file) as f:
         if c0 != None: 
             # print(c0.group().strip().split('0 = ')[1])
             small = small + 1
-
         if c1 != None:
             small = small + 1 
             # print(c1.group())
@@ -56,9 +55,11 @@ with open(file) as f:
             large = large + 1 
             # print(c7.group())
 
-        print(str(time) + "," + "small" + "," + str(small))
-        print(str(time) + "," + "medium" + "," + str(medium))
-        print(str(time) + "," + "large"+ "," + str(large))
+        if (c0 != None or c1 != None or c2 != None or c3 != None or c4 != None or c5 != None or c6 != None or c7 != None ):
+            time = time+100
+            print(str(time) + "," + "small" + "," + str(small))
+            print(str(time) + "," + "medium" + "," + str(medium))
+            print(str(time) + "," + "large"+ "," + str(large))
 
 
 
