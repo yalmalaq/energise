@@ -71,7 +71,9 @@ int main(int argc, char **argv)
     wait_for_charge();
     setup_from_env();
 
-    enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
+    // enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
+
+    enable_cores(S(0) | S(1) | S(2) | S(3) | L(0) | L(1));
 
 
     pthread_t t;
