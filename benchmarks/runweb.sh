@@ -1,4 +1,4 @@
-OUTPUT_FILE=output/sleepy_run/output_$(date '+%y-%m-%d_%H-%M')_web.txt
+OUTPUT_FILE=output/exhaustive_run/output_$(date '+%y-%m-%d_%H-%M')_web_2m.txt
 
 echo "**** run starting $(date)" >> $OUTPUT_FILE
 
