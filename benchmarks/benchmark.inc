@@ -73,7 +73,7 @@ int main(int argc, char **argv)
 
     // enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
 
-    enable_cores(M(0) | M(1));
+    enable_cores(L(0) | L(1));
 
 
     pthread_t t;
