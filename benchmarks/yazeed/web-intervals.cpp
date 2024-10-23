@@ -186,7 +186,7 @@ void test()
 int main()
 {
 	set_charging(false);
-    enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
+//    enable_cores(S(0) | S(1) | S(2) | S(3) | M(0) | M(1) | L(0) | L(1));
 	//enable_cores(0xFFFFFF);
 	pthread_t t;
 	pthread_create(&t, NULL, energy_thread, NULL);
