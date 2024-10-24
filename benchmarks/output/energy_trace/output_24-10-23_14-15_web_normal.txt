@@ -1,0 +1,8 @@
+**** run starting Wed 23 Oct 2024 14:15:55 BST
+started Wed 23 Oct 2024 14:16:05 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://vice.com/... }

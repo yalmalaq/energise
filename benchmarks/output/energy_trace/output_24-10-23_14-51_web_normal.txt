@@ -1,0 +1,57 @@
+**** run starting Wed 23 Oct 2024 14:51:57 BST
+started Wed 23 Oct 2024 14:51:58 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.theguardian.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+Start rails data:
+t=18869570
+CH0(T=18768210)[S2M_VDD_CPUCL2], 1773255636
+CH1(T=18768209)[S3M_VDD_CPUCL1], 395426009
+CH2(T=18768208)[S4M_VDD_CPUCL0], 1908487986
+CH3(T=18768208)[S6M_VDD_CPUCL2_M], 184117790
+CH4(T=18768208)[L2M_ALIVE], 143492858
+CH5(T=18768208)[L11M_VDD_CPUCL1_M], 12096901
+CH6(T=18768207)[L12M_VDD_CPUCL0_M], 287654579
+CH7(T=18869570)[S1M_VDD_MIF], 751386005
+Avg Power each 5 seconds -2.413313
+Avg Power each 5 seconds -2.130454
+Avg Power each 5 seconds -1.564829
+Avg Power each 5 seconds -2.027930
+Avg Power each 5 seconds -2.049522
+Avg Power each 5 seconds -1.149362
+Avg Power each 5 seconds -1.247435
+Avg Power each 5 seconds -1.984244
+Avg Power each 5 seconds -2.665183
+Avg Power each 5 seconds -1.023819
+Avg Power each 5 seconds -2.489566
+Avg Power each 5 seconds -1.931522
+Avg Power each 5 seconds -2.218356
+Avg Power each 5 seconds -1.265197
+Avg Power each 5 seconds -1.238541
+Avg Power each 5 seconds -1.771384
+Avg Power each 5 seconds -2.135777
+Avg Power each 5 seconds -0.991309
+Avg Power each 5 seconds -1.230499
+Avg Power each 5 seconds -2.108397
+Avg Power each 5 seconds -2.154310
+Avg Power each 5 seconds -2.265326
+Avg Power each 5 seconds -1.114998
+Avg Power each 5 seconds -2.712213
+wait for edge
+Power Energy Time
+-0.000000 -303.600000 18446744218.172993
+
+End rails data:
+t=19014034
+CH0(T=18912674)[S2M_VDD_CPUCL2], 1835609677
+CH1(T=18912673)[S3M_VDD_CPUCL1], 396813521
+CH2(T=18912672)[S4M_VDD_CPUCL0], 1945914208
+CH3(T=18912672)[S6M_VDD_CPUCL2_M], 188233440
+CH4(T=18912672)[L2M_ALIVE], 145623210
+CH5(T=18912672)[L11M_VDD_CPUCL1_M], 12097576
+CH6(T=18912671)[L12M_VDD_CPUCL0_M], 291436045
+CH7(T=19014034)[S1M_VDD_MIF], 766367975

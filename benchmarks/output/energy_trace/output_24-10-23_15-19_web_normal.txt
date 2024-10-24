@@ -1,0 +1,156 @@
+**** run starting Wed 23 Oct 2024 15:19:05 BST
+started Wed 23 Oct 2024 15:19:08 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.theguardian.com/... }
+Start rails data:
+t=20496612
+CH0(T=20395252)[S2M_VDD_CPUCL2], 1980850166
+CH1(T=20395251)[S3M_VDD_CPUCL1], 411046444
+CH2(T=20395250)[S4M_VDD_CPUCL0], 2118313018
+CH3(T=20395250)[S6M_VDD_CPUCL2_M], 203817609
+CH4(T=20395250)[L2M_ALIVE], 157373818
+CH5(T=20395250)[L11M_VDD_CPUCL1_M], 12108420
+CH6(T=20395249)[L12M_VDD_CPUCL0_M], 319502328
+CH7(T=20496612)[S1M_VDD_MIF], 824668765
+Avg Power each 5 seconds -2.727058
+Avg Power each 5 seconds -4.647606
+Avg Power each 5 seconds -1.187575
+Avg Power each 5 seconds -1.591578
+Avg Power each 5 seconds -2.798489
+Avg Power each 5 seconds -2.324898
+Avg Power each 5 seconds -1.772646
+Avg Power each 5 seconds -1.458018
+Avg Power each 5 seconds -1.286327
+Avg Power each 5 seconds -2.204811
+Avg Power each 5 seconds -1.071262
+Avg Power each 5 seconds -1.021141
+Avg Power each 5 seconds -2.884118
+Avg Power each 5 seconds -1.676394
+Avg Power each 5 seconds -2.452436
+Avg Power each 5 seconds -1.036322
+Avg Power each 5 seconds -2.672285
+Avg Power each 5 seconds -2.696419
+Avg Power each 5 seconds -1.002548
+Avg Power each 5 seconds -0.949379
+Avg Power each 5 seconds -1.792756
+Avg Power each 5 seconds -2.744608
+Avg Power each 5 seconds -1.162889
+Avg Power each 5 seconds -1.305639
+Avg Power each 5 seconds -2.430662
+Avg Power each 5 seconds -2.563161
+Avg Power each 5 seconds -3.261502
+Avg Power each 5 seconds -1.088362
+Avg Power each 5 seconds -0.983381
+Avg Power each 5 seconds -2.171822
+Avg Power each 5 seconds -1.355966
+Avg Power each 5 seconds -1.306678
+Avg Power each 5 seconds -2.072374
+Avg Power each 5 seconds -1.714108
+Avg Power each 5 seconds -6.535822
+Avg Power each 5 seconds -5.900480
+Avg Power each 5 seconds -6.440859
+Avg Power each 5 seconds -3.825189
+Avg Power each 5 seconds -3.863231
+Avg Power each 5 seconds -1.291557
+Avg Power each 5 seconds -3.018909
+Avg Power each 5 seconds -2.549311
+Avg Power each 5 seconds -1.200102
+Avg Power each 5 seconds -2.314654
+Avg Power each 5 seconds -1.546440
+Avg Power each 5 seconds -1.947313
+Avg Power each 5 seconds -1.544773
+Avg Power each 5 seconds -1.343762
+Avg Power each 5 seconds -3.066855
+Avg Power each 5 seconds -3.666076
+Avg Power each 5 seconds -1.042572
+Avg Power each 5 seconds -1.443604
+Avg Power each 5 seconds -1.473880
+Avg Power each 5 seconds -1.846094
+Avg Power each 5 seconds -0.947987
+Avg Power each 5 seconds -1.285186
+Avg Power each 5 seconds -2.255604
+Avg Power each 5 seconds -2.563522
+Avg Power each 5 seconds -1.517715
+Avg Power each 5 seconds -1.450135
+Avg Power each 5 seconds -2.373608
+Avg Power each 5 seconds -1.768648
+Avg Power each 5 seconds -1.466569
+Avg Power each 5 seconds -0.859205
+Avg Power each 5 seconds -1.505907
+Avg Power each 5 seconds -1.571316
+Avg Power each 5 seconds -0.884514
+Avg Power each 5 seconds -4.079889
+Avg Power each 5 seconds -7.515953
+Avg Power each 5 seconds -4.972422
+Avg Power each 5 seconds -6.055414
+Avg Power each 5 seconds -3.838268
+Avg Power each 5 seconds -3.705516
+Avg Power each 5 seconds -5.646041
+Avg Power each 5 seconds -2.193054
+Avg Power each 5 seconds -2.791295
+Avg Power each 5 seconds -3.221427
+Avg Power each 5 seconds -2.981737
+Avg Power each 5 seconds -2.445290
+Avg Power each 5 seconds -2.489038
+Avg Power each 5 seconds -3.032173
+Avg Power each 5 seconds -2.427376
+Avg Power each 5 seconds -1.910012
+Avg Power each 5 seconds -3.009058
+Avg Power each 5 seconds -2.702618
+Avg Power each 5 seconds -1.800584
+Avg Power each 5 seconds -1.988251
+Avg Power each 5 seconds -2.536630
+Avg Power each 5 seconds -3.000351
+Avg Power each 5 seconds -2.199204
+Avg Power each 5 seconds -2.145902
+Avg Power each 5 seconds -3.028114
+Avg Power each 5 seconds -3.783729
+Avg Power each 5 seconds -1.957579
+Avg Power each 5 seconds -1.981410
+Avg Power each 5 seconds -2.483190
+Avg Power each 5 seconds -2.909508
+Avg Power each 5 seconds -1.716398
+Avg Power each 5 seconds -1.496534
+Avg Power each 5 seconds -3.529507
+Avg Power each 5 seconds -2.883092
+Avg Power each 5 seconds -4.083202
+Avg Power each 5 seconds -5.357271
+Avg Power each 5 seconds -2.086895
+Avg Power each 5 seconds -2.454848
+Avg Power each 5 seconds -1.678860
+Avg Power eaStarting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.theguardian.com/... }
+ch 5 seconds -3.349918
+Avg Power each 5 seconds -3.726672
+Avg Power each 5 seconds -2.882965
+Avg Power each 5 seconds -1.326724
+Avg Power each 5 seconds -2.364323
+Avg Power each 5 seconds -2.461510
+Avg Power each 5 seconds -3.018582
+Avg Power each 5 seconds -1.434108
+Avg Power each 5 seconds -1.933206
+Avg Power each 5 seconds -2.127473
+Avg Power each 5 seconds -1.328059
+Avg Power each 5 seconds -1.232597
+Avg Power each 5 seconds -2.333798
+Avg Power each 5 seconds -2.122489
+wait for edge
+Power Energy Time
+-2.223463 -552.000000 248.261346
+
+End rails data:
+t=20744898
+CH0(T=20643538)[S2M_VDD_CPUCL2], 2100493173
+CH1(T=20643537)[S3M_VDD_CPUCL1], 413432046
+CH2(T=20643536)[S4M_VDD_CPUCL0], 2185086294
+CH3(T=20643536)[S6M_VDD_CPUCL2_M], 211363688
+CH4(T=20643536)[L2M_ALIVE], 161070760
+CH5(T=20643536)[L11M_VDD_CPUCL1_M], 12109709
+CH6(T=20643535)[L12M_VDD_CPUCL0_M], 326083201
+CH7(T=20744898)[S1M_VDD_MIF], 851657023

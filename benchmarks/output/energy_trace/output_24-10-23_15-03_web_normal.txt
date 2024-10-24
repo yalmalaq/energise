@@ -1,0 +1,105 @@
+**** run starting Wed 23 Oct 2024 15:03:08 BST
+started Wed 23 Oct 2024 15:03:09 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.theguardian.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+Start rails data:
+t=19536859
+CH0(T=19435499)[S2M_VDD_CPUCL2], 1908747884
+CH1(T=19435498)[S3M_VDD_CPUCL1], 401833689
+CH2(T=19435497)[S4M_VDD_CPUCL0], 2025905715
+CH3(T=19435497)[S6M_VDD_CPUCL2_M], 195007757
+CH4(T=19435497)[L2M_ALIVE], 150291689
+CH5(T=19435497)[L11M_VDD_CPUCL1_M], 12101222
+CH6(T=19435496)[L12M_VDD_CPUCL0_M], 302259275
+CH7(T=19536859)[S1M_VDD_MIF], 792425907
+current -1.782187
+voltage 4.227187
+Avg Power each 5 seconds -7.533638
+current -1.440000
+voltage 4.242812
+Avg Power each 5 seconds -6.109649
+current -0.402812
+voltage 4.330625
+Avg Power each 5 seconds -1.744428
+current -1.114062
+voltage 4.276093
+Avg Power each 5 seconds -4.763833
+current -0.640625
+voltage 4.307500
+Avg Power each 5 seconds -2.759492
+current -0.471875
+voltage 4.324531
+Avg Power each 5 seconds -2.040638
+current -0.620000
+voltage 4.316250
+Avg Power each 5 seconds -2.676075
+current -0.254062
+voltage 4.336562
+Avg Power each 5 seconds -1.101756
+current -0.255937
+voltage 4.336562
+Avg Power each 5 seconds -1.109887
+current -0.492812
+voltage 4.314062
+Avg Power each 5 seconds -2.126022
+current -0.423125
+voltage 4.327187
+Avg Power each 5 seconds -1.830941
+current -0.270625
+voltage 4.337656
+Avg Power each 5 seconds -1.173878
+current -0.507187
+voltage 4.305781
+Avg Power each 5 seconds -2.183836
+current -0.495625
+voltage 4.320625
+Avg Power each 5 seconds -2.141410
+current -0.713437
+voltage 4.314531
+Avg Power each 5 seconds -3.078146
+current -0.251875
+voltage 4.337656
+Avg Power each 5 seconds -1.092547
+current -1.000625
+voltage 4.279062
+Avg Power each 5 seconds -4.281736
+current -0.968437
+voltage 4.264531
+Avg Power each 5 seconds -4.129930
+current -0.422812
+voltage 4.320625
+Avg Power each 5 seconds -1.826812
+current -0.228125
+voltage 4.338437
+Avg Power each 5 seconds -0.989706
+current -0.312187
+voltage 4.335468
+Avg Power each 5 seconds -1.353477
+current -0.522812
+voltage 4.312812
+Avg Power each 5 seconds -2.254790
+current -0.555625
+voltage 4.304687
+Avg Power each 5 seconds -2.391792
+current -0.293125
+voltage 4.336562
+Avg Power each 5 seconds -1.271155
+wait for edge
+Power Energy Time
+-0.000000 -331.200000 18446744225.887241
+
+End rails data:
+t=19689037
+CH0(T=19587677)[S2M_VDD_CPUCL2], 1974523146
+CH1(T=19587676)[S3M_VDD_CPUCL1], 403294843
+CH2(T=19587675)[S4M_VDD_CPUCL0], 2065067963
+CH3(T=19587675)[S6M_VDD_CPUCL2_M], 199376927
+CH4(T=19587675)[L2M_ALIVE], 152519259
+CH5(T=19587675)[L11M_VDD_CPUCL1_M], 12101837
+CH6(T=19587674)[L12M_VDD_CPUCL0_M], 306287635
+CH7(T=19689037)[S1M_VDD_MIF], 808089383

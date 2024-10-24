@@ -1,0 +1,62 @@
+**** run starting Wed 23 Oct 2024 14:46:35 BST
+started Wed 23 Oct 2024 14:46:38 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.theguardian.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+Start rails data:
+t=18546627
+CH0(T=18445267)[S2M_VDD_CPUCL2], 1670505830
+CH1(T=18445266)[S3M_VDD_CPUCL1], 392324605
+CH2(T=18445265)[S4M_VDD_CPUCL0], 1841631228
+CH3(T=18445265)[S6M_VDD_CPUCL2_M], 177011907
+CH4(T=18445265)[L2M_ALIVE], 139492245
+CH5(T=18445265)[L11M_VDD_CPUCL1_M], 12095340
+CH6(T=18445264)[L12M_VDD_CPUCL0_M], 280108044
+CH7(T=18546627)[S1M_VDD_MIF], 724396431
+Avg Power each 5 seconds -3.659766
+Avg Power each 5 seconds -1.566240
+Avg Power each 5 seconds -2.750610
+Avg Power each 5 seconds -2.470342
+Avg Power each 5 seconds -1.555000
+Avg Power each 5 seconds -1.300896
+Avg Power each 5 seconds -1.232044
+Avg Power each 5 seconds -2.400180
+Avg Power each 5 seconds -2.885141
+Avg Power each 5 seconds -1.078392
+Avg Power each 5 seconds -2.544884
+Avg Power each 5 seconds -2.311745
+Avg Power each 5 seconds -2.304847
+Avg Power each 5 seconds -6.111018
+Avg Power each 5 seconds -1.954265
+Avg Power each 5 seconds -2.638403
+Avg Power each 5 seconds -1.794770
+Avg Power each 5 seconds -1.960660
+Avg Power each 5 seconds -2.096308
+Avg Power each 5 seconds -1.731284
+Avg Power each 5 seconds -1.809175
+Avg Power each 5 seconds -2.230397
+Avg Power each 5 seconds -1.925724
+Avg Power each 5 seconds -2.114011
+wait for edge
+Power Energy Time
+-2.217295 -331.200000 149.371210
+
+End rails data:
+t=18695998
+CH0(T=18594638)[S2M_VDD_CPUCL2], 1738584821
+CH1(T=18594637)[S3M_VDD_CPUCL1], 393759257
+CH2(T=18594636)[S4M_VDD_CPUCL0], 1882963325
+CH3(T=18594636)[S6M_VDD_CPUCL2_M], 181380596
+CH4(T=18594636)[L2M_ALIVE], 141818646
+CH5(T=18594636)[L11M_VDD_CPUCL1_M], 12096099
+CH6(T=18594635)[L12M_VDD_CPUCL0_M], 284018952
+CH7(T=18695998)[S1M_VDD_MIF], 740904869
+started Wed 23 Oct 2024 14:49:21 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }

@@ -1,0 +1,44 @@
+**** run starting Wed 23 Oct 2024 14:59:12 BST
+started Wed 23 Oct 2024 14:59:16 BST
+wait for edge
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+start
+Starting: Intent { act=android.intent.action.VIEW dat=https://reddit.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://bbc.co.uk/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://www.theguardian.com/... }
+Starting: Intent { act=android.intent.action.VIEW dat=https://youtube.com/... }
+Start rails data:
+t=19304026
+CH0(T=19202666)[S2M_VDD_CPUCL2], 1840182704
+CH1(T=19202665)[S3M_VDD_CPUCL1], 399597768
+CH2(T=19202664)[S4M_VDD_CPUCL0], 1975996256
+CH3(T=19202664)[S6M_VDD_CPUCL2_M], 189986146
+CH4(T=19202664)[L2M_ALIVE], 147485119
+CH5(T=19202664)[L11M_VDD_CPUCL1_M], 12100296
+CH6(T=19202663)[L12M_VDD_CPUCL0_M], 296735535
+CH7(T=19304026)[S1M_VDD_MIF], 773539831
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+Avg Power each 5 seconds 0.000000
+wait for edge
