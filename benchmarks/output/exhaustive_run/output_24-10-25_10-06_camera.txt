@@ -1,0 +1,97 @@
+**** run starting Fri 25 Oct 2024 10:06:16 BST
+**** run starting Fri 25 Oct 2024 10:06:28 BST
+started Fri 25 Oct 2024 10:06:32 BST
+===
+name videocamera
+Charge: 99.6
+smallf -1
+medf -1
+largef -1
+enabled 255
+Starting: Intent { cmp=org.lineageos.snap/.snap }
+t=594980
+CH0(T=2117)[S2M_VDD_CPUCL2], 587552
+CH1(T=2117)[S3M_VDD_CPUCL1], 57278
+CH2(T=2116)[S4M_VDD_CPUCL0], 293025
+CH3(T=2116)[S6M_VDD_CPUCL2_M], 26911
+CH4(T=2116)[L2M_ALIVE], 19701
+CH5(T=2116)[L11M_VDD_CPUCL1_M], 1356
+CH6(T=2115)[L12M_VDD_CPUCL0_M], 34980
+CH7(T=594980)[S1M_VDD_MIF], 25764203
+t=594988
+CH0(T=2121)[S1S_VDD_CAM], 28490
+CH1(T=2121)[S2S_VDD_G3D], 22611
+CH2(T=2121)[S4S_VDD2H_MEM], 88684
+CH3(T=594988)[S5S_VDDQ_MEM], 4405647
+CH4(T=2121)[S8S_VDD_G3D_L2], 15667
+CH5(T=2120)[S10S_VDD2L], 29472
+CH6(T=2120)[L1S_VDD_G3D_M], 5583
+CH7(T=594988)[L8S_UFS_VCCQ], 37927809
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |    fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----------+
+|   0    |    1     | 0xb400007af3f33690 | 37, 54, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 0.0871679 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb400007af3f31c70 | 64, 65, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 64.2166 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af3f32610 | 68, 69, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.576508 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   3    |    1     | 0xb400007af3f31170 | 72, 73, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.358403 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   4    |    1     | 0xb400007af3f32fb0 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.275193 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   5    |    1     | 0xb400007af3f32090 | 43, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.210886 |
+**DONE**
+
+t=715066
+CH0(T=122203)[S2M_VDD_CPUCL2], 3205471
+CH1(T=122203)[S3M_VDD_CPUCL1], 1421004
+CH2(T=122202)[S4M_VDD_CPUCL0], 16958203
+CH3(T=122202)[S6M_VDD_CPUCL2_M], 951678
+CH4(T=122202)[L2M_ALIVE], 980873
+CH5(T=122202)[L11M_VDD_CPUCL1_M], 2382
+CH6(T=122201)[L12M_VDD_CPUCL0_M], 1833504
+CH7(T=715066)[S1M_VDD_MIF], 30509182
+t=715076
+CH0(T=122209)[S1S_VDD_CAM], 1420328
+CH1(T=122209)[S2S_VDD_G3D], 871176
+CH2(T=122209)[S4S_VDD2H_MEM], 3306422
+CH3(T=715076)[S5S_VDDQ_MEM], 5550219
+CH4(T=122209)[S8S_VDD_G3D_L2], 871314
+CH5(T=122208)[S10S_VDD2L], 1655739
+CH6(T=122208)[L1S_VDD_G3D_M], 220874
+CH7(T=715076)[L8S_UFS_VCCQ], 44096535
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   0    |    1     | 0xb400007af3f39410 | 55, 59, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps   |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+---------+
+|   1    |    1     | 0xb400007af3f32b90 | 64, 65, -1 |  1   | RGBA_8888 | 0x8810000 |    0    |  0x2  |     1      | 1.20963 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   2    |    1     | 0xb400007af3f36290 | 32, 33, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.100724 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha | fps |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+-----+
+|   3    |    1     | 0xb400007af3f34b30 | 71, 72, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 120 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   4    |    1     | 0xb400007af3f32fb0 | 48, 51, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.275193 |
+--
+| zOrder | priority |       handle       |     fd     | AFBC |  format   | dataSpace | colorTr | blend | planeAlpha |   fps    |
++--------+----------+--------------------+------------+------+-----------+-----------+---------+-------+------------+----------+
+|   5    |    1     | 0xb400007af3f32090 | 43, 44, -1 |  1   | RGBA_8888 | 0x88a0000 |    0    |  0x2  |     1      | 0.210886 |
+Time 120.090581
+stopped Fri 25 Oct 2024 10:08:34 BST
