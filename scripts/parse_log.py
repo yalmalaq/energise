@@ -14,6 +14,8 @@ with open(file) as f:
 
     print ("Time (MS),Core Type,Cores Active")
 
+    i = 0
+
     for line in lines:
         
         small = 0
@@ -55,11 +57,14 @@ with open(file) as f:
             large = large + 1 
             # print(c7.group())
 
-        if (c0 != None or c1 != None or c2 != None or c3 != None or c4 != None or c5 != None or c6 != None or c7 != None ):
-            time = time+100
+        if ((c0 != None or c1 != None or c2 != None or c3 != None or c4 != None or c5 != None or c6 != None or c7 != None ) and i % 4 == 0):
+            
             print(str(time) + "," + "small" + "," + str(small))
             print(str(time) + "," + "medium" + "," + str(medium))
             print(str(time) + "," + "large"+ "," + str(large))
+
+            time = time + 0.93
+        i = i + 1
 
 
 

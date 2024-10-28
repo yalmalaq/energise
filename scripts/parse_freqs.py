@@ -14,6 +14,8 @@ with open(file) as f:
 
     print ("Time (MS),Core Type,Frequency")
 
+    i = 0
+
     for line in lines:
         
         small1 = 0
@@ -60,8 +62,7 @@ with open(file) as f:
             large2 = c7.group().strip().split('7 = ')[1]
             # print(c7.group())
 
-        if (c0 != None or c1 != None or c2 != None or c3 != None or c4 != None or c5 != None or c6 != None or c7 != None ):
-            time = time+100
+        if ((c0 != None or c1 != None or c2 != None or c3 != None or c4 != None or c5 != None or c6 != None or c7 != None ) and i % 23 == 0):
             #print(str(time) + "," + "small 1" + "," + str(small1))
             #print(str(time) + "," + "small 2" + "," + str(small2))
             #print(str(time) + "," + "small 3" + "," + str(small3))
@@ -72,7 +73,8 @@ with open(file) as f:
 
             #print(str(time) + "," + "large1"+ "," + str(large1))
             print(str(time) + "," + "large2"+ "," + str(large2))
+            time = time+5
 
 
-
+        i = i + 1
         

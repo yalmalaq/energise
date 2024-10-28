@@ -180,6 +180,12 @@ By adding these values together our driver gets a more realistic picture of what
 
 Ryan
 
+==== getting coordinates ====
+
+adb shell getevent -l, (-l: label event types and names in plain text). so you can easily figure out which is ABS_MT_POSITION_X / ABS_MT_POSITION_Y
+
+
+
 
 
 
